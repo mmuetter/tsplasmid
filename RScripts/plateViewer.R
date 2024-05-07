@@ -1,0 +1,1 @@
+shiny::runApp("Rscripts/plateViewer/", launch.browser = TRUE)

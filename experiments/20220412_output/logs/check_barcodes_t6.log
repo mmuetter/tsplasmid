@@ -1,0 +1,46 @@
+2022-04-19 11:57:25 | check_barcodes.R ---------------------------------------- 
+Experiment:
+  id             created output_directory exp_name n_plates
+1 15 2022-04-12 09:10:57  20220412_output   output        6
+
+Warning message:
+The `x` argument of `as_tibble.matrix()` must have unique column names if `.name_repair` is omitted as of tibble 2.0.0.
+Using compatibility `.name_repair`.
+This warning is displayed once every 8 hours.
+Call `lifecycle::last_warnings()` to see where this warning was generated. 
+All barcodes read ok?  FALSE 
+Some missing barcodes:
+   transfer run desc plate_n    barcode ab
+1         5   1 agar       1 2022041807  N
+2         5   1 agar       2 2022041808  N
+3         5   1 agar       3 2022041809  N
+4         5   1 agar       4 2022041810  N
+5         5   1 agar       5 2022041811  N
+6         5   1 agar       6 2022041812  N
+7         5   1 agar       1 2022041813  A
+8         5   1 agar       2 2022041814  A
+9         5   1 agar       3 2022041815  A
+10        5   1 agar       4 2022041816  A
+11        5   1 agar       5 2022041817  A
+12        5   1 agar       6 2022041818  A
+13        6   1 test       1 2022041932  N
+14        6   1 test       1 2022041933  A
+15        6   1 test       1 2022041934  B
+16        6   1 test       1 2022041935 AB
+
+2022-04-19 11:57:25 | check_barcodes.R done.----------------------------------- 
+
+2022-04-19 11:58:26 | check_barcodes.R ---------------------------------------- 
+Experiment:
+  id             created output_directory exp_name n_plates
+1 15 2022-04-12 09:10:57  20220412_output   output        6
+
+Warning message:
+The `x` argument of `as_tibble.matrix()` must have unique column names if `.name_repair` is omitted as of tibble 2.0.0.
+Using compatibility `.name_repair`.
+This warning is displayed once every 8 hours.
+Call `lifecycle::last_warnings()` to see where this warning was generated. 
+All barcodes read ok?  FALSE 
+no missing barcodes, as far as I know!
+2022-04-19 11:58:27 | check_barcodes.R done.----------------------------------- 
+

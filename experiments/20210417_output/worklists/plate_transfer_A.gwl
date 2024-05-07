@@ -1,0 +1,26 @@
+C;INIT - gwl created with rrobot v.1.2
+B;Comment("2/26 | TRANSFER #18 prep iPT");
+B;Comment("3/26 | preparing iPT384...");
+B;Comment("4/26 | deactivating pins: 15, 17, 115, 119, 145, 163, 197, 199, 203, 213, 243, 253, 259, 263, 293, 299, 301, 305, 311, 355");
+B;MCAMoveVector("PT getReady",21,1,0,0,2,2,1,0);
+B;MCAMoveVector("PT Act 193-384",21,5,0,1,2,2,1,0);
+B;MCAMoveVector("PT Act 1-192",21,145,0,1,2,2,1,0);
+B;MCAMoveVector("PT Act 193-384",21,51,0,1,2,2,1,0);
+B;MCAMoveVector("PT Act 193-384",21,101,0,1,2,2,1,0);
+B;MCAMoveVector("PT Act 193-384",21,7,0,1,2,2,1,0);
+B;MCAMoveVector("PT Act 1-192",21,15,0,1,2,2,1,0);
+B;MCAMoveVector("PT Act 1-192",21,17,0,1,2,2,1,0);
+B;MCAMoveVector("PT Act 1-192",21,115,0,1,2,2,1,0);
+B;MCAMoveVector("PT Act 1-192",21,163,0,1,2,2,1,0);
+B;MCAMoveVector("PT Act 1-192",21,119,0,1,2,2,1,0);
+B;MCAMoveVector("PT Act 193-384",21,21,0,1,2,2,1,0);
+B;MCAMoveVector("PT Act 193-384",21,71,0,1,2,2,1,0);
+B;MCAMoveVector("PT Act 193-384",21,119,0,1,2,2,1,0);
+B;MCAMoveVector("PT Act 193-384",21,67,0,1,2,2,1,0);
+B;MCAMoveVector("PT Act 193-384",21,163,0,1,2,2,1,0);
+B;MCAMoveVector("PT Act 193-384",21,113,0,1,2,2,1,0);
+B;MCAMoveVector("PT Act 193-384",21,109,0,1,2,2,1,0);
+B;MCAMoveVector("PT Act 193-384",21,107,0,1,2,2,1,0);
+B;MCAMoveVector("PT Act 193-384",21,61,0,1,2,2,1,0);
+B;MCAMoveVector("PT Act 193-384",21,11,0,1,2,2,1,0);
+B;MCAMoveVector("PT getReady",21,1,1,0,2,2,1,0);

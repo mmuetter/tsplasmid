@@ -1,0 +1,52 @@
+2022-04-25 12:36:58 | check_barcodes.R ---------------------------------------- 
+Experiment:
+  id             created output_directory exp_name n_plates
+1 15 2022-04-12 09:10:57  20220412_output   output        6
+
+Warning message:
+The `x` argument of `as_tibble.matrix()` must have unique column names if `.name_repair` is omitted as of tibble 2.0.0.
+Using compatibility `.name_repair`.
+This warning is displayed once every 8 hours.
+Call `lifecycle::last_warnings()` to see where this warning was generated. 
+All barcodes read ok?  FALSE 
+Some missing barcodes:
+   transfer run  desc plate_n    barcode ab
+1        10   1  agar       1 2022042307  N
+2        10   1  agar       2 2022042308  N
+3        10   1  agar       3 2022042309  N
+4        10   1  agar       4 2022042310  N
+5        10   1  agar       5 2022042311  N
+6        10   1  agar       6 2022042312  N
+7        10   1  agar       1 2022042313  A
+8        10   1  agar       2 2022042314  A
+9        10   1  agar       3 2022042315  A
+10       10   1  agar       4 2022042316  A
+11       10   1  agar       5 2022042317  A
+12       10   1  agar       6 2022042318  A
+13       11   1 assay       1 2022042401  N
+14       11   1 assay       2 2022042402  N
+15       11   1 assay       3 2022042403  N
+16       11   1 assay       4 2022042404  N
+17       11   1 assay       5 2022042405  N
+18       11   1 assay       6 2022042406  N
+19       12   1  test       1 2022042532  N
+
+2022-04-25 12:36:58 | check_barcodes.R done.----------------------------------- 
+
+2022-04-25 12:55:16 | check_barcodes.R ---------------------------------------- 
+Experiment:
+  id             created output_directory exp_name n_plates
+1 15 2022-04-12 09:10:57  20220412_output   output        6
+
+Warning message:
+The `x` argument of `as_tibble.matrix()` must have unique column names if `.name_repair` is omitted as of tibble 2.0.0.
+Using compatibility `.name_repair`.
+This warning is displayed once every 8 hours.
+Call `lifecycle::last_warnings()` to see where this warning was generated. 
+All barcodes read ok?  TRUE 
+Some missing barcodes:
+  transfer run desc plate_n    barcode ab
+1       12   1 test       1 2022042532  N
+
+2022-04-25 12:55:16 | check_barcodes.R done.----------------------------------- 
+

@@ -1,0 +1,26 @@
+2022-03-03 09:56:32 | generate_bc_files_end.R --------------------------------- 
+generated BC file: bc_last_assay 
+Warning messages:
+1: The `path` argument of `write_delim()` is deprecated as of readr 1.4.0.
+Please use the `file` argument instead.
+This warning is displayed once every 8 hours.
+Call `lifecycle::last_warnings()` to see where this warning was generated. 
+2: The `path` argument of `write_csv()` is deprecated as of readr 1.4.0.
+Please use the `file` argument instead.
+This warning is displayed once every 8 hours.
+Call `lifecycle::last_warnings()` to see where this warning was generated. 
+generated BC file: bc_agar_1 
+generated BC file: bc_agar_2 
+generated BC file: bc_agar_3 
+generated BC file: bc_agar_4 
+generated BC file: bc_agar_5 
+generated BC file: bc_agar_6 
+generated BC file: bc_last_agar_source 
+generated BC file: bc_last_agar_1 
+generated BC file: bc_last_agar_2 
+generated BC file: bc_last_agar_3 
+generated BC file: bc_last_agar_4 
+generated BC file: bc_last_agar_5 
+generated BC file: bc_last_agar_6 
+2022-03-03 09:56:32 | generate_bc_files_end.R done.---------------------------- 
+

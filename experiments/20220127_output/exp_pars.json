@@ -1,0 +1,125 @@
+{
+  "format": [
+    {
+      "format": 384,
+      "n_rep": 4,
+      "n_rwells": 96,
+      "n_bl": 2,
+      "n_patients": 94,
+      "rwells_bl": [90, 41],
+      "rwells_p": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 91, 92, 93, 94, 95, 96]
+    }
+  ],
+  "antibiotics": [
+    {
+      "drug_letter": "A",
+      "drug_short": "Cfz",
+      "drug_long": "Ceftazidim",
+      "MIC_wt": 0,
+      "C_treat": 0
+    },
+    {
+      "drug_letter": "B",
+      "drug_short": "Tc",
+      "drug_long": "tetracycline",
+      "MIC_wt": 0,
+      "C_treat": 0
+    },
+    {
+      "drug_letter": "AB",
+      "drug_short": "TcCfz",
+      "drug_long": "Tc + Cfz",
+      "MIC_wt": 0,
+      "C_treat": 0
+    }
+  ],
+  "treatments": [
+    {
+      "plate": 1,
+      "conditions_name": "no treatment",
+      "drugs": ["none"],
+      "concentration": [1],
+      "period": 1,
+      "probability": [1],
+      "description": "no treatment"
+    },
+    {
+      "plate": 2,
+      "conditions_name": "monotherapyA",
+      "drugs": ["A"],
+      "concentration": [1],
+      "period": 1,
+      "probability": [1],
+      "description": "mono A"
+    },
+    {
+      "plate": 3,
+      "conditions_name": "monotherapyB",
+      "drugs": ["B"],
+      "concentration": [1],
+      "period": 1,
+      "probability": [1],
+      "description": "mono B"
+    },
+    {
+      "plate": 4,
+      "conditions_name": "combination therapy",
+      "drugs": ["AB"],
+      "concentration": [1],
+      "period": 1,
+      "probability": [1],
+      "description": "Combination therapy"
+    },
+    {
+      "plate": 5,
+      "conditions_name": "cycling",
+      "drugs": ["A", "B"],
+      "concentration": [1, 1],
+      "period": 1,
+      "probability": [1],
+      "description": "Cycling, period = 1"
+    },
+    {
+      "plate": 6,
+      "conditions_name": "mixing",
+      "drugs": ["A", "B"],
+      "concentration": [1, 1],
+      "period": 1,
+      "probability": [0.5, 0.5],
+      "description": "Mixing\n, probability = 0.5"
+    }
+  ],
+  "community": [
+    {
+      "strain": "AB_r",
+      "n": 5,
+      "phenotype": 15
+    },
+    {
+      "strain": "A_r",
+      "n": 10,
+      "phenotype": 3
+    },
+    {
+      "strain": "B_r",
+      "n": 10,
+      "phenotype": 5
+    },
+    {
+      "strain": "wt",
+      "n": 55,
+      "phenotype": 1
+    },
+    {
+      "strain": "UI",
+      "n": 14,
+      "phenotype": 0
+    }
+  ],
+  "rates": [
+    {
+      "turnover": 0.2,
+      "infection": 0.35
+    }
+  ]
+}

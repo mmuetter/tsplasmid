@@ -1,0 +1,278 @@
+2021-02-08 14:15:03 | initalize.R --------------------------------------------- 
+arguments:
+  exp_name exp_pars gwl_pars
+1 YYYYMMDD       NA       NA
+
+new experiment: 
+# A tibble: 1 x 5
+     id created             output_directory exp_name n_plates
+  <int> <dttm>              <chr>            <chr>       <int>
+1     1 2021-02-08 14:15:03 20210208_output  output          6
+2021-02-08 14:15:03 | initalize.R done ---------------------------------------- 
+
+2021-02-12 12:58:54 | initalize.R --------------------------------------------- 
+arguments:
+  exp_name exp_pars gwl_pars
+1 20200212       NA       NA
+
+new experiment: 
+# A tibble: 1 x 5
+     id created             output_directory  exp_name n_plates
+  <int> <dttm>              <chr>                <dbl>    <int>
+1     2 2021-02-12 12:58:54 20210212_20200212 20200212        6
+2021-02-12 12:58:54 | initalize.R done ---------------------------------------- 
+
+2021-02-12 13:02:00 | initalize.R --------------------------------------------- 
+arguments:
+  exp_name exp_pars gwl_pars
+1 YYYYMMDD       NA       NA
+
+new experiment: 
+# A tibble: 1 x 5
+     id created             output_directory exp_name n_plates
+  <int> <dttm>              <chr>            <chr>       <int>
+1     3 2021-02-12 13:02:00 20210212_output  output          6
+2021-02-12 13:02:00 | initalize.R done ---------------------------------------- 
+
+2021-02-23 16:35:03 | initalize.R --------------------------------------------- 
+arguments:
+  exp_name exp_pars gwl_pars
+1 YYYYMMDD       NA       NA
+
+new experiment: 
+# A tibble: 1 x 5
+     id created             output_directory exp_name n_plates
+  <int> <dttm>              <chr>            <chr>       <int>
+1     3 2021-02-23 16:35:03 20210223_output  output          6
+2021-02-23 16:35:03 | initalize.R done ---------------------------------------- 
+
+2021-02-25 15:18:36 | initalize.R --------------------------------------------- 
+arguments:
+  exp_name exp_pars gwl_pars
+1 YYYYMMDD       NA       NA
+
+new experiment: 
+# A tibble: 1 x 5
+     id created             output_directory exp_name n_plates
+  <int> <dttm>              <chr>            <chr>       <int>
+1     4 2021-02-25 15:18:36 20210225_output  output          6
+2021-02-25 15:18:36 | initalize.R done ---------------------------------------- 
+
+2021-03-15 13:39:08 | initalize.R --------------------------------------------- 
+arguments:
+  exp_name exp_pars gwl_pars
+1 YYYYMMDD       NA       NA
+
+new experiment: 
+# A tibble: 1 x 5
+     id created             output_directory exp_name n_plates
+  <int> <dttm>              <chr>            <chr>       <int>
+1     5 2021-03-15 13:39:08 20210315_output  output          6
+2021-03-15 13:39:08 | initalize.R done ---------------------------------------- 
+
+2021-03-17 15:57:37 | initalize.R --------------------------------------------- 
+arguments:
+  exp_name exp_pars gwl_pars
+1 YYYYMMDD       NA       NA
+
+new experiment: 
+# A tibble: 1 x 5
+     id created             output_directory exp_name n_plates
+  <int> <dttm>              <chr>            <chr>       <int>
+1     6 2021-03-17 15:57:37 20210317_output  output          6
+2021-03-17 15:57:37 | initalize.R done ---------------------------------------- 
+
+2021-03-20 15:22:22 | initalize.R --------------------------------------------- 
+arguments:
+  exp_name exp_pars gwl_pars
+1 YYYYMMDD       NA       NA
+
+new experiment: 
+# A tibble: 1 x 5
+     id created             output_directory exp_name n_plates
+  <int> <dttm>              <chr>            <chr>       <int>
+1     7 2021-03-20 15:22:22 20210320_output  output          6
+2021-03-20 15:22:22 | initalize.R done ---------------------------------------- 
+
+2021-03-24 14:13:47 | initalize.R --------------------------------------------- 
+arguments:
+  exp_name exp_pars gwl_pars
+1 YYYYMMDD       NA       NA
+
+new experiment: 
+# A tibble: 1 x 5
+     id created             output_directory exp_name n_plates
+  <int> <dttm>              <chr>            <chr>       <int>
+1     8 2021-03-24 14:13:47 20210324_output  output          6
+2021-03-24 14:13:47 | initalize.R done ---------------------------------------- 
+
+2021-04-07 12:58:14 | initalize.R --------------------------------------------- 
+arguments:
+  exp_name exp_pars gwl_pars
+1 YYYYMMDD       NA       NA
+
+new experiment: 
+# A tibble: 1 x 5
+     id created             output_directory exp_name n_plates
+  <int> <dttm>              <chr>            <chr>       <int>
+1     9 2021-04-07 12:58:15 20210407_output  output          6
+2021-04-07 12:58:15 | initalize.R done ---------------------------------------- 
+
+2021-04-12 15:51:57 | initalize.R --------------------------------------------- 
+arguments:
+  exp_name exp_pars gwl_pars
+1 YYYYMMDD       NA       NA
+
+new experiment: 
+# A tibble: 1 x 5
+     id created             output_directory exp_name n_plates
+  <int> <dttm>              <chr>            <chr>       <int>
+1    10 2021-04-12 15:51:57 20210412_output  output          6
+2021-04-12 15:51:57 | initalize.R done ---------------------------------------- 
+
+2021-04-13 17:49:10 | initalize.R --------------------------------------------- 
+arguments:
+  exp_name exp_pars gwl_pars
+1 YYYYMMDD       NA       NA
+
+new experiment: 
+# A tibble: 1 x 5
+     id created             output_directory exp_name n_plates
+  <int> <dttm>              <chr>            <chr>       <int>
+1    11 2021-04-13 17:49:10 20210413_output  output          6
+2021-04-13 17:49:10 | initalize.R done ---------------------------------------- 
+
+2021-04-16 11:05:32 | initalize.R --------------------------------------------- 
+arguments:
+  exp_name exp_pars gwl_pars
+1 YYYYMMDD       NA       NA
+
+new experiment: 
+# A tibble: 1 x 5
+     id created             output_directory exp_name n_plates
+  <int> <dttm>              <chr>            <chr>       <int>
+1    12 2021-04-16 11:05:33 20210416_output  output          6
+2021-04-16 11:05:33 | initalize.R done ---------------------------------------- 
+
+2021-04-17 14:24:39 | initalize.R --------------------------------------------- 
+arguments:
+  exp_name exp_pars gwl_pars
+1 YYYYMMDD       NA       NA
+
+new experiment: 
+# A tibble: 1 x 5
+     id created             output_directory exp_name n_plates
+  <int> <dttm>              <chr>            <chr>       <int>
+1    13 2021-04-17 14:24:39 20210417_output  output          6
+2021-04-17 14:24:39 | initalize.R done ---------------------------------------- 
+
+2022-01-27 14:00:21 | initalize.R --------------------------------------------- 
+arguments:
+  exp_name exp_pars gwl_pars
+1 YYYYMMDD       NA       NA
+
+new experiment: 
+# A tibble: 1 x 5
+     id created             output_directory exp_name n_plates
+  <int> <dttm>              <chr>            <chr>       <int>
+1    14 2022-01-27 14:00:21 20220127_output  output          6
+2022-01-27 14:00:21 | initalize.R done ---------------------------------------- 
+
+2022-01-27 14:02:19 | initalize.R --------------------------------------------- 
+arguments:
+  exp_name exp_pars gwl_pars
+1 YYYYMMDD       NA       NA
+
+new experiment: 
+# A tibble: 1 x 5
+     id created             output_directory exp_name n_plates
+  <int> <dttm>              <chr>            <chr>       <int>
+1    14 2022-01-27 14:02:19 20220127_output  output          6
+2022-01-27 14:02:19 | initalize.R done ---------------------------------------- 
+
+2022-04-12 10:15:35 | initalize.R --------------------------------------------- 
+arguments:
+  exp_name exp_pars gwl_pars
+1 YYYYMMDD       NA       NA
+
+new experiment: 
+# A tibble: 1 x 5
+     id created             output_directory exp_name n_plates
+  <int> <dttm>              <chr>            <chr>       <int>
+1    15 2022-04-12 10:15:35 20220412_output  output          6
+2022-04-12 10:15:35 | initalize.R done ---------------------------------------- 
+
+2022-04-12 10:55:55 | initalize.R --------------------------------------------- 
+arguments:
+  exp_name exp_pars gwl_pars
+1 YYYYMMDD       NA       NA
+
+Error in open.connection(file, "wb") : cannot open the connection
+Calls: write_csv ... write_delim -> stream_delim -> open -> open.connection
+In addition: Warning message:
+In open.connection(file, "wb") :
+  cannot open file 'experiments/experiments.csv': Permission denied
+Execution halted
+2022-04-12 10:56:12 | initalize.R --------------------------------------------- 
+arguments:
+  exp_name exp_pars gwl_pars
+1 YYYYMMDD       NA       NA
+
+Error in open.connection(file, "wb") : cannot open the connection
+Calls: write_csv ... write_delim -> stream_delim -> open -> open.connection
+In addition: There were 11 warnings (use warnings() to see them)
+Execution halted
+2022-04-12 10:56:33 | initalize.R --------------------------------------------- 
+arguments:
+  exp_name exp_pars gwl_pars
+1 YYYYMMDD       NA       NA
+
+Error in open.connection(file, "wb") : cannot open the connection
+Calls: write_csv ... write_delim -> stream_delim -> open -> open.connection
+In addition: There were 11 warnings (use warnings() to see them)
+Execution halted
+2022-04-12 11:01:24 | initalize.R --------------------------------------------- 
+arguments:
+  exp_name exp_pars gwl_pars
+1 YYYYMMDD       NA       NA
+
+new experiment: 
+# A tibble: 1 x 5
+     id created             output_directory exp_name n_plates
+  <int> <dttm>              <chr>            <chr>       <int>
+1    15 2022-04-12 11:01:24 20220412_output  output          6
+Warning messages:
+1: In dir.create(str_c("experiments/", output_directory, "/logs"),  :
+  'experiments\20220412_output\logs' already exists
+2: In dir.create(str_c("experiments/", output_directory, "/analysis")) :
+  'experiments\20220412_output\analysis' already exists
+3: In dir.create(str_c("experiments/", output_directory, "/platefiles")) :
+  'experiments\20220412_output\platefiles' already exists
+4: In dir.create(str_c("experiments/", output_directory, "/worklists")) :
+  'experiments\20220412_output\worklists' already exists
+5: In dir.create(str_c("experiments/", output_directory, "/barcode_files")) :
+  'experiments\20220412_output\barcode_files' already exists
+6: In dir.create(str_c("experiments/", output_directory, "/OD/xml"),  :
+  'experiments\20220412_output\OD\xml' already exists
+7: In dir.create(str_c("experiments/", output_directory, "/pickolo/csv"),  :
+  'experiments\20220412_output\pickolo\csv' already exists
+8: In dir.create(str_c("experiments/", output_directory, "/pickolo/img")) :
+  'experiments\20220412_output\pickolo\img' already exists
+9: In dir.create(str_c("experiments/", output_directory, "/pickolo/json")) :
+  'experiments\20220412_output\pickolo\json' already exists
+10: In dir.create(str_c("experiments/", output_directory, "/pickolo/strainCheckPlates")) :
+  'experiments\20220412_output\pickolo\strainCheckPlates' already exists
+2022-04-12 11:01:24 | initalize.R done ---------------------------------------- 
+
+2022-04-12 11:10:57 | initalize.R --------------------------------------------- 
+arguments:
+  exp_name exp_pars gwl_pars
+1 YYYYMMDD       NA       NA
+
+new experiment: 
+# A tibble: 1 x 5
+     id created             output_directory exp_name n_plates
+  <int> <dttm>              <chr>            <chr>       <int>
+1    15 2022-04-12 11:10:57 20220412_output  output          6
+2022-04-12 11:10:57 | initalize.R done ---------------------------------------- 
+

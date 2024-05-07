@@ -1,0 +1,4 @@
+name: new_env
+channels:
+  - defaults
+prefix: /opt/anaconda3/envs/new_env

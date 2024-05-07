@@ -1,0 +1,14 @@
+\begin{tabular}{llllrrr}
+\toprule
+ & sa & sb & treatment & n & total & f \\
+\midrule
+0 & $A^h_r$ & $B^h_r$ & A & 55 & 399 & 0.140000 \\
+1 & $A^h_r$ & $B^h_r$ & AB & 2 & 35 & 0.060000 \\
+2 & $A^h_r$ & $B^h_r$ & B & 257 & 322 & 0.800000 \\
+3 & $A^h_r$ & $B^h_r$ & none & 390 & 420 & 0.930000 \\
+4 & $A^h_r$ & $B^l_r$ & A & 0 & 1 & 0.000000 \\
+5 & $A^l_r$ & $B^h_r$ & A & 0 & 13 & 0.000000 \\
+6 & $A^l_r$ & $B^h_r$ & AB & 0 & 15 & 0.000000 \\
+7 & $A^l_r$ & $B^h_r$ & B & 0 & 15 & 0.000000 \\
+\bottomrule
+\end{tabular}

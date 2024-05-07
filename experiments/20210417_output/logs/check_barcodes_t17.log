@@ -1,0 +1,90 @@
+2021-05-08 14:57:15 | check_barcodes.R ---------------------------------------- 
+Experiment:
+  id             created output_directory exp_name n_plates
+1 13 2021-04-17 12:24:39  20210417_output   output        6
+
+Warning message:
+The `x` argument of `as_tibble.matrix()` must have unique column names if `.name_repair` is omitted as of tibble 2.0.0.
+Using compatibility `.name_repair`.
+This warning is displayed once every 8 hours.
+Call `lifecycle::last_warnings()` to see where this warning was generated. 
+All barcodes read ok?  TRUE 
+DUPLICATE BARCODES!!
+          carrier cartridge position    barcode
+1  [StoreX_22Pos]         1        1 2021050625
+2  [StoreX_22Pos]         1        2 2021050626
+3  [StoreX_22Pos]         1        3 2021050627
+4  [StoreX_22Pos]         1        4 2021050628
+5  [StoreX_22Pos]         1        5 2021050629
+6  [StoreX_22Pos]         1        6 2021050630
+7  [StoreX_22Pos]         1        8 2021050707
+8  [StoreX_22Pos]         1        9 2021050708
+9  [StoreX_22Pos]         1       10 2021050709
+10 [StoreX_22Pos]         1       11 2021050710
+11 [StoreX_22Pos]         1       12 2021050711
+12 [StoreX_22Pos]         1       13 2021050712
+13 [StoreX_22Pos]         1       15 2021050713
+14 [StoreX_22Pos]         1       16 2021050714
+15 [StoreX_22Pos]         1       17 2021050715
+16 [StoreX_22Pos]         1       18 2021050716
+17 [StoreX_22Pos]         1       19 2021050717
+18 [StoreX_22Pos]         1       20 2021050718
+19 [StoreX_22Pos]         3        1 2021050625
+20 [StoreX_22Pos]         3        2 2021050626
+21 [StoreX_22Pos]         3        3 2021050627
+22 [StoreX_22Pos]         3        4 2021050628
+23 [StoreX_22Pos]         3        5 2021050629
+24 [StoreX_22Pos]         3        6 2021050630
+25 [StoreX_22Pos]         3        8 2021050707
+26 [StoreX_22Pos]         3        9 2021050708
+27 [StoreX_22Pos]         3       10 2021050709
+28 [StoreX_22Pos]         3       11 2021050710
+29 [StoreX_22Pos]         3       12 2021050711
+30 [StoreX_22Pos]         3       13 2021050712
+31 [StoreX_22Pos]         3       15 2021050713
+32 [StoreX_22Pos]         3       16 2021050714
+33 [StoreX_22Pos]         3       17 2021050715
+34 [StoreX_22Pos]         3       18 2021050716
+35 [StoreX_22Pos]         3       19 2021050717
+36 [StoreX_22Pos]         3       20 2021050718
+
+Some missing barcodes:
+   transfer run  desc plate_n    barcode ab
+1        16   1 assay       1 2021050701  N
+2        16   1 assay       2 2021050702  N
+3        16   1 assay       3 2021050703  N
+4        16   1 assay       4 2021050704  N
+5        16   1 assay       5 2021050705  N
+6        16   1 assay       6 2021050706  N
+7        17   1    on       1 2021050731  N
+8        16   1  test       1 2021050732  N
+9        16   1  test       1 2021050733  A
+10       16   1  test       1 2021050734  B
+11       16   1  test       1 2021050735 AB
+12       17   1 assay       1 2021050801  N
+13       17   1 assay       2 2021050802  N
+14       17   1 assay       3 2021050803  N
+15       17   1 assay       4 2021050804  N
+16       17   1 assay       5 2021050805  N
+17       17   1 assay       6 2021050806  N
+18       17   1  test       1 2021050832  N
+19       17   1  test       1 2021050833  A
+20       17   1  test       1 2021050834  B
+21       17   1  test       1 2021050835 AB
+
+2021-05-08 14:57:15 | check_barcodes.R done.----------------------------------- 
+
+2021-05-08 14:58:04 | check_barcodes.R ---------------------------------------- 
+Experiment:
+  id             created output_directory exp_name n_plates
+1 13 2021-04-17 12:24:39  20210417_output   output        6
+
+Warning message:
+The `x` argument of `as_tibble.matrix()` must have unique column names if `.name_repair` is omitted as of tibble 2.0.0.
+Using compatibility `.name_repair`.
+This warning is displayed once every 8 hours.
+Call `lifecycle::last_warnings()` to see where this warning was generated. 
+All barcodes read ok?  TRUE 
+no missing barcodes, as far as I know!
+2021-05-08 14:58:04 | check_barcodes.R done.----------------------------------- 
+

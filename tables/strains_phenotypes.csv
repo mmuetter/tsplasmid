@@ -1,0 +1,5 @@
+name;phenotype;reference
+{\it Escherichia coli} MDS42-YFP;Cm\textsuperscript{R};\cite{Feher2012}
+A;Cm\textsuperscript{R} pA (Amp\textsuperscript{R}, Caz\textsuperscript{R});this study, \cite{huisman_effect_2022}
+B;Cm\textsuperscript{R} pB (Amp\textsuperscript{R}, Tet\textsuperscript{R});this study, \cite{huisman_effect_2022}
+AB;Cm\textsuperscript{R} pA (Amp\textsuperscript{R}, Caz\textsuperscript{R}) pB (Amp\textsuperscript{R}, Tet\textsuperscript{R});this study, \cite{huisman_effect_2022}

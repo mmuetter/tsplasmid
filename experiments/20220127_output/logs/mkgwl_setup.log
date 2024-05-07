@@ -1,0 +1,45 @@
+2022-01-27 14:02:22 | mkgwl_setup.R ------------------------------------------- 
+Experiment: 
+# A tibble: 1 x 5
+     id created             output_directory exp_name n_plates
+  <int> <dttm>              <chr>            <chr>       <dbl>
+1    14 2022-01-27 13:02:19 20220127_output  output          6
+creating plate_setup worklists: done.
+2022-01-27 14:02:31 | mkgwl_setup.R done -------------------------------------- 
+
+2022-04-12 10:15:40 | mkgwl_setup.R ------------------------------------------- 
+Experiment: 
+# A tibble: 1 x 5
+     id created             output_directory exp_name n_plates
+  <int> <dttm>              <chr>            <chr>       <dbl>
+1    14 2022-01-27 13:02:19 20220127_output  output          6
+creating plate_setup worklists: done.
+2022-04-12 10:15:48 | mkgwl_setup.R done -------------------------------------- 
+
+2022-04-12 11:01:28 | mkgwl_setup.R ------------------------------------------- 
+Experiment: 
+# A tibble: 1 x 5
+     id created             output_directory exp_name n_plates
+  <int> <dttm>              <chr>            <chr>       <dbl>
+1    14 2022-01-27 13:02:19 20220127_output  output          6
+creating plate_setup worklists: done.
+2022-04-12 11:01:37 | mkgwl_setup.R done -------------------------------------- 
+
+2022-04-12 11:12:05 | mkgwl_setup.R ------------------------------------------- 
+Experiment: 
+# A tibble: 1 x 5
+     id created             output_directory exp_name n_plates
+  <int> <dttm>              <chr>            <chr>       <dbl>
+1    14 2022-01-27 13:02:19 20220127_output  output          6
+creating plate_setup worklists: done.
+2022-04-12 11:12:14 | mkgwl_setup.R done -------------------------------------- 
+
+2022-04-12 11:33:16 | mkgwl_setup.R ------------------------------------------- 
+Experiment: 
+# A tibble: 1 x 5
+     id created             output_directory exp_name n_plates
+  <int> <dttm>              <chr>            <chr>       <dbl>
+1    14 2022-01-27 13:02:19 20220127_output  output          6
+creating plate_setup worklists: done.
+2022-04-12 11:33:24 | mkgwl_setup.R done -------------------------------------- 
+

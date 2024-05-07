@@ -1,0 +1,46 @@
+2022-02-16 11:49:38 | check_barcodes.R ---------------------------------------- 
+Experiment:
+  id             created output_directory exp_name n_plates
+1 14 2022-01-27 13:02:19  20220127_output   output        6
+
+Warning message:
+The `x` argument of `as_tibble.matrix()` must have unique column names if `.name_repair` is omitted as of tibble 2.0.0.
+Using compatibility `.name_repair`.
+This warning is displayed once every 8 hours.
+Call `lifecycle::last_warnings()` to see where this warning was generated. 
+All barcodes read ok?  FALSE 
+Some missing barcodes:
+   transfer run  desc plate_n    barcode ab
+1        15   1  agar       1 2022021525 AB
+2        15   1  agar       2 2022021526 AB
+3        15   1  agar       3 2022021527 AB
+4        15   1  agar       4 2022021528 AB
+5        15   1  agar       5 2022021529 AB
+6        15   1  agar       6 2022021530 AB
+7        16   1 assay       1 2022021601  N
+8        16   1 assay       2 2022021602  N
+9        16   1 assay       3 2022021603  N
+10       16   1 assay       4 2022021604  N
+11       16   1 assay       5 2022021605  N
+12       16   1 assay       6 2022021606  N
+13       16   1  test       1 2022021632  N
+14       16   1  test       1 2022021633  A
+15       16   1  test       1 2022021634  B
+16       16   1  test       1 2022021635 AB
+
+2022-02-16 11:49:38 | check_barcodes.R done.----------------------------------- 
+
+2022-02-16 11:51:12 | check_barcodes.R ---------------------------------------- 
+Experiment:
+  id             created output_directory exp_name n_plates
+1 14 2022-01-27 13:02:19  20220127_output   output        6
+
+Warning message:
+The `x` argument of `as_tibble.matrix()` must have unique column names if `.name_repair` is omitted as of tibble 2.0.0.
+Using compatibility `.name_repair`.
+This warning is displayed once every 8 hours.
+Call `lifecycle::last_warnings()` to see where this warning was generated. 
+All barcodes read ok?  FALSE 
+no missing barcodes, as far as I know!
+2022-02-16 11:51:12 | check_barcodes.R done.----------------------------------- 
+

@@ -1,0 +1,100 @@
+2022-01-29 13:12:57 | check_barcodes.R ---------------------------------------- 
+Experiment:
+  id             created output_directory exp_name n_plates
+1 14 2022-01-27 13:02:19  20220127_output   output        6
+
+Warning message:
+The `x` argument of `as_tibble.matrix()` must have unique column names if `.name_repair` is omitted as of tibble 2.0.0.
+Using compatibility `.name_repair`.
+This warning is displayed once every 8 hours.
+Call `lifecycle::last_warnings()` to see where this warning was generated. 
+All barcodes read ok?  FALSE 
+Some missing barcodes:
+  transfer run desc plate_n    barcode ab
+1        1   1 agar       2 2022012808  N
+2        1   1 agar       3 2022012821  B
+
+2022-01-29 13:12:57 | check_barcodes.R done.----------------------------------- 
+
+2022-01-29 13:18:43 | check_barcodes.R ---------------------------------------- 
+Experiment:
+  id             created output_directory exp_name n_plates
+1 14 2022-01-27 13:02:19  20220127_output   output        6
+
+Warning message:
+The `x` argument of `as_tibble.matrix()` must have unique column names if `.name_repair` is omitted as of tibble 2.0.0.
+Using compatibility `.name_repair`.
+This warning is displayed once every 8 hours.
+Call `lifecycle::last_warnings()` to see where this warning was generated. 
+All barcodes read ok?  FALSE 
+Some missing barcodes:
+  transfer run desc plate_n    barcode ab
+1        1   1 agar       2 2022012808  N
+2        1   1 agar       3 2022012821  B
+
+2022-01-29 13:18:43 | check_barcodes.R done.----------------------------------- 
+
+2022-01-29 13:23:36 | check_barcodes.R ---------------------------------------- 
+Experiment:
+  id             created output_directory exp_name n_plates
+1 14 2022-01-27 13:02:19  20220127_output   output        6
+
+Warning message:
+The `x` argument of `as_tibble.matrix()` must have unique column names if `.name_repair` is omitted as of tibble 2.0.0.
+Using compatibility `.name_repair`.
+This warning is displayed once every 8 hours.
+Call `lifecycle::last_warnings()` to see where this warning was generated. 
+All barcodes read ok?  FALSE 
+Some missing barcodes:
+  transfer run desc plate_n    barcode ab
+1        1   1 agar       2 2022012808  N
+2        1   1 agar       3 2022012821  B
+
+2022-01-29 13:23:36 | check_barcodes.R done.----------------------------------- 
+
+2022-01-29 13:31:00 | check_barcodes.R ---------------------------------------- 
+Experiment:
+  id             created output_directory exp_name n_plates
+1 14 2022-01-27 13:02:19  20220127_output   output        6
+
+Warning message:
+The `x` argument of `as_tibble.matrix()` must have unique column names if `.name_repair` is omitted as of tibble 2.0.0.
+Using compatibility `.name_repair`.
+This warning is displayed once every 8 hours.
+Call `lifecycle::last_warnings()` to see where this warning was generated. 
+All barcodes read ok?  FALSE 
+Some missing barcodes:
+   transfer run  desc plate_n    barcode ab
+1         0   1  agar       1 2022012707  N
+2         0   1  agar       1 2022012713  A
+3         0   1  agar       1 2022012719  B
+4         0   1  agar       1 2022012725 AB
+5         1   1 assay       1 2022012801  N
+6         1   1 assay       2 2022012802  N
+7         1   1 assay       3 2022012803  N
+8         1   1 assay       4 2022012804  N
+9         1   1 assay       5 2022012805  N
+10        1   1 assay       6 2022012806  N
+11        1   1  agar       2 2022012808  N
+12        1   1  agar       3 2022012821  B
+13        1   1  test       1 2022012832  N
+14        1   1  test       1 2022012833  A
+15        1   1  test       1 2022012834  B
+16        1   1  test       1 2022012835 AB
+
+2022-01-29 13:31:00 | check_barcodes.R done.----------------------------------- 
+
+2022-01-29 13:37:23 | check_barcodes.R ---------------------------------------- 
+Experiment:
+  id             created output_directory exp_name n_plates
+1 14 2022-01-27 13:02:19  20220127_output   output        6
+
+Warning message:
+The `x` argument of `as_tibble.matrix()` must have unique column names if `.name_repair` is omitted as of tibble 2.0.0.
+Using compatibility `.name_repair`.
+This warning is displayed once every 8 hours.
+Call `lifecycle::last_warnings()` to see where this warning was generated. 
+All barcodes read ok?  FALSE 
+no missing barcodes, as far as I know!
+2022-01-29 13:37:23 | check_barcodes.R done.----------------------------------- 
+

@@ -1,0 +1,7 @@
+;index;U;S;Ar;Br;AuB;ABr
+0;U;$U$;$S$;$A_r$;$B_r$;$(A_r\&B_r)$;$AB_r$
+1;S;$S$;$S$;$A_r$;$B_r$;$(A_r\&B_r)$;$AB_r$
+2;A\_r;$A_r$;$A_r$;$A_r$;$(A_r\&B_r)$;$(A_r\&B_r)$;$AB_r$
+3;B\_r;$B_r$;$B_r$;$(A_r\&B_r)$;$B_r$;$(A_r\&B_r)$;$AB_r$
+4;(A\_r\&B\_r);$(A_r\&B_r)$;$(A_r\&B_r)$;$(A_r\&B_r)$;$(A_r\&B_r)$;$(A_r\&B_r)$;$AB_r$
+5;AB\_r;$AB_r$;$AB_r$;$AB_r$;$AB_r$;$AB_r$;$AB_r$

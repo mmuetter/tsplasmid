@@ -1,0 +1,46 @@
+2022-04-27 10:13:32 | check_barcodes.R ---------------------------------------- 
+Experiment:
+  id             created output_directory exp_name n_plates
+1 15 2022-04-12 09:10:57  20220412_output   output        6
+
+Warning message:
+The `x` argument of `as_tibble.matrix()` must have unique column names if `.name_repair` is omitted as of tibble 2.0.0.
+Using compatibility `.name_repair`.
+This warning is displayed once every 8 hours.
+Call `lifecycle::last_warnings()` to see where this warning was generated. 
+All barcodes read ok?  FALSE 
+Some missing barcodes:
+   transfer run desc plate_n    barcode ab
+1        12   1 agar       1 2022042519  B
+2        12   1 agar       2 2022042520  B
+3        12   1 agar       3 2022042521  B
+4        12   1 agar       4 2022042522  B
+5        12   1 agar       5 2022042523  B
+6        12   1 agar       6 2022042524  B
+7        12   1 agar       1 2022042525 AB
+8        12   1 agar       2 2022042526 AB
+9        12   1 agar       3 2022042527 AB
+10       12   1 agar       4 2022042528 AB
+11       12   1 agar       5 2022042529 AB
+12       12   1 agar       6 2022042530 AB
+13       13   1 test       1 2022042632  N
+14       13   1 test       1 2022042633  A
+15       13   1 test       1 2022042634  B
+16       13   1 test       1 2022042635 AB
+
+2022-04-27 10:13:32 | check_barcodes.R done.----------------------------------- 
+
+2022-04-27 10:14:20 | check_barcodes.R ---------------------------------------- 
+Experiment:
+  id             created output_directory exp_name n_plates
+1 15 2022-04-12 09:10:57  20220412_output   output        6
+
+Warning message:
+The `x` argument of `as_tibble.matrix()` must have unique column names if `.name_repair` is omitted as of tibble 2.0.0.
+Using compatibility `.name_repair`.
+This warning is displayed once every 8 hours.
+Call `lifecycle::last_warnings()` to see where this warning was generated. 
+All barcodes read ok?  TRUE 
+no missing barcodes, as far as I know!
+2022-04-27 10:14:20 | check_barcodes.R done.----------------------------------- 
+

@@ -1,0 +1,49 @@
+# 12.04
+Setup ran through without any issues except the end where the strainplate wasn't stamped
+
+# 13.04
+- storeX error at putting back by barcode test Strain Agarplate
+	- In order to save time the test strain plate part was skipped
+- The load worklist command wasn't correct (it referred to the old turnover.gwl instead of plate_i_turnover.gwl)
+- The new turnover worklist wasn't entirely correct. 
+	- The reservoir well should start for plate 1 with row C but it started with the "old well" in row F
+	- This was because the gwl_pars.json wasn't up to date
+	- both was fixed
+- By putting back plates into the incubator multiple errors occurred. 
+	- Experiment was recovered afterwards
+- hopefully it runs stable until tomorrow
+	- Plate 1 is done by now
+# 14.04
+- Script ran through. 
+- Transfer 2 started
+# 15.04
+- Multiple problems:
+	-  Script stopped at T2_plate 5 after OD reading. 
+	- No specific reason, probably lost connection
+	- Additionally one of the four pins was not correctly down
+	- After restarting the robot the weird pintool offset problem occurred (pins don't match wells anymore)
+	- exclude p5
+- Pintool completely cleaned
+- After additional restart offset disappeared
+- Restarted complete transfer for plate 5 (Turnover, Infection, Transfer)
+	- to make sure all wells are infected
+	- Exclude this plate for Turnoverstatistics, since it contains the double amount of turnover bacteria
+- One Lid Problem after plate 5. Roma realigned 
+18.04
+- No further problems in the last couple of days
+- Returned Assay plate T3_P6: interesting well D1. 
+	- Well is dark brown
+	- Contamination?
+	- Mutation?
+	- P6 T4 seems to be uninfected
+## 21.04
+- Everything going smooth so far except:
+	- Yesterday the StoreX had some plate read problems. resolved after restart
+	- Strainplate T6 I14 uninfected 
+
+## 25.04
+- running smoothly except some Liha and StoreX hickups (not detecting liquid->Retry and barcode reading problems)
+- Stupid user switched labels of ON13 with checkStrainplateN12 today... Therefore no check strainplates today. But having a look at the plate it looks like all wells are infected...
+
+## 27.04
+- observed during infection P2: On Pintool pin is not properly coming out

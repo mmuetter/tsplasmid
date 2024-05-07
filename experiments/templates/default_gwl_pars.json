@@ -1,0 +1,484 @@
+{
+  "vols": [
+    {
+      "strain": 5,
+      "abx": 5,
+      "media": 40,
+      "total": 50
+    }
+  ],
+  "LC": [
+    {
+      "strain_dis": "Minimal CD",
+      "strain_return": "Minimal CD",
+      "strain_asp": "Minimal CD",
+      "strain_asp_res": "Minimal CD trough",
+      "bl_dis": "Minimal FD trough",
+      "abx_dis": "Minimal CD",
+      "abx_asp": "Minimal CD"
+    }
+  ],
+  "positions": [
+    {
+      "strains_init_1": "MP2pos_bck",
+      "strains_init_2": "MP2pos_mid",
+      "strains_transfer": "MP3pos_bck",
+      "bl_transfer": "trough100_mid",
+      "abx": "MP3pos_bck",
+      "source": "MP2pos_mid",
+      "destination": "MP3pos_mid"
+    }
+  ],
+  "strains_transfer": [
+    {
+      "rep": 1,
+      "strain": "AB_r",
+      "rack": "MP3pos_bck",
+      "col": 1,
+      "row": "A",
+      "well": 1,
+      "volume": 0
+    },
+    {
+      "rep": 1,
+      "strain": "A_r",
+      "rack": "MP3pos_bck",
+      "col": 2,
+      "row": "A",
+      "well": 2,
+      "volume": 0
+    },
+    {
+      "rep": 1,
+      "strain": "B_r",
+      "rack": "MP3pos_bck",
+      "col": 3,
+      "row": "A",
+      "well": 3,
+      "volume": 0
+    },
+    {
+      "rep": 1,
+      "strain": "wt",
+      "rack": "MP3pos_bck",
+      "col": 4,
+      "row": "A",
+      "well": 4,
+      "volume": 0
+    },
+    {
+      "rep": 1,
+      "strain": "UI",
+      "rack": "MP3pos_bck",
+      "col": 5,
+      "row": "A",
+      "well": 5,
+      "volume": 0
+    },
+    {
+      "rep": 1,
+      "strain": "bl",
+      "rack": "MP3pos_bck",
+      "col": 6,
+      "row": "A",
+      "well": 6,
+      "volume": 0
+    },
+    {
+      "rep": 2,
+      "strain": "AB_r",
+      "rack": "MP3pos_bck",
+      "col": 7,
+      "row": "A",
+      "well": 7,
+      "volume": 0
+    },
+    {
+      "rep": 2,
+      "strain": "A_r",
+      "rack": "MP3pos_bck",
+      "col": 8,
+      "row": "A",
+      "well": 8,
+      "volume": 0
+    },
+    {
+      "rep": 2,
+      "strain": "B_r",
+      "rack": "MP3pos_bck",
+      "col": 9,
+      "row": "A",
+      "well": 9,
+      "volume": 0
+    },
+    {
+      "rep": 2,
+      "strain": "wt",
+      "rack": "MP3pos_bck",
+      "col": 10,
+      "row": "A",
+      "well": 10,
+      "volume": 0
+    },
+    {
+      "rep": 2,
+      "strain": "UI",
+      "rack": "MP3pos_bck",
+      "col": 11,
+      "row": "A",
+      "well": 11,
+      "volume": 0
+    },
+    {
+      "rep": 2,
+      "strain": "bl",
+      "rack": "MP3pos_bck",
+      "col": 12,
+      "row": "A",
+      "well": 12,
+      "volume": 0
+    },
+    {
+      "rep": 3,
+      "strain": "AB_r",
+      "rack": "MP3pos_bck",
+      "col": 1,
+      "row": "C",
+      "well": 25,
+      "volume": 0
+    },
+    {
+      "rep": 3,
+      "strain": "A_r",
+      "rack": "MP3pos_bck",
+      "col": 2,
+      "row": "C",
+      "well": 26,
+      "volume": 0
+    },
+    {
+      "rep": 3,
+      "strain": "B_r",
+      "rack": "MP3pos_bck",
+      "col": 3,
+      "row": "C",
+      "well": 27,
+      "volume": 0
+    },
+    {
+      "rep": 3,
+      "strain": "wt",
+      "rack": "MP3pos_bck",
+      "col": 4,
+      "row": "C",
+      "well": 28,
+      "volume": 0
+    },
+    {
+      "rep": 3,
+      "strain": "UI",
+      "rack": "MP3pos_bck",
+      "col": 5,
+      "row": "C",
+      "well": 29,
+      "volume": 0
+    },
+    {
+      "rep": 3,
+      "strain": "bl",
+      "rack": "MP3pos_bck",
+      "col": 6,
+      "row": "C",
+      "well": 30,
+      "volume": 0
+    },
+    {
+      "rep": 4,
+      "strain": "AB_r",
+      "rack": "MP3pos_bck",
+      "col": 7,
+      "row": "C",
+      "well": 31,
+      "volume": 0
+    },
+    {
+      "rep": 4,
+      "strain": "A_r",
+      "rack": "MP3pos_bck",
+      "col": 8,
+      "row": "C",
+      "well": 32,
+      "volume": 0
+    },
+    {
+      "rep": 4,
+      "strain": "B_r",
+      "rack": "MP3pos_bck",
+      "col": 9,
+      "row": "C",
+      "well": 33,
+      "volume": 0
+    },
+    {
+      "rep": 4,
+      "strain": "wt",
+      "rack": "MP3pos_bck",
+      "col": 10,
+      "row": "C",
+      "well": 34,
+      "volume": 0
+    },
+    {
+      "rep": 4,
+      "strain": "UI",
+      "rack": "MP3pos_bck",
+      "col": 11,
+      "row": "C",
+      "well": 35,
+      "volume": 0
+    },
+    {
+      "rep": 4,
+      "strain": "bl",
+      "rack": "MP3pos_bck",
+      "col": 12,
+      "row": "C",
+      "well": 36,
+      "volume": 0
+    }
+  ],
+  "strains_transfer384": [
+    {
+      "rep": 1,
+      "strain": "AB_r",
+      "rack": "MP3pos_bck",
+      "col": 17,
+      "row": "G",
+      "well": 161,
+      "volume": 0
+    },
+    {
+      "rep": 1,
+      "strain": "A_r",
+      "rack": "MP3pos_bck",
+      "col": 9,
+      "row": "G",
+      "well": 153,
+      "volume": 0
+    },
+    {
+      "rep": 1,
+      "strain": "B_r",
+      "rack": "MP3pos_bck",
+      "col": 13,
+      "row": "G",
+      "well": 157,
+      "volume": 0
+    },
+    {
+      "rep": 1,
+      "strain": "wt",
+      "rack": "MP3pos_bck",
+      "col": 5,
+      "row": "G",
+      "well": 149,
+      "volume": 0
+    }
+  ],
+  "strains_setup": [
+    {
+      "rep": 1,
+      "strain": "AB_r",
+      "rack": "MP2pos_bck",
+      "col": 1,
+      "volume": 0
+    },
+    {
+      "rep": 1,
+      "strain": "A_r",
+      "rack": "MP2pos_bck",
+      "col": 2,
+      "volume": 0
+    },
+    {
+      "rep": 1,
+      "strain": "B_r",
+      "rack": "MP2pos_bck",
+      "col": 3,
+      "volume": 0
+    },
+    {
+      "rep": 1,
+      "strain": "wt",
+      "rack": "MP2pos_bck",
+      "col": 4,
+      "volume": 0
+    },
+    {
+      "rep": 1,
+      "strain": "UI",
+      "rack": "MP2pos_bck",
+      "col": 5,
+      "volume": 0
+    },
+    {
+      "rep": 1,
+      "strain": "bl",
+      "rack": "MP2pos_bck",
+      "col": 6,
+      "volume": 0
+    },
+    {
+      "rep": 2,
+      "strain": "AB_r",
+      "rack": "MP2pos_bck",
+      "col": 7,
+      "volume": 0
+    },
+    {
+      "rep": 2,
+      "strain": "A_r",
+      "rack": "MP2pos_bck",
+      "col": 8,
+      "volume": 0
+    },
+    {
+      "rep": 2,
+      "strain": "B_r",
+      "rack": "MP2pos_bck",
+      "col": 9,
+      "volume": 0
+    },
+    {
+      "rep": 2,
+      "strain": "wt",
+      "rack": "MP2pos_bck",
+      "col": 10,
+      "volume": 0
+    },
+    {
+      "rep": 2,
+      "strain": "UI",
+      "rack": "MP2pos_bck",
+      "col": 11,
+      "volume": 0
+    },
+    {
+      "rep": 2,
+      "strain": "bl",
+      "rack": "MP2pos_bck",
+      "col": 12,
+      "volume": 0
+    },
+    {
+      "rep": 3,
+      "strain": "AB_r",
+      "rack": "MP2pos_mid",
+      "col": 1,
+      "volume": 0
+    },
+    {
+      "rep": 3,
+      "strain": "A_r",
+      "rack": "MP2pos_mid",
+      "col": 2,
+      "volume": 0
+    },
+    {
+      "rep": 3,
+      "strain": "B_r",
+      "rack": "MP2pos_mid",
+      "col": 3,
+      "volume": 0
+    },
+    {
+      "rep": 3,
+      "strain": "wt",
+      "rack": "MP2pos_mid",
+      "col": 4,
+      "volume": 0
+    },
+    {
+      "rep": 3,
+      "strain": "UI",
+      "rack": "MP2pos_mid",
+      "col": 5,
+      "volume": 0
+    },
+    {
+      "rep": 3,
+      "strain": "bl",
+      "rack": "MP2pos_mid",
+      "col": 6,
+      "volume": 0
+    },
+    {
+      "rep": 4,
+      "strain": "AB_r",
+      "rack": "MP2pos_mid",
+      "col": 7,
+      "volume": 0
+    },
+    {
+      "rep": 4,
+      "strain": "A_r",
+      "rack": "MP2pos_mid",
+      "col": 8,
+      "volume": 0
+    },
+    {
+      "rep": 4,
+      "strain": "B_r",
+      "rack": "MP2pos_mid",
+      "col": 9,
+      "volume": 0
+    },
+    {
+      "rep": 4,
+      "strain": "wt",
+      "rack": "MP2pos_mid",
+      "col": 10,
+      "volume": 0
+    },
+    {
+      "rep": 4,
+      "strain": "UI",
+      "rack": "MP2pos_mid",
+      "col": 11,
+      "volume": 0
+    },
+    {
+      "rep": 4,
+      "strain": "bl",
+      "rack": "MP2pos_mid",
+      "col": 12,
+      "volume": 0
+    }
+  ],
+  "abx_source": [
+    {
+      "drug": "none",
+      "rack": "MP3pos_bck",
+      "col": 1,
+      "volume": 0
+    },
+    {
+      "drug": "A",
+      "rack": "MP3pos_bck",
+      "col": 4,
+      "volume": 0
+    },
+    {
+      "drug": "B",
+      "rack": "MP3pos_bck",
+      "col": 7,
+      "volume": 0
+    },
+    {
+      "drug": "AB",
+      "rack": "MP3pos_bck",
+      "col": 10,
+      "volume": 0
+    }
+  ]
+}

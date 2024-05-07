@@ -1,0 +1,4 @@
+;index;group;statistic;Pvalue;significant
+0;0;U mean;837.87;0.0;True
+1;1;single resistant mean;295.0;0.0;True
+2;2;double resistant mean;155.51;0.0;True

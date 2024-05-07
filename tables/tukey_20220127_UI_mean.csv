@@ -1,0 +1,16 @@
+;index;groupI;groupII;meandiff;pAdj;lower;upper;reject;pValue
+0;0;Combo;Cycling;-0.0078;1.0;-0.1541;0.1385;False;1.0
+1;1;Combo;Mixing;-0.0397;0.9506;-0.186;0.1066;False;0.9506
+2;2;Combo;Mono A;-0.1016;0.2821;-0.2478;0.0447;False;0.2821
+3;3;Combo;Mono B;-0.1549;0.0343;-0.3012;-0.0087;True;0.0343
+4;4;Combo;No treatment;-0.4668;0.0;-0.6131;-0.3205;True;0.0
+5;5;Cycling;Mixing;-0.0319;0.9804;-0.1782;0.1144;False;0.9804
+6;6;Cycling;Mono A;-0.0937;0.361;-0.24;0.0525;False;0.361
+7;7;Cycling;Mono B;-0.1471;0.0482;-0.2934;-0.0009;True;0.0482
+8;8;Cycling;No treatment;-0.459;0.0;-0.6053;-0.3127;True;0.0
+9;9;Mixing;Mono A;-0.0618;0.7578;-0.2081;0.0844;False;0.7578
+10;10;Mixing;Mono B;-0.1152;0.1747;-0.2615;0.031;False;0.1747
+11;11;Mixing;No treatment;-0.4271;0.0;-0.5734;-0.2808;True;0.0
+12;12;Mono A;Mono B;-0.0534;0.8496;-0.1997;0.0929;False;0.8496
+13;13;Mono A;No treatment;-0.3652;0.0;-0.5115;-0.219;True;0.0
+14;14;Mono B;No treatment;-0.3118;0.0;-0.4581;-0.1656;True;0.0

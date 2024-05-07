@@ -1,0 +1,432 @@
+2022-01-28 10:54:10 | mkgwl_transfer.R ---------------------------------------- 
+creating worklists for transfer 1 
+Experiment: 
+  id             created output_directory exp_name n_plates
+1 14 2022-01-27 13:02:19  20220127_output   output        6
+creating plate_turnover worklists...done.
+plate transfer gwls done.
+plate infection gwl done.
+creating treatment worklists: plate 1 2 3 4 5 6 
+treatment gwls done.
+2022-01-28 10:54:28 | mkgwl_transfer.R done.----------------------------------- 
+
+2022-01-29 13:08:24 | mkgwl_transfer.R ---------------------------------------- 
+creating worklists for transfer 2 
+Experiment: 
+  id             created output_directory exp_name n_plates
+1 14 2022-01-27 13:02:19  20220127_output   output        6
+creating plate_turnover worklists...done.
+plate transfer gwls done.
+plate infection gwl done.
+creating treatment worklists: plate 1 2 3 4 5 6 
+treatment gwls done.
+2022-01-29 13:08:40 | mkgwl_transfer.R done.----------------------------------- 
+
+2022-01-30 15:54:24 | mkgwl_transfer.R ---------------------------------------- 
+creating worklists for transfer 3 
+Experiment: 
+  id             created output_directory exp_name n_plates
+1 14 2022-01-27 13:02:19  20220127_output   output        6
+creating plate_turnover worklists...done.
+plate transfer gwls done.
+plate infection gwl done.
+creating treatment worklists: plate 1 2 3 4 5 6 
+treatment gwls done.
+2022-01-30 15:54:38 | mkgwl_transfer.R done.----------------------------------- 
+
+2022-01-31 10:56:05 | mkgwl_transfer.R ---------------------------------------- 
+creating worklists for transfer 4 
+Experiment: 
+  id             created output_directory exp_name n_plates
+1 14 2022-01-27 13:02:19  20220127_output   output        6
+creating plate_turnover worklists...done.
+plate transfer gwls done.
+plate infection gwl done.
+creating treatment worklists: plate 1 2 3 4 5 6 
+treatment gwls done.
+2022-01-31 10:56:20 | mkgwl_transfer.R done.----------------------------------- 
+
+2022-01-31 11:35:51 | mkgwl_transfer.R ---------------------------------------- 
+creating worklists for transfer 5 
+Experiment: 
+  id             created output_directory exp_name n_plates
+1 14 2022-01-27 13:02:19  20220127_output   output        6
+creating plate_turnover worklists...done.
+plate transfer gwls done.
+plate infection gwl done.
+creating treatment worklists: plate 1 2 3 4 5 6 
+treatment gwls done.
+2022-01-31 11:36:07 | mkgwl_transfer.R done.----------------------------------- 
+
+2022-01-31 11:38:11 | mkgwl_transfer.R ---------------------------------------- 
+creating worklists for transfer 4 
+Experiment: 
+  id             created output_directory exp_name n_plates
+1 14 2022-01-27 13:02:19  20220127_output   output        6
+creating plate_turnover worklists...done.
+plate transfer gwls done.
+plate infection gwl done.
+creating treatment worklists: plate 1 2 3 4 5 6 
+treatment gwls done.
+2022-01-31 11:38:29 | mkgwl_transfer.R done.----------------------------------- 
+
+2022-02-01 18:18:07 | mkgwl_transfer.R ---------------------------------------- 
+creating worklists for transfer 5 
+Experiment: 
+  id             created output_directory exp_name n_plates
+1 14 2022-01-27 13:02:19  20220127_output   output        6
+creating plate_turnover worklists...done.
+plate transfer gwls done.
+plate infection gwl done.
+creating treatment worklists: plate 1 2 3 4 5 6 
+treatment gwls done.
+2022-02-01 18:18:23 | mkgwl_transfer.R done.----------------------------------- 
+
+2022-02-01 19:01:56 | mkgwl_transfer.R ---------------------------------------- 
+creating worklists for transfer 5 
+Experiment: 
+  id             created output_directory exp_name n_plates
+1 14 2022-01-27 13:02:19  20220127_output   output        6
+creating plate_turnover worklists...done.
+plate transfer gwls done.
+plate infection gwl done.
+creating treatment worklists: plate 1 2 3 4 5 6 
+treatment gwls done.
+2022-02-01 19:02:11 | mkgwl_transfer.R done.----------------------------------- 
+
+2022-02-01 19:08:56 | mkgwl_transfer.R ---------------------------------------- 
+creating worklists for transfer 5 
+Experiment: 
+  id             created output_directory exp_name n_plates
+1 14 2022-01-27 13:02:19  20220127_output   output        6
+creating plate_turnover worklists...done.
+plate transfer gwls done.
+plate infection gwl done.
+creating treatment worklists: plate 1 2 3 4 5 6 
+treatment gwls done.
+2022-02-01 19:09:12 | mkgwl_transfer.R done.----------------------------------- 
+
+2022-02-01 19:18:15 | mkgwl_transfer.R ---------------------------------------- 
+creating worklists for transfer 6 
+Experiment: 
+  id             created output_directory exp_name n_plates
+1 14 2022-01-27 13:02:19  20220127_output   output        6
+creating plate_turnover worklists...done.
+plate transfer gwls done.
+plate infection gwl done.
+creating treatment worklists: plate 1 2 3 4 5 6 
+treatment gwls done.
+2022-02-01 19:18:32 | mkgwl_transfer.R done.----------------------------------- 
+
+2022-02-01 19:19:10 | mkgwl_transfer.R ---------------------------------------- 
+creating worklists for transfer 5 
+Experiment: 
+  id             created output_directory exp_name n_plates
+1 14 2022-01-27 13:02:19  20220127_output   output        6
+creating plate_turnover worklists...done.
+plate transfer gwls done.
+plate infection gwl done.
+creating treatment worklists: plate 1 2 3 4 5 6 
+treatment gwls done.
+2022-02-01 19:19:26 | mkgwl_transfer.R done.----------------------------------- 
+
+2022-02-03 18:13:48 | mkgwl_transfer.R ---------------------------------------- 
+creating worklists for transfer 6 
+Experiment: 
+  id             created output_directory exp_name n_plates
+1 14 2022-01-27 13:02:19  20220127_output   output        6
+creating plate_turnover worklists...done.
+plate transfer gwls done.
+plate infection gwl done.
+creating treatment worklists: plate 1 2 3 4 5 6 
+treatment gwls done.
+2022-02-03 18:14:03 | mkgwl_transfer.R done.----------------------------------- 
+
+2022-02-03 18:45:55 | mkgwl_transfer.R ---------------------------------------- 
+creating worklists for transfer 6 
+Experiment: 
+  id             created output_directory exp_name n_plates
+1 14 2022-01-27 13:02:19  20220127_output   output        6
+creating plate_turnover worklists...done.
+plate transfer gwls done.
+plate infection gwl done.
+creating treatment worklists: plate 1 2 3 4 5 6 
+treatment gwls done.
+2022-02-03 18:46:12 | mkgwl_transfer.R done.----------------------------------- 
+
+2022-02-05 12:14:00 | mkgwl_transfer.R ---------------------------------------- 
+creating worklists for transfer 7 
+Experiment: 
+  id             created output_directory exp_name n_plates
+1 14 2022-01-27 13:02:19  20220127_output   output        6
+creating plate_turnover worklists...done.
+plate transfer gwls done.
+plate infection gwl done.
+creating treatment worklists: plate 1 2 3 4 5 6 
+treatment gwls done.
+2022-02-05 12:14:16 | mkgwl_transfer.R done.----------------------------------- 
+
+2022-02-05 12:31:49 | mkgwl_transfer.R ---------------------------------------- 
+creating worklists for transfer 7 
+Experiment: 
+  id             created output_directory exp_name n_plates
+1 14 2022-01-27 13:02:19  20220127_output   output        6
+creating plate_turnover worklists...done.
+plate transfer gwls done.
+plate infection gwl done.
+creating treatment worklists: plate 1 2 3 4 5 6 
+treatment gwls done.
+2022-02-05 12:32:04 | mkgwl_transfer.R done.----------------------------------- 
+
+2022-02-06 16:01:06 | mkgwl_transfer.R ---------------------------------------- 
+creating worklists for transfer 8 
+Experiment: 
+  id             created output_directory exp_name n_plates
+1 14 2022-01-27 13:02:19  20220127_output   output        6
+creating plate_turnover worklists...done.
+plate transfer gwls done.
+plate infection gwl done.
+creating treatment worklists: plate 1 2 3 4 5 6 
+treatment gwls done.
+2022-02-06 16:01:21 | mkgwl_transfer.R done.----------------------------------- 
+
+2022-02-07 12:06:39 | mkgwl_transfer.R ---------------------------------------- 
+creating worklists for transfer 9 
+Experiment: 
+  id             created output_directory exp_name n_plates
+1 14 2022-01-27 13:02:19  20220127_output   output        6
+creating plate_turnover worklists...done.
+plate transfer gwls done.
+plate infection gwl done.
+creating treatment worklists: plate 1 2 3 4 5 6 
+treatment gwls done.
+2022-02-07 12:06:54 | mkgwl_transfer.R done.----------------------------------- 
+
+2022-02-09 11:16:18 | mkgwl_transfer.R ---------------------------------------- 
+creating worklists for transfer 10 
+Experiment: 
+  id             created output_directory exp_name n_plates
+1 14 2022-01-27 13:02:19  20220127_output   output        6
+creating plate_turnover worklists...done.
+plate transfer gwls done.
+plate infection gwl done.
+creating treatment worklists: plate 1 2 3 4 5 6 
+treatment gwls done.
+2022-02-09 11:16:33 | mkgwl_transfer.R done.----------------------------------- 
+
+2022-02-09 11:28:28 | mkgwl_transfer.R ---------------------------------------- 
+creating worklists for transfer 10 
+Experiment: 
+  id             created output_directory exp_name n_plates
+1 14 2022-01-27 13:02:19  20220127_output   output        6
+creating plate_turnover worklists...done.
+plate transfer gwls done.
+plate infection gwl done.
+creating treatment worklists: plate 1 2 3 4 5 6 
+treatment gwls done.
+2022-02-09 11:28:45 | mkgwl_transfer.R done.----------------------------------- 
+
+2022-02-10 19:00:35 | mkgwl_transfer.R ---------------------------------------- 
+creating worklists for transfer 11 
+Experiment: 
+  id             created output_directory exp_name n_plates
+1 14 2022-01-27 13:02:19  20220127_output   output        6
+creating plate_turnover worklists...done.
+plate transfer gwls done.
+plate infection gwl done.
+creating treatment worklists: plate 1 2 3 4 5 6 
+treatment gwls done.
+2022-02-10 19:00:51 | mkgwl_transfer.R done.----------------------------------- 
+
+2022-02-11 14:10:25 | mkgwl_transfer.R ---------------------------------------- 
+creating worklists for transfer 12 
+Experiment: 
+  id             created output_directory exp_name n_plates
+1 14 2022-01-27 13:02:19  20220127_output   output        6
+creating plate_turnover worklists...done.
+plate transfer gwls done.
+plate infection gwl done.
+creating treatment worklists: plate 1 2 3 4 5 6 
+treatment gwls done.
+2022-02-11 14:10:44 | mkgwl_transfer.R done.----------------------------------- 
+
+2022-02-13 12:09:33 | mkgwl_transfer.R ---------------------------------------- 
+creating worklists for transfer 13 
+Experiment: 
+  id             created output_directory exp_name n_plates
+1 14 2022-01-27 13:02:19  20220127_output   output        6
+creating plate_turnover worklists...done.
+plate transfer gwls done.
+plate infection gwl done.
+creating treatment worklists: plate 1 2 3 4 5 6 
+treatment gwls done.
+2022-02-13 12:09:48 | mkgwl_transfer.R done.----------------------------------- 
+
+2022-02-14 13:59:36 | mkgwl_transfer.R ---------------------------------------- 
+creating worklists for transfer 14 
+Experiment: 
+  id             created output_directory exp_name n_plates
+1 14 2022-01-27 13:02:19  20220127_output   output        6
+creating plate_turnover worklists...done.
+plate transfer gwls done.
+plate infection gwl done.
+creating treatment worklists: plate 1 2 3 4 5 6 
+treatment gwls done.
+2022-02-14 13:59:52 | mkgwl_transfer.R done.----------------------------------- 
+
+2022-02-15 10:37:33 | mkgwl_transfer.R ---------------------------------------- 
+creating worklists for transfer 15 
+Experiment: 
+  id             created output_directory exp_name n_plates
+1 14 2022-01-27 13:02:19  20220127_output   output        6
+creating plate_turnover worklists...done.
+plate transfer gwls done.
+plate infection gwl done.
+creating treatment worklists: plate 1 2 3 4 5 6 
+treatment gwls done.
+2022-02-15 10:37:50 | mkgwl_transfer.R done.----------------------------------- 
+
+2022-02-16 11:36:00 | mkgwl_transfer.R ---------------------------------------- 
+creating worklists for transfer 16 
+Experiment: 
+  id             created output_directory exp_name n_plates
+1 14 2022-01-27 13:02:19  20220127_output   output        6
+creating plate_turnover worklists...done.
+plate transfer gwls done.
+plate infection gwl done.
+creating treatment worklists: plate 1 2 3 4 5 6 
+treatment gwls done.
+2022-02-16 11:36:15 | mkgwl_transfer.R done.----------------------------------- 
+
+2022-02-17 11:48:27 | mkgwl_transfer.R ---------------------------------------- 
+creating worklists for transfer 17 
+Experiment: 
+  id             created output_directory exp_name n_plates
+1 14 2022-01-27 13:02:19  20220127_output   output        6
+creating plate_turnover worklists...done.
+plate transfer gwls done.
+plate infection gwl done.
+creating treatment worklists: plate 1 2 3 4 5 6 
+treatment gwls done.
+2022-02-17 11:48:46 | mkgwl_transfer.R done.----------------------------------- 
+
+2022-02-18 11:10:56 | mkgwl_transfer.R ---------------------------------------- 
+creating worklists for transfer 18 
+Experiment: 
+  id             created output_directory exp_name n_plates
+1 14 2022-01-27 13:02:19  20220127_output   output        6
+creating plate_turnover worklists...done.
+plate transfer gwls done.
+plate infection gwl done.
+creating treatment worklists: plate 1 2 3 4 5 6 
+treatment gwls done.
+2022-02-18 11:11:14 | mkgwl_transfer.R done.----------------------------------- 
+
+2022-02-20 12:37:54 | mkgwl_transfer.R ---------------------------------------- 
+creating worklists for transfer 19 
+Experiment: 
+  id             created output_directory exp_name n_plates
+1 14 2022-01-27 13:02:19  20220127_output   output        6
+creating plate_turnover worklists...done.
+plate transfer gwls done.
+plate infection gwl done.
+creating treatment worklists: plate 1 2 3 4 5 6 
+treatment gwls done.
+2022-02-20 12:38:12 | mkgwl_transfer.R done.----------------------------------- 
+
+2022-02-21 12:26:01 | mkgwl_transfer.R ---------------------------------------- 
+creating worklists for transfer 20 
+Experiment: 
+  id             created output_directory exp_name n_plates
+1 14 2022-01-27 13:02:19  20220127_output   output        6
+creating plate_turnover worklists...done.
+plate transfer gwls done.
+plate infection gwl done.
+creating treatment worklists: plate 1 2 3 4 5 6 
+treatment gwls done.
+2022-02-21 12:26:16 | mkgwl_transfer.R done.----------------------------------- 
+
+2022-02-22 11:51:15 | mkgwl_transfer.R ---------------------------------------- 
+creating worklists for transfer 21 
+Experiment: 
+  id             created output_directory exp_name n_plates
+1 14 2022-01-27 13:02:19  20220127_output   output        6
+creating plate_turnover worklists...done.
+plate transfer gwls done.
+plate infection gwl done.
+creating treatment worklists: plate 1 2 3 4 5 6 
+treatment gwls done.
+2022-02-22 11:51:31 | mkgwl_transfer.R done.----------------------------------- 
+
+2022-02-23 09:58:33 | mkgwl_transfer.R ---------------------------------------- 
+creating worklists for transfer 22 
+Experiment: 
+  id             created output_directory exp_name n_plates
+1 14 2022-01-27 13:02:19  20220127_output   output        6
+creating plate_turnover worklists...done.
+plate transfer gwls done.
+plate infection gwl done.
+creating treatment worklists: plate 1 2 3 4 5 6 
+treatment gwls done.
+2022-02-23 09:58:51 | mkgwl_transfer.R done.----------------------------------- 
+
+2022-02-25 11:11:45 | mkgwl_transfer.R ---------------------------------------- 
+creating worklists for transfer 23 
+Experiment: 
+  id             created output_directory exp_name n_plates
+1 14 2022-01-27 13:02:19  20220127_output   output        6
+creating plate_turnover worklists...done.
+plate transfer gwls done.
+plate infection gwl done.
+creating treatment worklists: plate 1 2 3 4 5 6 
+treatment gwls done.
+2022-02-25 11:12:03 | mkgwl_transfer.R done.----------------------------------- 
+
+2022-02-26 10:23:34 | mkgwl_transfer.R ---------------------------------------- 
+creating worklists for transfer 24 
+Experiment: 
+  id             created output_directory exp_name n_plates
+1 14 2022-01-27 13:02:19  20220127_output   output        6
+creating plate_turnover worklists...done.
+plate transfer gwls done.
+plate infection gwl done.
+creating treatment worklists: plate 1 2 3 4 5 6 
+treatment gwls done.
+2022-02-26 10:23:52 | mkgwl_transfer.R done.----------------------------------- 
+
+2022-02-27 10:35:10 | mkgwl_transfer.R ---------------------------------------- 
+creating worklists for transfer 25 
+Experiment: 
+  id             created output_directory exp_name n_plates
+1 14 2022-01-27 13:02:19  20220127_output   output        6
+creating plate_turnover worklists...done.
+plate transfer gwls done.
+plate infection gwl done.
+creating treatment worklists: plate 1 2 3 4 5 6 
+treatment gwls done.
+2022-02-27 10:35:25 | mkgwl_transfer.R done.----------------------------------- 
+
+2022-03-01 09:17:09 | mkgwl_transfer.R ---------------------------------------- 
+creating worklists for transfer 26 
+Experiment: 
+  id             created output_directory exp_name n_plates
+1 14 2022-01-27 13:02:19  20220127_output   output        6
+creating plate_turnover worklists...done.
+plate transfer gwls done.
+plate infection gwl done.
+creating treatment worklists: plate 1 2 3 4 5 6 
+treatment gwls done.
+2022-03-01 09:17:26 | mkgwl_transfer.R done.----------------------------------- 
+
+2022-03-02 10:01:01 | mkgwl_transfer.R ---------------------------------------- 
+creating worklists for transfer 27 
+Experiment: 
+  id             created output_directory exp_name n_plates
+1 14 2022-01-27 13:02:19  20220127_output   output        6
+creating plate_turnover worklists...done.
+plate transfer gwls done.
+plate infection gwl done.
+creating treatment worklists: plate 1 2 3 4 5 6 
+treatment gwls done.
+2022-03-02 10:01:18 | mkgwl_transfer.R done.----------------------------------- 
+

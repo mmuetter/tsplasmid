@@ -1,0 +1,48 @@
+2022-02-05 12:29:08 | check_barcodes.R ---------------------------------------- 
+Experiment:
+  id             created output_directory exp_name n_plates
+1 14 2022-01-27 13:02:19  20220127_output   output        6
+
+Warning message:
+The `x` argument of `as_tibble.matrix()` must have unique column names if `.name_repair` is omitted as of tibble 2.0.0.
+Using compatibility `.name_repair`.
+This warning is displayed once every 8 hours.
+Call `lifecycle::last_warnings()` to see where this warning was generated. 
+All barcodes read ok?  FALSE 
+Some missing barcodes:
+   transfer run desc plate_n    barcode ab
+1         5   1 agar       1 2022020107  N
+2         5   1 agar       2 2022020108  N
+3         5   1 agar       3 2022020109  N
+4         5   1 agar       4 2022020110  N
+5         5   1 agar       5 2022020111  N
+6         5   1 agar       6 2022020112  N
+7         5   1 agar       1 2022020113  A
+8         5   1 agar       2 2022020114  A
+9         5   1 agar       3 2022020115  A
+10        5   1 agar       4 2022020116  A
+11        5   1 agar       5 2022020117  A
+12        5   1 agar       6 2022020118  A
+13        5   1 agar       1 2022020119  B
+14        5   1 agar       2 2022020120  B
+15        5   1 agar       3 2022020121  B
+16        5   1 agar       4 2022020122  B
+17        5   1 agar       5 2022020123  B
+18        5   1 agar       6 2022020124  B
+
+2022-02-05 12:29:08 | check_barcodes.R done.----------------------------------- 
+
+2022-02-05 12:34:53 | check_barcodes.R ---------------------------------------- 
+Experiment:
+  id             created output_directory exp_name n_plates
+1 14 2022-01-27 13:02:19  20220127_output   output        6
+
+Warning message:
+The `x` argument of `as_tibble.matrix()` must have unique column names if `.name_repair` is omitted as of tibble 2.0.0.
+Using compatibility `.name_repair`.
+This warning is displayed once every 8 hours.
+Call `lifecycle::last_warnings()` to see where this warning was generated. 
+All barcodes read ok?  TRUE 
+no missing barcodes, as far as I know!
+2022-02-05 12:34:53 | check_barcodes.R done.----------------------------------- 
+

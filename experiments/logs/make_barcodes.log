@@ -1,0 +1,5 @@
+2021-02-12 14:08:29 | make_barcodes.R ----------------------------------------- 
+Error: lexical error: invalid char in json text.
+                                       experiments//exp_pars.json
+                     (right here) ------^
+Execution halted

@@ -1,0 +1,922 @@
+2022-01-28 11:28:06 | generate_bc_files_transfer.R ---------------------------- 
+generated BC file: bc_assay 
+Warning messages:
+1: The `path` argument of `write_delim()` is deprecated as of readr 1.4.0.
+Please use the `file` argument instead.
+This warning is displayed once every 8 hours.
+Call `lifecycle::last_warnings()` to see where this warning was generated. 
+2: The `path` argument of `write_csv()` is deprecated as of readr 1.4.0.
+Please use the `file` argument instead.
+This warning is displayed once every 8 hours.
+Call `lifecycle::last_warnings()` to see where this warning was generated. 
+generated BC file: bc_last_assay 
+generated BC file: bc_on 
+generated BC file: bc_test 
+generated BC file: bc_agar_1 
+generated BC file: bc_agar_2 
+generated BC file: bc_agar_3 
+generated BC file: bc_agar_4 
+generated BC file: bc_agar_5 
+generated BC file: bc_agar_6 
+2022-01-28 11:28:07 | generate_bc_files_transfer.R done.----------------------- 
+
+2022-01-29 13:39:26 | generate_bc_files_transfer.R ---------------------------- 
+generated BC file: bc_assay 
+Warning messages:
+1: The `path` argument of `write_delim()` is deprecated as of readr 1.4.0.
+Please use the `file` argument instead.
+This warning is displayed once every 8 hours.
+Call `lifecycle::last_warnings()` to see where this warning was generated. 
+2: The `path` argument of `write_csv()` is deprecated as of readr 1.4.0.
+Please use the `file` argument instead.
+This warning is displayed once every 8 hours.
+Call `lifecycle::last_warnings()` to see where this warning was generated. 
+generated BC file: bc_last_assay 
+generated BC file: bc_on 
+generated BC file: bc_test 
+generated BC file: bc_agar_1 
+generated BC file: bc_agar_2 
+generated BC file: bc_agar_3 
+generated BC file: bc_agar_4 
+generated BC file: bc_agar_5 
+generated BC file: bc_agar_6 
+generated BC file: bc_last_agar_source 
+generated BC file: bc_last_agar_1 
+generated BC file: bc_last_agar_2 
+generated BC file: bc_last_agar_3 
+generated BC file: bc_last_agar_4 
+generated BC file: bc_last_agar_5 
+generated BC file: bc_last_agar_6 
+generated BC file: bc_last_test 
+2022-01-29 13:39:26 | generate_bc_files_transfer.R done.----------------------- 
+
+2022-01-30 15:57:41 | generate_bc_files_transfer.R ---------------------------- 
+generated BC file: bc_assay 
+Warning messages:
+1: The `path` argument of `write_delim()` is deprecated as of readr 1.4.0.
+Please use the `file` argument instead.
+This warning is displayed once every 8 hours.
+Call `lifecycle::last_warnings()` to see where this warning was generated. 
+2: The `path` argument of `write_csv()` is deprecated as of readr 1.4.0.
+Please use the `file` argument instead.
+This warning is displayed once every 8 hours.
+Call `lifecycle::last_warnings()` to see where this warning was generated. 
+generated BC file: bc_last_assay 
+generated BC file: bc_on 
+generated BC file: bc_test 
+generated BC file: bc_agar_1 
+generated BC file: bc_agar_2 
+generated BC file: bc_agar_3 
+generated BC file: bc_agar_4 
+generated BC file: bc_agar_5 
+generated BC file: bc_agar_6 
+generated BC file: bc_last_agar_source 
+generated BC file: bc_last_agar_1 
+generated BC file: bc_last_agar_2 
+generated BC file: bc_last_agar_3 
+generated BC file: bc_last_agar_4 
+generated BC file: bc_last_agar_5 
+generated BC file: bc_last_agar_6 
+generated BC file: bc_last_test 
+2022-01-30 15:57:41 | generate_bc_files_transfer.R done.----------------------- 
+
+2022-01-31 11:51:01 | generate_bc_files_transfer.R ---------------------------- 
+generated BC file: bc_assay 
+Warning messages:
+1: The `path` argument of `write_delim()` is deprecated as of readr 1.4.0.
+Please use the `file` argument instead.
+This warning is displayed once every 8 hours.
+Call `lifecycle::last_warnings()` to see where this warning was generated. 
+2: The `path` argument of `write_csv()` is deprecated as of readr 1.4.0.
+Please use the `file` argument instead.
+This warning is displayed once every 8 hours.
+Call `lifecycle::last_warnings()` to see where this warning was generated. 
+generated BC file: bc_last_assay 
+generated BC file: bc_on 
+generated BC file: bc_test 
+generated BC file: bc_agar_1 
+generated BC file: bc_agar_2 
+generated BC file: bc_agar_3 
+generated BC file: bc_agar_4 
+generated BC file: bc_agar_5 
+generated BC file: bc_agar_6 
+generated BC file: bc_last_agar_source 
+generated BC file: bc_last_agar_1 
+generated BC file: bc_last_agar_2 
+generated BC file: bc_last_agar_3 
+generated BC file: bc_last_agar_4 
+generated BC file: bc_last_agar_5 
+generated BC file: bc_last_agar_6 
+generated BC file: bc_last_test 
+2022-01-31 11:51:01 | generate_bc_files_transfer.R done.----------------------- 
+
+2022-02-01 19:39:57 | generate_bc_files_transfer.R ---------------------------- 
+generated BC file: bc_assay 
+Warning messages:
+1: The `path` argument of `write_delim()` is deprecated as of readr 1.4.0.
+Please use the `file` argument instead.
+This warning is displayed once every 8 hours.
+Call `lifecycle::last_warnings()` to see where this warning was generated. 
+2: The `path` argument of `write_csv()` is deprecated as of readr 1.4.0.
+Please use the `file` argument instead.
+This warning is displayed once every 8 hours.
+Call `lifecycle::last_warnings()` to see where this warning was generated. 
+generated BC file: bc_last_assay 
+generated BC file: bc_on 
+generated BC file: bc_test 
+generated BC file: bc_agar_1 
+generated BC file: bc_agar_2 
+generated BC file: bc_agar_3 
+generated BC file: bc_agar_4 
+generated BC file: bc_agar_5 
+generated BC file: bc_agar_6 
+generated BC file: bc_last_agar_source 
+generated BC file: bc_last_agar_1 
+generated BC file: bc_last_agar_2 
+generated BC file: bc_last_agar_3 
+generated BC file: bc_last_agar_4 
+generated BC file: bc_last_agar_5 
+generated BC file: bc_last_agar_6 
+generated BC file: bc_last_test 
+2022-02-01 19:39:58 | generate_bc_files_transfer.R done.----------------------- 
+
+2022-02-03 18:37:17 | generate_bc_files_transfer.R ---------------------------- 
+generated BC file: bc_assay 
+Warning messages:
+1: The `path` argument of `write_delim()` is deprecated as of readr 1.4.0.
+Please use the `file` argument instead.
+This warning is displayed once every 8 hours.
+Call `lifecycle::last_warnings()` to see where this warning was generated. 
+2: The `path` argument of `write_csv()` is deprecated as of readr 1.4.0.
+Please use the `file` argument instead.
+This warning is displayed once every 8 hours.
+Call `lifecycle::last_warnings()` to see where this warning was generated. 
+generated BC file: bc_last_assay 
+generated BC file: bc_on 
+generated BC file: bc_test 
+generated BC file: bc_agar_1 
+generated BC file: bc_agar_2 
+generated BC file: bc_agar_3 
+generated BC file: bc_agar_4 
+generated BC file: bc_agar_5 
+generated BC file: bc_agar_6 
+generated BC file: bc_last_agar_source 
+generated BC file: bc_last_agar_1 
+generated BC file: bc_last_agar_2 
+generated BC file: bc_last_agar_3 
+generated BC file: bc_last_agar_4 
+generated BC file: bc_last_agar_5 
+generated BC file: bc_last_agar_6 
+generated BC file: bc_last_test 
+2022-02-03 18:37:18 | generate_bc_files_transfer.R done.----------------------- 
+
+2022-02-03 18:49:09 | generate_bc_files_transfer.R ---------------------------- 
+generated BC file: bc_assay 
+Warning messages:
+1: The `path` argument of `write_delim()` is deprecated as of readr 1.4.0.
+Please use the `file` argument instead.
+This warning is displayed once every 8 hours.
+Call `lifecycle::last_warnings()` to see where this warning was generated. 
+2: The `path` argument of `write_csv()` is deprecated as of readr 1.4.0.
+Please use the `file` argument instead.
+This warning is displayed once every 8 hours.
+Call `lifecycle::last_warnings()` to see where this warning was generated. 
+generated BC file: bc_last_assay 
+generated BC file: bc_on 
+generated BC file: bc_test 
+generated BC file: bc_agar_1 
+generated BC file: bc_agar_2 
+generated BC file: bc_agar_3 
+generated BC file: bc_agar_4 
+generated BC file: bc_agar_5 
+generated BC file: bc_agar_6 
+generated BC file: bc_last_agar_source 
+generated BC file: bc_last_agar_1 
+generated BC file: bc_last_agar_2 
+generated BC file: bc_last_agar_3 
+generated BC file: bc_last_agar_4 
+generated BC file: bc_last_agar_5 
+generated BC file: bc_last_agar_6 
+generated BC file: bc_last_test 
+2022-02-03 18:49:09 | generate_bc_files_transfer.R done.----------------------- 
+
+2022-02-05 12:30:23 | generate_bc_files_transfer.R ---------------------------- 
+generated BC file: bc_assay 
+Warning messages:
+1: The `path` argument of `write_delim()` is deprecated as of readr 1.4.0.
+Please use the `file` argument instead.
+This warning is displayed once every 8 hours.
+Call `lifecycle::last_warnings()` to see where this warning was generated. 
+2: The `path` argument of `write_csv()` is deprecated as of readr 1.4.0.
+Please use the `file` argument instead.
+This warning is displayed once every 8 hours.
+Call `lifecycle::last_warnings()` to see where this warning was generated. 
+generated BC file: bc_last_assay 
+generated BC file: bc_on 
+generated BC file: bc_test 
+generated BC file: bc_agar_1 
+generated BC file: bc_agar_2 
+generated BC file: bc_agar_3 
+generated BC file: bc_agar_4 
+generated BC file: bc_agar_5 
+generated BC file: bc_agar_6 
+generated BC file: bc_last_agar_source 
+generated BC file: bc_last_agar_1 
+generated BC file: bc_last_agar_2 
+generated BC file: bc_last_agar_3 
+generated BC file: bc_last_agar_4 
+generated BC file: bc_last_agar_5 
+generated BC file: bc_last_agar_6 
+generated BC file: bc_last_test 
+2022-02-05 12:30:24 | generate_bc_files_transfer.R done.----------------------- 
+
+2022-02-05 12:35:21 | generate_bc_files_transfer.R ---------------------------- 
+generated BC file: bc_assay 
+Warning messages:
+1: The `path` argument of `write_delim()` is deprecated as of readr 1.4.0.
+Please use the `file` argument instead.
+This warning is displayed once every 8 hours.
+Call `lifecycle::last_warnings()` to see where this warning was generated. 
+2: The `path` argument of `write_csv()` is deprecated as of readr 1.4.0.
+Please use the `file` argument instead.
+This warning is displayed once every 8 hours.
+Call `lifecycle::last_warnings()` to see where this warning was generated. 
+generated BC file: bc_last_assay 
+generated BC file: bc_on 
+generated BC file: bc_test 
+generated BC file: bc_agar_1 
+generated BC file: bc_agar_2 
+generated BC file: bc_agar_3 
+generated BC file: bc_agar_4 
+generated BC file: bc_agar_5 
+generated BC file: bc_agar_6 
+generated BC file: bc_last_agar_source 
+generated BC file: bc_last_agar_1 
+generated BC file: bc_last_agar_2 
+generated BC file: bc_last_agar_3 
+generated BC file: bc_last_agar_4 
+generated BC file: bc_last_agar_5 
+generated BC file: bc_last_agar_6 
+generated BC file: bc_last_test 
+2022-02-05 12:35:21 | generate_bc_files_transfer.R done.----------------------- 
+
+2022-02-06 16:15:35 | generate_bc_files_transfer.R ---------------------------- 
+generated BC file: bc_assay 
+Warning messages:
+1: The `path` argument of `write_delim()` is deprecated as of readr 1.4.0.
+Please use the `file` argument instead.
+This warning is displayed once every 8 hours.
+Call `lifecycle::last_warnings()` to see where this warning was generated. 
+2: The `path` argument of `write_csv()` is deprecated as of readr 1.4.0.
+Please use the `file` argument instead.
+This warning is displayed once every 8 hours.
+Call `lifecycle::last_warnings()` to see where this warning was generated. 
+generated BC file: bc_last_assay 
+generated BC file: bc_on 
+generated BC file: bc_test 
+generated BC file: bc_agar_1 
+generated BC file: bc_agar_2 
+generated BC file: bc_agar_3 
+generated BC file: bc_agar_4 
+generated BC file: bc_agar_5 
+generated BC file: bc_agar_6 
+generated BC file: bc_last_agar_source 
+generated BC file: bc_last_agar_1 
+generated BC file: bc_last_agar_2 
+generated BC file: bc_last_agar_3 
+generated BC file: bc_last_agar_4 
+generated BC file: bc_last_agar_5 
+generated BC file: bc_last_agar_6 
+generated BC file: bc_last_test 
+2022-02-06 16:15:35 | generate_bc_files_transfer.R done.----------------------- 
+
+2022-02-07 12:26:13 | generate_bc_files_transfer.R ---------------------------- 
+generated BC file: bc_assay 
+Warning messages:
+1: The `path` argument of `write_delim()` is deprecated as of readr 1.4.0.
+Please use the `file` argument instead.
+This warning is displayed once every 8 hours.
+Call `lifecycle::last_warnings()` to see where this warning was generated. 
+2: The `path` argument of `write_csv()` is deprecated as of readr 1.4.0.
+Please use the `file` argument instead.
+This warning is displayed once every 8 hours.
+Call `lifecycle::last_warnings()` to see where this warning was generated. 
+generated BC file: bc_last_assay 
+generated BC file: bc_on 
+generated BC file: bc_test 
+generated BC file: bc_agar_1 
+generated BC file: bc_agar_2 
+generated BC file: bc_agar_3 
+generated BC file: bc_agar_4 
+generated BC file: bc_agar_5 
+generated BC file: bc_agar_6 
+generated BC file: bc_last_agar_source 
+generated BC file: bc_last_agar_1 
+generated BC file: bc_last_agar_2 
+generated BC file: bc_last_agar_3 
+generated BC file: bc_last_agar_4 
+generated BC file: bc_last_agar_5 
+generated BC file: bc_last_agar_6 
+generated BC file: bc_last_test 
+2022-02-07 12:26:14 | generate_bc_files_transfer.R done.----------------------- 
+
+2022-02-09 11:27:47 | generate_bc_files_transfer.R ---------------------------- 
+generated BC file: bc_assay 
+Warning messages:
+1: The `path` argument of `write_delim()` is deprecated as of readr 1.4.0.
+Please use the `file` argument instead.
+This warning is displayed once every 8 hours.
+Call `lifecycle::last_warnings()` to see where this warning was generated. 
+2: The `path` argument of `write_csv()` is deprecated as of readr 1.4.0.
+Please use the `file` argument instead.
+This warning is displayed once every 8 hours.
+Call `lifecycle::last_warnings()` to see where this warning was generated. 
+generated BC file: bc_last_assay 
+generated BC file: bc_on 
+generated BC file: bc_test 
+generated BC file: bc_agar_1 
+generated BC file: bc_agar_2 
+generated BC file: bc_agar_3 
+generated BC file: bc_agar_4 
+generated BC file: bc_agar_5 
+generated BC file: bc_agar_6 
+generated BC file: bc_last_agar_source 
+generated BC file: bc_last_agar_1 
+generated BC file: bc_last_agar_2 
+generated BC file: bc_last_agar_3 
+generated BC file: bc_last_agar_4 
+generated BC file: bc_last_agar_5 
+generated BC file: bc_last_agar_6 
+generated BC file: bc_last_test 
+2022-02-09 11:27:47 | generate_bc_files_transfer.R done.----------------------- 
+
+2022-02-09 11:31:44 | generate_bc_files_transfer.R ---------------------------- 
+generated BC file: bc_assay 
+Warning messages:
+1: The `path` argument of `write_delim()` is deprecated as of readr 1.4.0.
+Please use the `file` argument instead.
+This warning is displayed once every 8 hours.
+Call `lifecycle::last_warnings()` to see where this warning was generated. 
+2: The `path` argument of `write_csv()` is deprecated as of readr 1.4.0.
+Please use the `file` argument instead.
+This warning is displayed once every 8 hours.
+Call `lifecycle::last_warnings()` to see where this warning was generated. 
+generated BC file: bc_last_assay 
+generated BC file: bc_on 
+generated BC file: bc_test 
+generated BC file: bc_agar_1 
+generated BC file: bc_agar_2 
+generated BC file: bc_agar_3 
+generated BC file: bc_agar_4 
+generated BC file: bc_agar_5 
+generated BC file: bc_agar_6 
+generated BC file: bc_last_agar_source 
+generated BC file: bc_last_agar_1 
+generated BC file: bc_last_agar_2 
+generated BC file: bc_last_agar_3 
+generated BC file: bc_last_agar_4 
+generated BC file: bc_last_agar_5 
+generated BC file: bc_last_agar_6 
+generated BC file: bc_last_test 
+2022-02-09 11:31:44 | generate_bc_files_transfer.R done.----------------------- 
+
+2022-02-10 19:17:29 | generate_bc_files_transfer.R ---------------------------- 
+generated BC file: bc_assay 
+Warning messages:
+1: The `path` argument of `write_delim()` is deprecated as of readr 1.4.0.
+Please use the `file` argument instead.
+This warning is displayed once every 8 hours.
+Call `lifecycle::last_warnings()` to see where this warning was generated. 
+2: The `path` argument of `write_csv()` is deprecated as of readr 1.4.0.
+Please use the `file` argument instead.
+This warning is displayed once every 8 hours.
+Call `lifecycle::last_warnings()` to see where this warning was generated. 
+generated BC file: bc_last_assay 
+generated BC file: bc_on 
+generated BC file: bc_test 
+generated BC file: bc_agar_1 
+generated BC file: bc_agar_2 
+generated BC file: bc_agar_3 
+generated BC file: bc_agar_4 
+generated BC file: bc_agar_5 
+generated BC file: bc_agar_6 
+generated BC file: bc_last_agar_source 
+generated BC file: bc_last_agar_1 
+generated BC file: bc_last_agar_2 
+generated BC file: bc_last_agar_3 
+generated BC file: bc_last_agar_4 
+generated BC file: bc_last_agar_5 
+generated BC file: bc_last_agar_6 
+generated BC file: bc_last_test 
+2022-02-10 19:17:29 | generate_bc_files_transfer.R done.----------------------- 
+
+2022-02-11 14:25:08 | generate_bc_files_transfer.R ---------------------------- 
+generated BC file: bc_assay 
+Warning messages:
+1: The `path` argument of `write_delim()` is deprecated as of readr 1.4.0.
+Please use the `file` argument instead.
+This warning is displayed once every 8 hours.
+Call `lifecycle::last_warnings()` to see where this warning was generated. 
+2: The `path` argument of `write_csv()` is deprecated as of readr 1.4.0.
+Please use the `file` argument instead.
+This warning is displayed once every 8 hours.
+Call `lifecycle::last_warnings()` to see where this warning was generated. 
+generated BC file: bc_last_assay 
+generated BC file: bc_on 
+generated BC file: bc_test 
+generated BC file: bc_agar_1 
+generated BC file: bc_agar_2 
+generated BC file: bc_agar_3 
+generated BC file: bc_agar_4 
+generated BC file: bc_agar_5 
+generated BC file: bc_agar_6 
+generated BC file: bc_last_agar_source 
+generated BC file: bc_last_agar_1 
+generated BC file: bc_last_agar_2 
+generated BC file: bc_last_agar_3 
+generated BC file: bc_last_agar_4 
+generated BC file: bc_last_agar_5 
+generated BC file: bc_last_agar_6 
+generated BC file: bc_last_test 
+2022-02-11 14:25:08 | generate_bc_files_transfer.R done.----------------------- 
+
+2022-02-13 13:37:03 | generate_bc_files_transfer.R ---------------------------- 
+generated BC file: bc_assay 
+Warning messages:
+1: The `path` argument of `write_delim()` is deprecated as of readr 1.4.0.
+Please use the `file` argument instead.
+This warning is displayed once every 8 hours.
+Call `lifecycle::last_warnings()` to see where this warning was generated. 
+2: The `path` argument of `write_csv()` is deprecated as of readr 1.4.0.
+Please use the `file` argument instead.
+This warning is displayed once every 8 hours.
+Call `lifecycle::last_warnings()` to see where this warning was generated. 
+generated BC file: bc_last_assay 
+generated BC file: bc_on 
+generated BC file: bc_test 
+generated BC file: bc_agar_1 
+generated BC file: bc_agar_2 
+generated BC file: bc_agar_3 
+generated BC file: bc_agar_4 
+generated BC file: bc_agar_5 
+generated BC file: bc_agar_6 
+generated BC file: bc_last_agar_source 
+generated BC file: bc_last_agar_1 
+generated BC file: bc_last_agar_2 
+generated BC file: bc_last_agar_3 
+generated BC file: bc_last_agar_4 
+generated BC file: bc_last_agar_5 
+generated BC file: bc_last_agar_6 
+generated BC file: bc_last_test 
+2022-02-13 13:37:04 | generate_bc_files_transfer.R done.----------------------- 
+
+2022-02-14 14:21:59 | generate_bc_files_transfer.R ---------------------------- 
+generated BC file: bc_assay 
+Warning messages:
+1: The `path` argument of `write_delim()` is deprecated as of readr 1.4.0.
+Please use the `file` argument instead.
+This warning is displayed once every 8 hours.
+Call `lifecycle::last_warnings()` to see where this warning was generated. 
+2: The `path` argument of `write_csv()` is deprecated as of readr 1.4.0.
+Please use the `file` argument instead.
+This warning is displayed once every 8 hours.
+Call `lifecycle::last_warnings()` to see where this warning was generated. 
+generated BC file: bc_last_assay 
+generated BC file: bc_on 
+generated BC file: bc_test 
+generated BC file: bc_agar_1 
+generated BC file: bc_agar_2 
+generated BC file: bc_agar_3 
+generated BC file: bc_agar_4 
+generated BC file: bc_agar_5 
+generated BC file: bc_agar_6 
+generated BC file: bc_last_agar_source 
+generated BC file: bc_last_agar_1 
+generated BC file: bc_last_agar_2 
+generated BC file: bc_last_agar_3 
+generated BC file: bc_last_agar_4 
+generated BC file: bc_last_agar_5 
+generated BC file: bc_last_agar_6 
+generated BC file: bc_last_test 
+2022-02-14 14:21:59 | generate_bc_files_transfer.R done.----------------------- 
+
+2022-02-15 10:49:06 | generate_bc_files_transfer.R ---------------------------- 
+generated BC file: bc_assay 
+Warning messages:
+1: The `path` argument of `write_delim()` is deprecated as of readr 1.4.0.
+Please use the `file` argument instead.
+This warning is displayed once every 8 hours.
+Call `lifecycle::last_warnings()` to see where this warning was generated. 
+2: The `path` argument of `write_csv()` is deprecated as of readr 1.4.0.
+Please use the `file` argument instead.
+This warning is displayed once every 8 hours.
+Call `lifecycle::last_warnings()` to see where this warning was generated. 
+generated BC file: bc_last_assay 
+generated BC file: bc_on 
+generated BC file: bc_test 
+generated BC file: bc_agar_1 
+generated BC file: bc_agar_2 
+generated BC file: bc_agar_3 
+generated BC file: bc_agar_4 
+generated BC file: bc_agar_5 
+generated BC file: bc_agar_6 
+generated BC file: bc_last_agar_source 
+generated BC file: bc_last_agar_1 
+generated BC file: bc_last_agar_2 
+generated BC file: bc_last_agar_3 
+generated BC file: bc_last_agar_4 
+generated BC file: bc_last_agar_5 
+generated BC file: bc_last_agar_6 
+generated BC file: bc_last_test 
+2022-02-15 10:49:06 | generate_bc_files_transfer.R done.----------------------- 
+
+2022-02-16 11:52:12 | generate_bc_files_transfer.R ---------------------------- 
+generated BC file: bc_assay 
+Warning messages:
+1: The `path` argument of `write_delim()` is deprecated as of readr 1.4.0.
+Please use the `file` argument instead.
+This warning is displayed once every 8 hours.
+Call `lifecycle::last_warnings()` to see where this warning was generated. 
+2: The `path` argument of `write_csv()` is deprecated as of readr 1.4.0.
+Please use the `file` argument instead.
+This warning is displayed once every 8 hours.
+Call `lifecycle::last_warnings()` to see where this warning was generated. 
+generated BC file: bc_last_assay 
+generated BC file: bc_on 
+generated BC file: bc_test 
+generated BC file: bc_agar_1 
+generated BC file: bc_agar_2 
+generated BC file: bc_agar_3 
+generated BC file: bc_agar_4 
+generated BC file: bc_agar_5 
+generated BC file: bc_agar_6 
+generated BC file: bc_last_agar_source 
+generated BC file: bc_last_agar_1 
+generated BC file: bc_last_agar_2 
+generated BC file: bc_last_agar_3 
+generated BC file: bc_last_agar_4 
+generated BC file: bc_last_agar_5 
+generated BC file: bc_last_agar_6 
+generated BC file: bc_last_test 
+2022-02-16 11:52:12 | generate_bc_files_transfer.R done.----------------------- 
+
+2022-02-17 12:36:43 | generate_bc_files_transfer.R ---------------------------- 
+generated BC file: bc_assay 
+Warning messages:
+1: The `path` argument of `write_delim()` is deprecated as of readr 1.4.0.
+Please use the `file` argument instead.
+This warning is displayed once every 8 hours.
+Call `lifecycle::last_warnings()` to see where this warning was generated. 
+2: The `path` argument of `write_csv()` is deprecated as of readr 1.4.0.
+Please use the `file` argument instead.
+This warning is displayed once every 8 hours.
+Call `lifecycle::last_warnings()` to see where this warning was generated. 
+generated BC file: bc_last_assay 
+generated BC file: bc_on 
+generated BC file: bc_test 
+generated BC file: bc_agar_1 
+generated BC file: bc_agar_2 
+generated BC file: bc_agar_3 
+generated BC file: bc_agar_4 
+generated BC file: bc_agar_5 
+generated BC file: bc_agar_6 
+generated BC file: bc_last_agar_source 
+generated BC file: bc_last_agar_1 
+generated BC file: bc_last_agar_2 
+generated BC file: bc_last_agar_3 
+generated BC file: bc_last_agar_4 
+generated BC file: bc_last_agar_5 
+generated BC file: bc_last_agar_6 
+generated BC file: bc_last_test 
+2022-02-17 12:36:44 | generate_bc_files_transfer.R done.----------------------- 
+
+2022-02-18 11:36:11 | generate_bc_files_transfer.R ---------------------------- 
+generated BC file: bc_assay 
+Warning messages:
+1: The `path` argument of `write_delim()` is deprecated as of readr 1.4.0.
+Please use the `file` argument instead.
+This warning is displayed once every 8 hours.
+Call `lifecycle::last_warnings()` to see where this warning was generated. 
+2: The `path` argument of `write_csv()` is deprecated as of readr 1.4.0.
+Please use the `file` argument instead.
+This warning is displayed once every 8 hours.
+Call `lifecycle::last_warnings()` to see where this warning was generated. 
+generated BC file: bc_last_assay 
+generated BC file: bc_on 
+generated BC file: bc_test 
+generated BC file: bc_agar_1 
+generated BC file: bc_agar_2 
+generated BC file: bc_agar_3 
+generated BC file: bc_agar_4 
+generated BC file: bc_agar_5 
+generated BC file: bc_agar_6 
+generated BC file: bc_last_agar_source 
+generated BC file: bc_last_agar_1 
+generated BC file: bc_last_agar_2 
+generated BC file: bc_last_agar_3 
+generated BC file: bc_last_agar_4 
+generated BC file: bc_last_agar_5 
+generated BC file: bc_last_agar_6 
+generated BC file: bc_last_test 
+2022-02-18 11:36:11 | generate_bc_files_transfer.R done.----------------------- 
+
+2022-02-20 12:52:21 | generate_bc_files_transfer.R ---------------------------- 
+generated BC file: bc_assay 
+Warning messages:
+1: The `path` argument of `write_delim()` is deprecated as of readr 1.4.0.
+Please use the `file` argument instead.
+This warning is displayed once every 8 hours.
+Call `lifecycle::last_warnings()` to see where this warning was generated. 
+2: The `path` argument of `write_csv()` is deprecated as of readr 1.4.0.
+Please use the `file` argument instead.
+This warning is displayed once every 8 hours.
+Call `lifecycle::last_warnings()` to see where this warning was generated. 
+generated BC file: bc_last_assay 
+generated BC file: bc_on 
+generated BC file: bc_test 
+generated BC file: bc_agar_1 
+generated BC file: bc_agar_2 
+generated BC file: bc_agar_3 
+generated BC file: bc_agar_4 
+generated BC file: bc_agar_5 
+generated BC file: bc_agar_6 
+generated BC file: bc_last_agar_source 
+generated BC file: bc_last_agar_1 
+generated BC file: bc_last_agar_2 
+generated BC file: bc_last_agar_3 
+generated BC file: bc_last_agar_4 
+generated BC file: bc_last_agar_5 
+generated BC file: bc_last_agar_6 
+generated BC file: bc_last_test 
+2022-02-20 12:52:21 | generate_bc_files_transfer.R done.----------------------- 
+
+2022-02-21 12:37:32 | generate_bc_files_transfer.R ---------------------------- 
+generated BC file: bc_assay 
+Warning messages:
+1: The `path` argument of `write_delim()` is deprecated as of readr 1.4.0.
+Please use the `file` argument instead.
+This warning is displayed once every 8 hours.
+Call `lifecycle::last_warnings()` to see where this warning was generated. 
+2: The `path` argument of `write_csv()` is deprecated as of readr 1.4.0.
+Please use the `file` argument instead.
+This warning is displayed once every 8 hours.
+Call `lifecycle::last_warnings()` to see where this warning was generated. 
+generated BC file: bc_last_assay 
+generated BC file: bc_on 
+generated BC file: bc_test 
+generated BC file: bc_agar_1 
+generated BC file: bc_agar_2 
+generated BC file: bc_agar_3 
+generated BC file: bc_agar_4 
+generated BC file: bc_agar_5 
+generated BC file: bc_agar_6 
+generated BC file: bc_last_agar_source 
+generated BC file: bc_last_agar_1 
+generated BC file: bc_last_agar_2 
+generated BC file: bc_last_agar_3 
+generated BC file: bc_last_agar_4 
+generated BC file: bc_last_agar_5 
+generated BC file: bc_last_agar_6 
+generated BC file: bc_last_test 
+2022-02-21 12:37:32 | generate_bc_files_transfer.R done.----------------------- 
+
+2022-02-22 12:10:11 | generate_bc_files_transfer.R ---------------------------- 
+generated BC file: bc_assay 
+Warning messages:
+1: The `path` argument of `write_delim()` is deprecated as of readr 1.4.0.
+Please use the `file` argument instead.
+This warning is displayed once every 8 hours.
+Call `lifecycle::last_warnings()` to see where this warning was generated. 
+2: The `path` argument of `write_csv()` is deprecated as of readr 1.4.0.
+Please use the `file` argument instead.
+This warning is displayed once every 8 hours.
+Call `lifecycle::last_warnings()` to see where this warning was generated. 
+generated BC file: bc_last_assay 
+generated BC file: bc_on 
+generated BC file: bc_test 
+generated BC file: bc_agar_1 
+generated BC file: bc_agar_2 
+generated BC file: bc_agar_3 
+generated BC file: bc_agar_4 
+generated BC file: bc_agar_5 
+generated BC file: bc_agar_6 
+generated BC file: bc_last_agar_source 
+generated BC file: bc_last_agar_1 
+generated BC file: bc_last_agar_2 
+generated BC file: bc_last_agar_3 
+generated BC file: bc_last_agar_4 
+generated BC file: bc_last_agar_5 
+generated BC file: bc_last_agar_6 
+generated BC file: bc_last_test 
+2022-02-22 12:10:11 | generate_bc_files_transfer.R done.----------------------- 
+
+2022-02-23 10:10:59 | generate_bc_files_transfer.R ---------------------------- 
+generated BC file: bc_assay 
+Warning messages:
+1: The `path` argument of `write_delim()` is deprecated as of readr 1.4.0.
+Please use the `file` argument instead.
+This warning is displayed once every 8 hours.
+Call `lifecycle::last_warnings()` to see where this warning was generated. 
+2: The `path` argument of `write_csv()` is deprecated as of readr 1.4.0.
+Please use the `file` argument instead.
+This warning is displayed once every 8 hours.
+Call `lifecycle::last_warnings()` to see where this warning was generated. 
+generated BC file: bc_last_assay 
+generated BC file: bc_on 
+generated BC file: bc_test 
+generated BC file: bc_agar_1 
+generated BC file: bc_agar_2 
+generated BC file: bc_agar_3 
+generated BC file: bc_agar_4 
+generated BC file: bc_agar_5 
+generated BC file: bc_agar_6 
+generated BC file: bc_last_agar_source 
+generated BC file: bc_last_agar_1 
+generated BC file: bc_last_agar_2 
+generated BC file: bc_last_agar_3 
+generated BC file: bc_last_agar_4 
+generated BC file: bc_last_agar_5 
+generated BC file: bc_last_agar_6 
+generated BC file: bc_last_test 
+2022-02-23 10:11:00 | generate_bc_files_transfer.R done.----------------------- 
+
+2022-02-25 11:26:49 | generate_bc_files_transfer.R ---------------------------- 
+generated BC file: bc_assay 
+Warning messages:
+1: The `path` argument of `write_delim()` is deprecated as of readr 1.4.0.
+Please use the `file` argument instead.
+This warning is displayed once every 8 hours.
+Call `lifecycle::last_warnings()` to see where this warning was generated. 
+2: The `path` argument of `write_csv()` is deprecated as of readr 1.4.0.
+Please use the `file` argument instead.
+This warning is displayed once every 8 hours.
+Call `lifecycle::last_warnings()` to see where this warning was generated. 
+generated BC file: bc_last_assay 
+generated BC file: bc_on 
+generated BC file: bc_test 
+generated BC file: bc_agar_1 
+generated BC file: bc_agar_2 
+generated BC file: bc_agar_3 
+generated BC file: bc_agar_4 
+generated BC file: bc_agar_5 
+generated BC file: bc_agar_6 
+generated BC file: bc_last_agar_source 
+generated BC file: bc_last_agar_1 
+generated BC file: bc_last_agar_2 
+generated BC file: bc_last_agar_3 
+generated BC file: bc_last_agar_4 
+generated BC file: bc_last_agar_5 
+generated BC file: bc_last_agar_6 
+generated BC file: bc_last_test 
+2022-02-25 11:26:49 | generate_bc_files_transfer.R done.----------------------- 
+
+2022-02-26 10:31:07 | generate_bc_files_transfer.R ---------------------------- 
+generated BC file: bc_assay 
+Warning messages:
+1: The `path` argument of `write_delim()` is deprecated as of readr 1.4.0.
+Please use the `file` argument instead.
+This warning is displayed once every 8 hours.
+Call `lifecycle::last_warnings()` to see where this warning was generated. 
+2: The `path` argument of `write_csv()` is deprecated as of readr 1.4.0.
+Please use the `file` argument instead.
+This warning is displayed once every 8 hours.
+Call `lifecycle::last_warnings()` to see where this warning was generated. 
+generated BC file: bc_last_assay 
+generated BC file: bc_on 
+generated BC file: bc_test 
+generated BC file: bc_agar_1 
+generated BC file: bc_agar_2 
+generated BC file: bc_agar_3 
+generated BC file: bc_agar_4 
+generated BC file: bc_agar_5 
+generated BC file: bc_agar_6 
+generated BC file: bc_last_agar_source 
+generated BC file: bc_last_agar_1 
+generated BC file: bc_last_agar_2 
+generated BC file: bc_last_agar_3 
+generated BC file: bc_last_agar_4 
+generated BC file: bc_last_agar_5 
+generated BC file: bc_last_agar_6 
+generated BC file: bc_last_test 
+2022-02-26 10:31:07 | generate_bc_files_transfer.R done.----------------------- 
+
+2022-02-27 10:38:53 | generate_bc_files_transfer.R ---------------------------- 
+generated BC file: bc_assay 
+Warning messages:
+1: The `path` argument of `write_delim()` is deprecated as of readr 1.4.0.
+Please use the `file` argument instead.
+This warning is displayed once every 8 hours.
+Call `lifecycle::last_warnings()` to see where this warning was generated. 
+2: The `path` argument of `write_csv()` is deprecated as of readr 1.4.0.
+Please use the `file` argument instead.
+This warning is displayed once every 8 hours.
+Call `lifecycle::last_warnings()` to see where this warning was generated. 
+generated BC file: bc_last_assay 
+generated BC file: bc_on 
+generated BC file: bc_test 
+generated BC file: bc_agar_1 
+generated BC file: bc_agar_2 
+generated BC file: bc_agar_3 
+generated BC file: bc_agar_4 
+generated BC file: bc_agar_5 
+generated BC file: bc_agar_6 
+generated BC file: bc_last_agar_source 
+generated BC file: bc_last_agar_1 
+generated BC file: bc_last_agar_2 
+generated BC file: bc_last_agar_3 
+generated BC file: bc_last_agar_4 
+generated BC file: bc_last_agar_5 
+generated BC file: bc_last_agar_6 
+generated BC file: bc_last_test 
+2022-02-27 10:38:54 | generate_bc_files_transfer.R done.----------------------- 
+
+2022-02-28 10:10:16 | generate_bc_files_transfer.R ---------------------------- 
+generated BC file: bc_assay 
+Warning messages:
+1: The `path` argument of `write_delim()` is deprecated as of readr 1.4.0.
+Please use the `file` argument instead.
+This warning is displayed once every 8 hours.
+Call `lifecycle::last_warnings()` to see where this warning was generated. 
+2: The `path` argument of `write_csv()` is deprecated as of readr 1.4.0.
+Please use the `file` argument instead.
+This warning is displayed once every 8 hours.
+Call `lifecycle::last_warnings()` to see where this warning was generated. 
+generated BC file: bc_last_assay 
+generated BC file: bc_on 
+generated BC file: bc_test 
+generated BC file: bc_agar_1 
+generated BC file: bc_agar_2 
+generated BC file: bc_agar_3 
+generated BC file: bc_agar_4 
+generated BC file: bc_agar_5 
+generated BC file: bc_agar_6 
+generated BC file: bc_last_agar_source 
+generated BC file: bc_last_agar_1 
+generated BC file: bc_last_agar_2 
+generated BC file: bc_last_agar_3 
+generated BC file: bc_last_agar_4 
+generated BC file: bc_last_agar_5 
+generated BC file: bc_last_agar_6 
+generated BC file: bc_last_test 
+2022-02-28 10:10:17 | generate_bc_files_transfer.R done.----------------------- 
+
+2022-03-01 09:30:08 | generate_bc_files_transfer.R ---------------------------- 
+generated BC file: bc_assay 
+Warning messages:
+1: The `path` argument of `write_delim()` is deprecated as of readr 1.4.0.
+Please use the `file` argument instead.
+This warning is displayed once every 8 hours.
+Call `lifecycle::last_warnings()` to see where this warning was generated. 
+2: The `path` argument of `write_csv()` is deprecated as of readr 1.4.0.
+Please use the `file` argument instead.
+This warning is displayed once every 8 hours.
+Call `lifecycle::last_warnings()` to see where this warning was generated. 
+generated BC file: bc_last_assay 
+generated BC file: bc_on 
+generated BC file: bc_test 
+generated BC file: bc_agar_1 
+generated BC file: bc_agar_2 
+generated BC file: bc_agar_3 
+generated BC file: bc_agar_4 
+generated BC file: bc_agar_5 
+generated BC file: bc_agar_6 
+generated BC file: bc_last_agar_source 
+generated BC file: bc_last_agar_1 
+generated BC file: bc_last_agar_2 
+generated BC file: bc_last_agar_3 
+generated BC file: bc_last_agar_4 
+generated BC file: bc_last_agar_5 
+generated BC file: bc_last_agar_6 
+generated BC file: bc_last_test 
+2022-03-01 09:30:08 | generate_bc_files_transfer.R done.----------------------- 
+
+2022-03-02 10:14:36 | generate_bc_files_transfer.R ---------------------------- 
+generated BC file: bc_assay 
+Warning messages:
+1: The `path` argument of `write_delim()` is deprecated as of readr 1.4.0.
+Please use the `file` argument instead.
+This warning is displayed once every 8 hours.
+Call `lifecycle::last_warnings()` to see where this warning was generated. 
+2: The `path` argument of `write_csv()` is deprecated as of readr 1.4.0.
+Please use the `file` argument instead.
+This warning is displayed once every 8 hours.
+Call `lifecycle::last_warnings()` to see where this warning was generated. 
+generated BC file: bc_last_assay 
+generated BC file: bc_on 
+generated BC file: bc_test 
+generated BC file: bc_agar_1 
+generated BC file: bc_agar_2 
+generated BC file: bc_agar_3 
+generated BC file: bc_agar_4 
+generated BC file: bc_agar_5 
+generated BC file: bc_agar_6 
+generated BC file: bc_last_agar_source 
+generated BC file: bc_last_agar_1 
+generated BC file: bc_last_agar_2 
+generated BC file: bc_last_agar_3 
+generated BC file: bc_last_agar_4 
+generated BC file: bc_last_agar_5 
+generated BC file: bc_last_agar_6 
+generated BC file: bc_last_test 
+2022-03-02 10:14:36 | generate_bc_files_transfer.R done.----------------------- 
+

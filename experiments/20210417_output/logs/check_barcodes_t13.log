@@ -1,0 +1,51 @@
+2021-05-03 13:55:35 | check_barcodes.R ---------------------------------------- 
+Experiment:
+  id             created output_directory exp_name n_plates
+1 13 2021-04-17 12:24:39  20210417_output   output        6
+
+Warning message:
+The `x` argument of `as_tibble.matrix()` must have unique column names if `.name_repair` is omitted as of tibble 2.0.0.
+Using compatibility `.name_repair`.
+This warning is displayed once every 8 hours.
+Call `lifecycle::last_warnings()` to see where this warning was generated. 
+All barcodes read ok?  FALSE 
+Some missing barcodes:
+   transfer run  desc plate_n    barcode ab
+1        12   1 assay       1 2021042901  N
+2        12   1 assay       2 2021042902  N
+3        12   1 assay       3 2021042903  N
+4        12   1 assay       4 2021042904  N
+5        12   1 assay       5 2021042905  N
+6        12   1 assay       6 2021042906  N
+7        13   1    on       1 2021042931  N
+8        12   1  test       1 2021042932  N
+9        12   1  test       1 2021042933  A
+10       12   1  test       1 2021042934  B
+11       12   1  test       1 2021042935 AB
+12       13   1 assay       1 2021050301  N
+13       13   1 assay       2 2021050302  N
+14       13   1 assay       3 2021050303  N
+15       13   1 assay       4 2021050304  N
+16       13   1 assay       5 2021050305  N
+17       13   1 assay       6 2021050306  N
+18       13   1  test       1 2021050332  N
+19       13   1  test       1 2021050333  A
+20       13   1  test       1 2021050334  B
+21       13   1  test       1 2021050335 AB
+
+2021-05-03 13:55:35 | check_barcodes.R done.----------------------------------- 
+
+2021-05-03 13:56:58 | check_barcodes.R ---------------------------------------- 
+Experiment:
+  id             created output_directory exp_name n_plates
+1 13 2021-04-17 12:24:39  20210417_output   output        6
+
+Warning message:
+The `x` argument of `as_tibble.matrix()` must have unique column names if `.name_repair` is omitted as of tibble 2.0.0.
+Using compatibility `.name_repair`.
+This warning is displayed once every 8 hours.
+Call `lifecycle::last_warnings()` to see where this warning was generated. 
+All barcodes read ok?  TRUE 
+no missing barcodes, as far as I know!
+2021-05-03 13:56:58 | check_barcodes.R done.----------------------------------- 
+

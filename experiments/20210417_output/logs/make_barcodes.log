@@ -1,0 +1,113 @@
+2021-04-17 14:24:46 | make_barcodes.R ----------------------------------------- 
+generated new barcodes 2021041701 to 2021041735 
+2021-04-17 14:24:46 | make_barcodes.R done.------------------------------------ 
+
+2021-04-18 14:20:55 | make_barcodes.R ----------------------------------------- 
+generated new barcodes 2021041801 to 2021041835 
+2021-04-18 14:20:55 | make_barcodes.R done.------------------------------------ 
+
+2021-04-19 14:14:25 | make_barcodes.R ----------------------------------------- 
+generated new barcodes 2021041901 to 2021041935 
+2021-04-19 14:14:25 | make_barcodes.R done.------------------------------------ 
+
+2021-04-20 13:09:34 | make_barcodes.R ----------------------------------------- 
+generated new barcodes 2021042001 to 2021042035 
+Error in open.connection(file, "wb") : cannot open the connection
+Calls: write_csv ... write_delim -> stream_delim -> open -> open.connection
+In addition: Warning message:
+In open.connection(file, "wb") :
+  cannot open file 'experiments/20210417_output/barcodes.csv': Permission denied
+Execution halted
+2021-04-20 13:09:45 | make_barcodes.R ----------------------------------------- 
+generated new barcodes 2021042001 to 2021042035 
+2021-04-20 13:09:45 | make_barcodes.R done.------------------------------------ 
+
+2021-04-21 14:16:16 | make_barcodes.R ----------------------------------------- 
+generated new barcodes 2021042101 to 2021042135 
+2021-04-21 14:16:16 | make_barcodes.R done.------------------------------------ 
+
+2021-04-22 11:29:34 | make_barcodes.R ----------------------------------------- 
+generated new barcodes 2021042201 to 2021042235 
+2021-04-22 11:29:34 | make_barcodes.R done.------------------------------------ 
+
+2021-04-23 15:50:34 | make_barcodes.R ----------------------------------------- 
+generated new barcodes 2021042301 to 2021042335 
+2021-04-23 15:50:34 | make_barcodes.R done.------------------------------------ 
+
+2021-04-24 16:34:39 | make_barcodes.R ----------------------------------------- 
+generated new barcodes 2021042401 to 2021042435 
+2021-04-24 16:34:39 | make_barcodes.R done.------------------------------------ 
+
+2021-04-25 15:44:03 | make_barcodes.R ----------------------------------------- 
+generated new barcodes 2021042501 to 2021042535 
+2021-04-25 15:44:03 | make_barcodes.R done.------------------------------------ 
+
+2021-04-26 10:41:49 | make_barcodes.R ----------------------------------------- 
+generated new barcodes 2021042601 to 2021042635 
+2021-04-26 10:41:49 | make_barcodes.R done.------------------------------------ 
+
+2021-04-27 13:33:32 | make_barcodes.R ----------------------------------------- 
+generated new barcodes 2021042701 to 2021042735 
+2021-04-27 13:33:33 | make_barcodes.R done.------------------------------------ 
+
+2021-04-28 13:00:45 | make_barcodes.R ----------------------------------------- 
+generated new barcodes 2021042801 to 2021042835 
+2021-04-28 13:00:45 | make_barcodes.R done.------------------------------------ 
+
+2021-04-29 10:37:18 | make_barcodes.R ----------------------------------------- 
+generated new barcodes 2021042901 to 2021042935 
+2021-04-29 10:37:18 | make_barcodes.R done.------------------------------------ 
+
+2021-04-29 19:20:04 | make_barcodes.R ----------------------------------------- 
+Warning message:
+Barcodes for transfer 12, run 1 allready present! 
+2021-04-29 19:20:04 | make_barcodes.R done.------------------------------------ 
+
+2021-05-03 13:44:02 | make_barcodes.R ----------------------------------------- 
+generated new barcodes 2021050301 to 2021050335 
+2021-05-03 13:44:02 | make_barcodes.R done.------------------------------------ 
+
+2021-05-04 15:10:47 | make_barcodes.R ----------------------------------------- 
+generated new barcodes 2021050401 to 2021050435 
+2021-05-04 15:10:47 | make_barcodes.R done.------------------------------------ 
+
+2021-05-06 11:39:25 | make_barcodes.R ----------------------------------------- 
+generated new barcodes 2021050601 to 2021050635 
+Error in open.connection(file, "wb") : cannot open the connection
+Calls: write_csv ... write_delim -> stream_delim -> open -> open.connection
+In addition: Warning message:
+In open.connection(file, "wb") :
+  cannot open file 'experiments/20210417_output/barcodes.csv': Permission denied
+Execution halted
+2021-05-06 11:45:34 | make_barcodes.R ----------------------------------------- 
+generated new barcodes 2021050601 to 2021050635 
+2021-05-06 11:45:34 | make_barcodes.R done.------------------------------------ 
+
+2021-05-07 13:42:53 | make_barcodes.R ----------------------------------------- 
+generated new barcodes 2021050701 to 2021050735 
+2021-05-07 13:42:53 | make_barcodes.R done.------------------------------------ 
+
+2021-05-08 14:38:45 | make_barcodes.R ----------------------------------------- 
+generated new barcodes 2021050801 to 2021050835 
+Error in open.connection(file, "wb") : cannot open the connection
+Calls: write_csv ... write_delim -> stream_delim -> open -> open.connection
+In addition: Warning message:
+In open.connection(file, "wb") :
+  cannot open file 'experiments/20210417_output/barcodes.csv': Permission denied
+Execution halted
+2021-05-08 14:46:01 | make_barcodes.R ----------------------------------------- 
+generated new barcodes 2021050801 to 2021050835 
+Error in open.connection(file, "wb") : cannot open the connection
+Calls: write_csv ... write_delim -> stream_delim -> open -> open.connection
+In addition: Warning message:
+In open.connection(file, "wb") :
+  cannot open file 'experiments/20210417_output/barcodes.csv': Permission denied
+Execution halted
+2021-05-08 14:46:17 | make_barcodes.R ----------------------------------------- 
+generated new barcodes 2021050801 to 2021050835 
+2021-05-08 14:46:17 | make_barcodes.R done.------------------------------------ 
+
+2021-05-10 11:53:36 | make_barcodes.R ----------------------------------------- 
+generated new barcodes 2021051001 to 2021051035 
+2021-05-10 11:53:36 | make_barcodes.R done.------------------------------------ 
+

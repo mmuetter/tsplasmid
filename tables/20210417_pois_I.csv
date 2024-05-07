@@ -1,0 +1,15 @@
+\begin{tabular}{llll}
+\toprule
+ & numerator &   No. Observations:   &     96 \\
+Dep. Variable: &  &  &  \\
+\midrule
+Model: & GLM &   Df Residuals:       &     72 \\
+Model Family: & Poisson &   Df Model:           &     23 \\
+Link Function: & Log &   Scale:              &   1.0000 \\
+Method: & IRLS &   Log-Likelihood:     &  -260.55 \\
+Date: & Sat, 27 Jan 2024 &   Deviance:           &   52.124 \\
+Time: & 21:13:29 &   Pearson chi2:       &   53.0 \\
+No. Iterations: & 8 &   Pseudo R-squ. (CS): &  1.000 \\
+Covariance Type: & nonrobust &                       &   \\
+\bottomrule
+\end{tabular}

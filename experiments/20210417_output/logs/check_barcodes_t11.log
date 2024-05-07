@@ -1,0 +1,78 @@
+2021-04-28 13:56:44 | check_barcodes.R ---------------------------------------- 
+Experiment:
+  id             created output_directory exp_name n_plates
+1 13 2021-04-17 12:24:39  20210417_output   output        6
+
+Warning message:
+The `x` argument of `as_tibble.matrix()` must have unique column names if `.name_repair` is omitted as of tibble 2.0.0.
+Using compatibility `.name_repair`.
+This warning is displayed once every 8 hours.
+Call `lifecycle::last_warnings()` to see where this warning was generated. 
+All barcodes read ok?  TRUE 
+DUPLICATE BARCODES!!
+          carrier cartridge position    barcode
+1  [StoreX_22Pos]         1        1 2021042625
+2  [StoreX_22Pos]         1        2 2021042626
+3  [StoreX_22Pos]         1        3 2021042627
+4  [StoreX_22Pos]         1        4 2021042628
+5  [StoreX_22Pos]         1        5 2021042629
+6  [StoreX_22Pos]         1        6 2021042630
+7  [StoreX_22Pos]         1       17 2021042725
+8  [StoreX_22Pos]         1       18 2021042726
+9  [StoreX_22Pos]         1       19 2021042727
+10 [StoreX_22Pos]         1       20 2021042728
+11 [StoreX_22Pos]         1       21 2021042729
+12 [StoreX_22Pos]         1       22 2021042730
+13 [StoreX_22Pos]         4        1 2021042625
+14 [StoreX_22Pos]         4        2 2021042626
+15 [StoreX_22Pos]         4        3 2021042627
+16 [StoreX_22Pos]         4        4 2021042628
+17 [StoreX_22Pos]         4        5 2021042629
+18 [StoreX_22Pos]         4        6 2021042630
+19 [StoreX_22Pos]         4       17 2021042725
+20 [StoreX_22Pos]         4       18 2021042726
+21 [StoreX_22Pos]         4       19 2021042727
+22 [StoreX_22Pos]         4       20 2021042728
+23 [StoreX_22Pos]         4       21 2021042729
+24 [StoreX_22Pos]         4       22 2021042730
+
+Some missing barcodes:
+   transfer run  desc plate_n    barcode ab
+1        10   1 assay       1 2021042701  N
+2        10   1 assay       2 2021042702  N
+3        10   1 assay       3 2021042703  N
+4        10   1 assay       4 2021042704  N
+5        10   1 assay       5 2021042705  N
+6        10   1 assay       6 2021042706  N
+7        11   1    on       1 2021042731  N
+8        10   1  test       1 2021042732  N
+9        10   1  test       1 2021042733  A
+10       10   1  test       1 2021042734  B
+11       10   1  test       1 2021042735 AB
+12       11   1 assay       1 2021042801  N
+13       11   1 assay       2 2021042802  N
+14       11   1 assay       3 2021042803  N
+15       11   1 assay       4 2021042804  N
+16       11   1 assay       5 2021042805  N
+17       11   1 assay       6 2021042806  N
+18       11   1  test       1 2021042832  N
+19       11   1  test       1 2021042833  A
+20       11   1  test       1 2021042834  B
+21       11   1  test       1 2021042835 AB
+
+2021-04-28 13:56:44 | check_barcodes.R done.----------------------------------- 
+
+2021-04-28 13:59:25 | check_barcodes.R ---------------------------------------- 
+Experiment:
+  id             created output_directory exp_name n_plates
+1 13 2021-04-17 12:24:39  20210417_output   output        6
+
+Warning message:
+The `x` argument of `as_tibble.matrix()` must have unique column names if `.name_repair` is omitted as of tibble 2.0.0.
+Using compatibility `.name_repair`.
+This warning is displayed once every 8 hours.
+Call `lifecycle::last_warnings()` to see where this warning was generated. 
+All barcodes read ok?  FALSE 
+no missing barcodes, as far as I know!
+2021-04-28 13:59:25 | check_barcodes.R done.----------------------------------- 
+

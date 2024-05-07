@@ -1,0 +1,333 @@
+2022-04-21 12:41:31 | check_barcodes.R ---------------------------------------- 
+Experiment:
+  id             created output_directory exp_name n_plates
+1 15 2022-04-12 09:10:57  20220412_output   output        6
+
+Warning message:
+The `x` argument of `as_tibble.matrix()` must have unique column names if `.name_repair` is omitted as of tibble 2.0.0.
+Using compatibility `.name_repair`.
+This warning is displayed once every 8 hours.
+Call `lifecycle::last_warnings()` to see where this warning was generated. 
+All barcodes read ok?  FALSE 
+DUPLICATE BARCODES!!
+   cartridge position barcode
+1          1        2      NG
+2          1        3      NG
+3          1        4      NG
+4          1        5      NG
+5          1        6      NG
+6          1        7      NG
+7          1        8      NG
+8          1        9      NG
+9          1       10      NG
+10         1       11      NG
+11         1       12      NG
+12         1       13      NG
+13         1       14      NG
+14         1       15      NG
+15         1       16      NG
+16         1       17      NG
+17         1       18      NG
+18         1       19      NG
+19         1       20      NG
+20         1       21      NG
+21         1       22      NG
+22         3        1      NG
+23         3        2      NG
+24         3        3      NG
+25         3        4      NG
+26         3        5      NG
+27         3        6      NG
+28         3        7      NG
+29         3        8      NG
+30         3        9      NG
+31         3       10      NG
+32         3       11      NG
+33         3       12      NG
+34         3       17      NG
+35         3       18      NG
+36         3       19      NG
+37         3       20      NG
+38         4        1      NG
+39         4        2      NG
+40         4        3      NG
+41         4        4      NG
+42         4        5      NG
+43         4        6      NG
+44         4        7      NG
+45         4        8      NG
+46         4        9      NG
+47         4       10      NG
+48         4       11      NG
+49         4       12      NG
+50         4       14      NG
+51         4       15      NG
+52         4       16      NG
+53         4       17      NG
+54         4       18      NG
+55         4       19      NG
+56         5        1      NG
+57         5        2      NG
+58         5        3      NG
+59         5        4      NG
+60         5        5      NG
+61         5        6      NG
+62         5        8      NG
+63         5        9      NG
+64         5       10      NG
+65         5       11      NG
+66         5       12      NG
+67         5       13      NG
+68         5       15      NG
+69         5       16      NG
+70         5       17      NG
+71         5       18      NG
+72         5       19      NG
+73         5       20      NG
+74         5       22      NG
+
+Some missing barcodes:
+   transfer run  desc plate_n    barcode ab
+1         6   1  agar       1 2022041907  N
+2         6   1  agar       2 2022041908  N
+3         6   1  agar       3 2022041909  N
+4         6   1  agar       4 2022041910  N
+5         6   1  agar       5 2022041911  N
+6         6   1  agar       6 2022041912  N
+7         6   1  agar       1 2022041913  A
+8         6   1  agar       2 2022041914  A
+9         6   1  agar       3 2022041915  A
+10        6   1  agar       4 2022041916  A
+11        6   1  agar       5 2022041917  A
+12        6   1  agar       6 2022041918  A
+13        6   1  agar       1 2022041919  B
+14        6   1  agar       2 2022041920  B
+15        6   1  agar       3 2022041921  B
+16        6   1  agar       4 2022041922  B
+17        6   1  agar       5 2022041923  B
+18        6   1  agar       6 2022041924  B
+19        6   1  agar       1 2022041925 AB
+20        6   1  agar       2 2022041926 AB
+21        6   1  agar       3 2022041927 AB
+22        6   1  agar       4 2022041928 AB
+23        6   1  agar       5 2022041929 AB
+24        6   1  agar       6 2022041930 AB
+25        7   1 assay       1 2022042001  N
+26        7   1 assay       2 2022042002  N
+27        7   1 assay       3 2022042003  N
+28        7   1 assay       4 2022042004  N
+29        7   1 assay       5 2022042005  N
+30        7   1 assay       6 2022042006  N
+31        7   1  agar       1 2022042007  N
+32        7   1  agar       2 2022042008  N
+33        7   1  agar       3 2022042009  N
+34        7   1  agar       4 2022042010  N
+35        7   1  agar       5 2022042011  N
+36        7   1  agar       6 2022042012  N
+37        7   1  agar       1 2022042013  A
+38        7   1  agar       2 2022042014  A
+39        7   1  agar       3 2022042015  A
+40        7   1  agar       4 2022042016  A
+41        7   1  agar       5 2022042017  A
+42        7   1  agar       6 2022042018  A
+43        7   1  agar       1 2022042019  B
+44        7   1  agar       2 2022042020  B
+45        7   1  agar       3 2022042021  B
+46        7   1  agar       4 2022042022  B
+47        7   1  agar       5 2022042023  B
+48        7   1  agar       6 2022042024  B
+49        7   1  agar       1 2022042025 AB
+50        7   1  agar       2 2022042026 AB
+51        7   1  agar       3 2022042027 AB
+52        7   1  agar       4 2022042028 AB
+53        7   1  agar       5 2022042029 AB
+54        7   1  agar       6 2022042030 AB
+55        8   1    on       1 2022042031  N
+56        7   1  test       1 2022042032  N
+57        7   1  test       1 2022042033  A
+58        7   1  test       1 2022042034  B
+59        7   1  test       1 2022042035 AB
+60        8   1 assay       1 2022042101  N
+61        8   1 assay       2 2022042102  N
+62        8   1 assay       3 2022042103  N
+63        8   1 assay       4 2022042104  N
+64        8   1 assay       5 2022042105  N
+65        8   1 assay       6 2022042106  N
+66        8   1  test       1 2022042132  N
+67        8   1  test       1 2022042133  A
+68        8   1  test       1 2022042134  B
+69        8   1  test       1 2022042135 AB
+
+2022-04-21 12:41:31 | check_barcodes.R done.----------------------------------- 
+
+2022-04-21 12:44:46 | check_barcodes.R ---------------------------------------- 
+Experiment:
+  id             created output_directory exp_name n_plates
+1 15 2022-04-12 09:10:57  20220412_output   output        6
+
+Warning message:
+The `x` argument of `as_tibble.matrix()` must have unique column names if `.name_repair` is omitted as of tibble 2.0.0.
+Using compatibility `.name_repair`.
+This warning is displayed once every 8 hours.
+Call `lifecycle::last_warnings()` to see where this warning was generated. 
+All barcodes read ok?  TRUE 
+DUPLICATE BARCODES!!
+   cartridge position barcode
+1          1        1      NG
+2          1        2      NG
+3          1        3      NG
+4          1        4      NG
+5          1        5      NG
+6          1        6      NG
+7          1        8      NG
+8          1        9      NG
+9          1       10      NG
+10         1       11      NG
+11         1       12      NG
+12         1       13      NG
+13         1       15      NG
+14         1       16      NG
+15         1       17      NG
+16         1       18      NG
+17         3        1      NG
+18         3        2      NG
+19         3        3      NG
+20         3        4      NG
+21         3        5      NG
+22         3        6      NG
+23         3        7      NG
+24         3        8      NG
+25         3        9      NG
+26         3       10      NG
+27         3       11      NG
+28         3       12      NG
+29         3       17      NG
+30         3       18      NG
+31         3       19      NG
+32         3       20      NG
+33         4        1      NG
+34         4        2      NG
+35         4        3      NG
+36         4        4      NG
+37         4        5      NG
+38         4        6      NG
+39         4        7      NG
+40         4        8      NG
+41         4        9      NG
+42         4       10      NG
+43         4       11      NG
+44         4       12      NG
+45         4       14      NG
+46         4       15      NG
+47         4       16      NG
+48         4       17      NG
+49         4       18      NG
+50         4       19      NG
+51         5        1      NG
+52         5        2      NG
+53         5        3      NG
+54         5        4      NG
+55         5        5      NG
+56         5        6      NG
+57         5        8      NG
+58         5        9      NG
+59         5       10      NG
+60         5       11      NG
+61         5       12      NG
+62         5       13      NG
+63         5       15      NG
+64         5       16      NG
+65         5       17      NG
+66         5       18      NG
+67         5       19      NG
+68         5       20      NG
+69         5       22      NG
+
+Some missing barcodes:
+   transfer run  desc plate_n    barcode ab
+1         6   1  agar       1 2022041907  N
+2         6   1  agar       2 2022041908  N
+3         6   1  agar       3 2022041909  N
+4         6   1  agar       4 2022041910  N
+5         6   1  agar       5 2022041911  N
+6         6   1  agar       6 2022041912  N
+7         6   1  agar       1 2022041913  A
+8         6   1  agar       2 2022041914  A
+9         6   1  agar       3 2022041915  A
+10        6   1  agar       4 2022041916  A
+11        6   1  agar       5 2022041917  A
+12        6   1  agar       6 2022041918  A
+13        6   1  agar       1 2022041919  B
+14        6   1  agar       2 2022041920  B
+15        6   1  agar       3 2022041921  B
+16        6   1  agar       4 2022041922  B
+17        6   1  agar       5 2022041923  B
+18        6   1  agar       6 2022041924  B
+19        6   1  agar       1 2022041925 AB
+20        6   1  agar       2 2022041926 AB
+21        6   1  agar       3 2022041927 AB
+22        6   1  agar       4 2022041928 AB
+23        6   1  agar       5 2022041929 AB
+24        6   1  agar       6 2022041930 AB
+25        7   1 assay       1 2022042001  N
+26        7   1 assay       2 2022042002  N
+27        7   1 assay       3 2022042003  N
+28        7   1 assay       4 2022042004  N
+29        7   1 assay       5 2022042005  N
+30        7   1 assay       6 2022042006  N
+31        7   1  agar       1 2022042007  N
+32        7   1  agar       2 2022042008  N
+33        7   1  agar       3 2022042009  N
+34        7   1  agar       4 2022042010  N
+35        7   1  agar       5 2022042011  N
+36        7   1  agar       6 2022042012  N
+37        7   1  agar       1 2022042013  A
+38        7   1  agar       2 2022042014  A
+39        7   1  agar       3 2022042015  A
+40        7   1  agar       4 2022042016  A
+41        7   1  agar       5 2022042017  A
+42        7   1  agar       6 2022042018  A
+43        7   1  agar       1 2022042019  B
+44        7   1  agar       2 2022042020  B
+45        7   1  agar       3 2022042021  B
+46        7   1  agar       4 2022042022  B
+47        7   1  agar       5 2022042023  B
+48        7   1  agar       6 2022042024  B
+49        7   1  agar       1 2022042025 AB
+50        7   1  agar       2 2022042026 AB
+51        7   1  agar       3 2022042027 AB
+52        7   1  agar       4 2022042028 AB
+53        7   1  agar       5 2022042029 AB
+54        7   1  agar       6 2022042030 AB
+55        8   1    on       1 2022042031  N
+56        7   1  test       1 2022042032  N
+57        7   1  test       1 2022042033  A
+58        7   1  test       1 2022042034  B
+59        7   1  test       1 2022042035 AB
+60        8   1 assay       1 2022042101  N
+61        8   1 assay       2 2022042102  N
+62        8   1 assay       3 2022042103  N
+63        8   1 assay       4 2022042104  N
+64        8   1 assay       5 2022042105  N
+65        8   1 assay       6 2022042106  N
+66        8   1  test       1 2022042132  N
+67        8   1  test       1 2022042133  A
+68        8   1  test       1 2022042134  B
+69        8   1  test       1 2022042135 AB
+
+2022-04-21 12:44:46 | check_barcodes.R done.----------------------------------- 
+
+2022-04-21 12:56:24 | check_barcodes.R ---------------------------------------- 
+Experiment:
+  id             created output_directory exp_name n_plates
+1 15 2022-04-12 09:10:57  20220412_output   output        6
+
+Warning message:
+The `x` argument of `as_tibble.matrix()` must have unique column names if `.name_repair` is omitted as of tibble 2.0.0.
+Using compatibility `.name_repair`.
+This warning is displayed once every 8 hours.
+Call `lifecycle::last_warnings()` to see where this warning was generated. 
+All barcodes read ok?  TRUE 
+no missing barcodes, as far as I know!
+2022-04-21 12:56:24 | check_barcodes.R done.----------------------------------- 
+

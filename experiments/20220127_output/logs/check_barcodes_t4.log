@@ -1,0 +1,117 @@
+2022-01-31 11:41:25 | check_barcodes.R ---------------------------------------- 
+Experiment:
+  id             created output_directory exp_name n_plates
+1 14 2022-01-27 13:02:19  20220127_output   output        6
+
+Warning message:
+The `x` argument of `as_tibble.matrix()` must have unique column names if `.name_repair` is omitted as of tibble 2.0.0.
+Using compatibility `.name_repair`.
+This warning is displayed once every 8 hours.
+Call `lifecycle::last_warnings()` to see where this warning was generated. 
+All barcodes read ok?  FALSE 
+Some missing barcodes:
+   transfer run desc plate_n    barcode ab
+1         2   1 agar       1 2022012913  A
+2         2   1 agar       2 2022012914  A
+3         2   1 agar       3 2022012915  A
+4         2   1 agar       4 2022012916  A
+5         2   1 agar       5 2022012917  A
+6         2   1 agar       6 2022012918  A
+7         2   1 agar       1 2022012919  B
+8         2   1 agar       2 2022012920  B
+9         2   1 agar       3 2022012921  B
+10        2   1 agar       4 2022012922  B
+11        2   1 agar       5 2022012923  B
+12        2   1 agar       6 2022012924  B
+13        2   1 agar       1 2022012925 AB
+14        2   1 agar       2 2022012926 AB
+15        2   1 agar       3 2022012927 AB
+16        2   1 agar       4 2022012928 AB
+17        2   1 agar       5 2022012929 AB
+18        2   1 agar       6 2022012930 AB
+
+2022-01-31 11:41:25 | check_barcodes.R done.----------------------------------- 
+
+2022-01-31 11:47:39 | check_barcodes.R ---------------------------------------- 
+Experiment:
+  id             created output_directory exp_name n_plates
+1 14 2022-01-27 13:02:19  20220127_output   output        6
+
+Warning message:
+The `x` argument of `as_tibble.matrix()` must have unique column names if `.name_repair` is omitted as of tibble 2.0.0.
+Using compatibility `.name_repair`.
+This warning is displayed once every 8 hours.
+Call `lifecycle::last_warnings()` to see where this warning was generated. 
+All barcodes read ok?  TRUE 
+DUPLICATE BARCODES!!
+   cartridge position    barcode
+1          1        1 2022013001
+2          1        2 2022013002
+3          1        3 2022013003
+4          1        4 2022013004
+5          1        5 2022013005
+6          1        6 2022013006
+7          1        8 2022013032
+8          1        9 2022013033
+9          1       10 2022013034
+10         1       11 2022013035
+11         1       12 2022012907
+12         1       13 2022012908
+13         1       14 2022012909
+14         1       15 2022012910
+15         1       16 2022012911
+16         1       17 2022012912
+17         5        1 2022013001
+18         5        2 2022013002
+19         5        3 2022013003
+20         5        4 2022013004
+21         5        5 2022013005
+22         5        6 2022013006
+23         5        8 2022013032
+24         5        9 2022013033
+25         5       10 2022013034
+26         5       11 2022013035
+27         5       12 2022012907
+28         5       13 2022012908
+29         5       14 2022012909
+30         5       15 2022012910
+31         5       16 2022012911
+32         5       17 2022012912
+
+Some missing barcodes:
+   transfer run desc plate_n    barcode ab
+1         2   1 agar       1 2022012913  A
+2         2   1 agar       2 2022012914  A
+3         2   1 agar       3 2022012915  A
+4         2   1 agar       4 2022012916  A
+5         2   1 agar       5 2022012917  A
+6         2   1 agar       6 2022012918  A
+7         2   1 agar       1 2022012919  B
+8         2   1 agar       2 2022012920  B
+9         2   1 agar       3 2022012921  B
+10        2   1 agar       4 2022012922  B
+11        2   1 agar       5 2022012923  B
+12        2   1 agar       6 2022012924  B
+13        2   1 agar       1 2022012925 AB
+14        2   1 agar       2 2022012926 AB
+15        2   1 agar       3 2022012927 AB
+16        2   1 agar       4 2022012928 AB
+17        2   1 agar       5 2022012929 AB
+18        2   1 agar       6 2022012930 AB
+
+2022-01-31 11:47:39 | check_barcodes.R done.----------------------------------- 
+
+2022-01-31 11:50:52 | check_barcodes.R ---------------------------------------- 
+Experiment:
+  id             created output_directory exp_name n_plates
+1 14 2022-01-27 13:02:19  20220127_output   output        6
+
+Warning message:
+The `x` argument of `as_tibble.matrix()` must have unique column names if `.name_repair` is omitted as of tibble 2.0.0.
+Using compatibility `.name_repair`.
+This warning is displayed once every 8 hours.
+Call `lifecycle::last_warnings()` to see where this warning was generated. 
+All barcodes read ok?  TRUE 
+no missing barcodes, as far as I know!
+2022-01-31 11:50:52 | check_barcodes.R done.----------------------------------- 
+

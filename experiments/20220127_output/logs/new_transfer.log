@@ -1,0 +1,1576 @@
+2022-01-27 14:02:20 | new_transfer.R ------------------------------------------ 
+Experiment: 
+# A tibble: 1 x 5
+     id created             output_directory exp_name n_plates
+  <int> <dttm>              <chr>            <chr>       <int>
+1    14 2022-01-27 13:02:19 20220127_output  output          6
+turnover:
+ A_r AB_r  B_r   bl   UI   wt 
+  10    5   10    2   14   55 
+
+Infection: ( 0 )< table of extent 0 >
+
+Treatment: 
+ - Plate  1
+none 
+  96 
+ - Plate  2
+none 
+  96 
+ - Plate  3
+none 
+  96 
+ - Plate  4
+none 
+  96 
+ - Plate  5
+none 
+  96 
+ - Plate  6
+none 
+  96 
+
+new transfer: 
+# A tibble: 1 x 4
+      n   run created             type 
+  <int> <int> <dttm>              <chr>
+1     0     1 2022-01-27 14:02:21 setup
+new plate file saved to:  experiments/20220127_output/platefiles/transfer_0.csv 
+2022-01-27 14:02:21 | new_transfer.R done ------------------------------------- 
+
+2022-01-28 10:54:09 | new_transfer.R ------------------------------------------ 
+Experiment: 
+# A tibble: 1 x 5
+     id created             output_directory exp_name n_plates
+  <int> <dttm>              <chr>            <chr>       <int>
+1    14 2022-01-27 13:02:19 20220127_output  output          6
+turnover:
+ A_r AB_r  B_r   bl   UI   wt 
+   1    3    2    2    1   14 
+
+Infection: ( 36 )
+ 4  5 12 15 16 18 21 23 26 27 32 34 35 36 40 45 49 50 51 58 61 65 66 70 73 75 
+ 1  1  1  1  1  1  3  2  1  2  1  1  1  1  1  1  1  1  1  1  1  1  1  1  2  1 
+82 86 92 94 
+ 1  1  2  1 
+
+Treatment: 
+ - Plate  1
+none 
+  96 
+ - Plate  2
+   A none 
+  94    2 
+ - Plate  3
+   B none 
+  94    2 
+ - Plate  4
+  AB none 
+  94    2 
+ - Plate  5
+   A none 
+  94    2 
+ - Plate  6
+   A    B none 
+  42   52    2 
+
+new transfer: 
+# A tibble: 1 x 4
+      n   run created             type    
+  <int> <int> <dttm>              <chr>   
+1     1     1 2022-01-28 10:54:09 transfer
+new plate file saved to:  experiments/20220127_output/platefiles/transfer_1.csv 
+2022-01-28 10:54:09 | new_transfer.R done ------------------------------------- 
+
+2022-01-29 13:08:22 | new_transfer.R ------------------------------------------ 
+Experiment: 
+# A tibble: 1 x 5
+     id created             output_directory exp_name n_plates
+  <int> <dttm>              <chr>            <chr>       <int>
+1    14 2022-01-27 13:02:19 20220127_output  output          6
+turnover:
+ A_r AB_r  B_r   bl   UI   wt 
+   3    2    3    2    2   14 
+
+Infection: ( 31 )
+ 1  4  8 15 20 23 24 26 29 30 33 43 44 46 49 51 64 66 77 79 83 89 94 95 
+ 1  1  1  1  1  1  1  1  1  1  1  1  2  2  2  2  1  2  1  1  2  1  1  2 
+
+Treatment: 
+ - Plate  1
+none 
+  96 
+ - Plate  2
+   A none 
+  94    2 
+ - Plate  3
+   B none 
+  94    2 
+ - Plate  4
+  AB none 
+  94    2 
+ - Plate  5
+   A none 
+  94    2 
+ - Plate  6
+   A    B none 
+  49   45    2 
+
+new transfer: 
+# A tibble: 1 x 4
+      n   run created             type    
+  <int> <int> <dttm>              <chr>   
+1     2     1 2022-01-29 13:08:22 transfer
+new plate file saved to:  experiments/20220127_output/platefiles/transfer_2.csv 
+2022-01-29 13:08:22 | new_transfer.R done ------------------------------------- 
+
+2022-01-30 15:54:21 | new_transfer.R ------------------------------------------ 
+Experiment: 
+# A tibble: 1 x 5
+     id created             output_directory exp_name n_plates
+  <int> <dttm>              <chr>            <chr>       <int>
+1    14 2022-01-27 13:02:19 20220127_output  output          6
+turnover:
+A_r B_r  bl  UI  wt 
+  2   1   2   2   8 
+
+Infection: ( 33 )
+ 5  6  7  9 10 12 19 22 26 27 30 33 37 42 48 49 52 53 55 59 61 64 67 74 75 76 
+ 1  2  1  1  1  1  1  1  1  1  2  1  1  2  1  2  1  1  1  1  1  1  1  1  1  1 
+78 89 91 
+ 1  1  1 
+
+Treatment: 
+ - Plate  1
+none 
+  96 
+ - Plate  2
+   A none 
+  94    2 
+ - Plate  3
+   B none 
+  94    2 
+ - Plate  4
+  AB none 
+  94    2 
+ - Plate  5
+   B none 
+  94    2 
+ - Plate  6
+   A    B none 
+  49   45    2 
+
+new transfer: 
+# A tibble: 1 x 4
+      n   run created             type    
+  <int> <int> <dttm>              <chr>   
+1     3     1 2022-01-30 15:54:22 transfer
+new plate file saved to:  experiments/20220127_output/platefiles/transfer_3.csv 
+2022-01-30 15:54:22 | new_transfer.R done ------------------------------------- 
+
+2022-01-31 10:56:03 | new_transfer.R ------------------------------------------ 
+Experiment: 
+# A tibble: 1 x 5
+     id created             output_directory exp_name n_plates
+  <int> <dttm>              <chr>            <chr>       <int>
+1    14 2022-01-27 13:02:19 20220127_output  output          6
+turnover:
+ A_r AB_r   bl   UI   wt 
+   1    2    2    1   10 
+
+Infection: ( 31 )
+ 3 14 16 22 23 25 26 27 33 34 39 40 48 51 52 57 62 67 73 83 87 88 95 
+ 1  1  1  1  1  1  1  1  2  2  1  1  1  2  1  1  2  1  2  2  3  1  1 
+
+Treatment: 
+ - Plate  1
+none 
+  96 
+ - Plate  2
+   A none 
+  94    2 
+ - Plate  3
+   B none 
+  94    2 
+ - Plate  4
+  AB none 
+  94    2 
+ - Plate  5
+   B none 
+  94    2 
+ - Plate  6
+   A    B none 
+  47   47    2 
+
+new transfer: 
+# A tibble: 1 x 4
+      n   run created             type    
+  <int> <int> <dttm>              <chr>   
+1     4     1 2022-01-31 10:56:04 transfer
+new plate file saved to:  experiments/20220127_output/platefiles/transfer_4.csv 
+2022-01-31 10:56:04 | new_transfer.R done ------------------------------------- 
+
+2022-01-31 11:35:49 | new_transfer.R ------------------------------------------ 
+Experiment: 
+# A tibble: 1 x 5
+     id created             output_directory exp_name n_plates
+  <int> <dttm>              <chr>            <chr>       <int>
+1    14 2022-01-27 13:02:19 20220127_output  output          6
+turnover:
+ A_r AB_r  B_r   bl   UI   wt 
+   3    1    1    2    2   12 
+
+Infection: ( 34 )
+ 1  3  4  8 11 12 18 23 33 35 36 37 38 39 47 49 59 60 63 69 70 72 75 78 79 86 
+ 1  1  1  2  1  1  2  1  1  1  1  1  2  1  1  1  1  1  2  2  2  1  1  1  1  1 
+95 
+ 2 
+
+Treatment: 
+ - Plate  1
+none 
+  96 
+ - Plate  2
+   A none 
+  94    2 
+ - Plate  3
+   B none 
+  94    2 
+ - Plate  4
+  AB none 
+  94    2 
+ - Plate  5
+   A none 
+  94    2 
+ - Plate  6
+   A    B none 
+  45   49    2 
+
+new transfer: 
+# A tibble: 1 x 4
+      n   run created             type    
+  <int> <int> <dttm>              <chr>   
+1     5     1 2022-01-31 11:35:49 transfer
+new plate file saved to:  experiments/20220127_output/platefiles/transfer_5.csv 
+2022-01-31 11:35:49 | new_transfer.R done ------------------------------------- 
+
+2022-01-31 11:38:10 | new_transfer.R ------------------------------------------ 
+Experiment: 
+# A tibble: 1 x 5
+     id created             output_directory exp_name n_plates
+  <int> <dttm>              <chr>            <chr>       <int>
+1    14 2022-01-27 13:02:19 20220127_output  output          6
+turnover:
+ A_r AB_r  B_r   bl   UI   wt 
+   5    2    1    2    2   14 
+
+Infection: ( 37 )
+ 1  5  8 12 15 16 19 28 30 34 40 43 45 50 53 57 61 65 73 74 81 84 85 93 95 
+ 1  5  2  1  1  1  1  1  1  3  1  2  1  1  1  1  1  1  2  1  2  1  1  3  1 
+
+Treatment: 
+ - Plate  1
+none 
+  96 
+ - Plate  2
+   A none 
+  94    2 
+ - Plate  3
+   B none 
+  94    2 
+ - Plate  4
+  AB none 
+  94    2 
+ - Plate  5
+   B none 
+  94    2 
+ - Plate  6
+   A    B none 
+  48   46    2 
+
+new transfer: 
+# A tibble: 1 x 4
+      n   run created             type    
+  <int> <int> <dttm>              <chr>   
+1     4     1 2022-01-31 11:38:10 transfer
+new plate file saved to:  experiments/20220127_output/platefiles/transfer_4.csv 
+2022-01-31 11:38:10 | new_transfer.R done ------------------------------------- 
+
+2022-02-01 18:18:05 | new_transfer.R ------------------------------------------ 
+Experiment: 
+# A tibble: 1 x 5
+     id created             output_directory exp_name n_plates
+  <int> <dttm>              <chr>            <chr>       <int>
+1    14 2022-01-27 13:02:19 20220127_output  output          6
+turnover:
+ A_r AB_r  B_r   bl   UI   wt 
+   1    1    3    2    3   11 
+
+Infection: ( 33 )
+ 3  6  7  9 12 16 18 21 24 26 27 30 34 36 37 45 47 48 52 66 72 82 84 88 94 95 
+ 1  1  1  2  1  1  3  1  1  3  1  2  1  1  1  1  1  1  1  1  1  1  1  1  2  1 
+
+Treatment: 
+ - Plate  1
+none 
+  96 
+ - Plate  2
+   A none 
+  94    2 
+ - Plate  3
+   B none 
+  94    2 
+ - Plate  4
+  AB none 
+  94    2 
+ - Plate  5
+   A none 
+  94    2 
+ - Plate  6
+   A    B none 
+  40   54    2 
+
+new transfer: 
+# A tibble: 1 x 4
+      n   run created             type    
+  <int> <int> <dttm>              <chr>   
+1     5     1 2022-02-01 18:18:05 transfer
+new plate file saved to:  experiments/20220127_output/platefiles/transfer_5.csv 
+2022-02-01 18:18:05 | new_transfer.R done ------------------------------------- 
+
+2022-02-01 19:01:54 | new_transfer.R ------------------------------------------ 
+Experiment: 
+# A tibble: 1 x 5
+     id created             output_directory exp_name n_plates
+  <int> <dttm>              <chr>            <chr>       <int>
+1    14 2022-01-27 13:02:19 20220127_output  output          6
+turnover:
+A_r B_r  bl  UI  wt 
+  3   1   2   2  12 
+
+Infection: ( 29 )
+11 18 21 24 25 26 34 38 40 42 46 51 55 58 61 62 70 71 72 75 78 81 84 95 
+ 1  1  1  1  2  1  1  1  1  1  2  1  1  1  1  1  1  3  1  1  2  1  1  1 
+
+Treatment: 
+ - Plate  1
+none 
+  96 
+ - Plate  2
+   A none 
+  94    2 
+ - Plate  3
+   B none 
+  94    2 
+ - Plate  4
+  AB none 
+  94    2 
+ - Plate  5
+   A none 
+  94    2 
+ - Plate  6
+   A    B none 
+  48   46    2 
+
+new transfer: 
+# A tibble: 1 x 4
+      n   run created             type    
+  <int> <int> <dttm>              <chr>   
+1     5     1 2022-02-01 19:01:54 transfer
+new plate file saved to:  experiments/20220127_output/platefiles/transfer_5.csv 
+2022-02-01 19:01:54 | new_transfer.R done ------------------------------------- 
+
+2022-02-01 19:08:54 | new_transfer.R ------------------------------------------ 
+Experiment: 
+# A tibble: 1 x 5
+     id created             output_directory exp_name n_plates
+  <int> <dttm>              <chr>            <chr>       <int>
+1    14 2022-01-27 13:02:19 20220127_output  output          6
+turnover:
+ A_r AB_r  B_r   bl   UI   wt 
+   1    2    1    2    4    8 
+
+Infection: ( 32 )
+ 6  7  8  9 26 28 37 38 40 46 52 54 55 58 62 67 70 74 75 79 81 82 83 93 
+ 1  1  2  1  3  1  1  1  1  1  1  1  4  1  1  2  1  2  1  1  1  1  1  1 
+
+Treatment: 
+ - Plate  1
+none 
+  96 
+ - Plate  2
+   A none 
+  94    2 
+ - Plate  3
+   B none 
+  94    2 
+ - Plate  4
+  AB none 
+  94    2 
+ - Plate  5
+   A none 
+  94    2 
+ - Plate  6
+   A    B none 
+  53   41    2 
+
+new transfer: 
+# A tibble: 1 x 4
+      n   run created             type    
+  <int> <int> <dttm>              <chr>   
+1     5     1 2022-02-01 19:08:54 transfer
+new plate file saved to:  experiments/20220127_output/platefiles/transfer_5.csv 
+2022-02-01 19:08:54 | new_transfer.R done ------------------------------------- 
+
+2022-02-01 19:18:14 | new_transfer.R ------------------------------------------ 
+Experiment: 
+# A tibble: 1 x 5
+     id created             output_directory exp_name n_plates
+  <int> <dttm>              <chr>            <chr>       <int>
+1    14 2022-01-27 13:02:19 20220127_output  output          6
+turnover:
+A_r B_r  bl  UI  wt 
+  4   2   2   2  10 
+
+Infection: ( 35 )
+ 2  3  4 18 19 24 26 27 32 37 40 50 51 65 67 73 74 75 81 82 83 84 89 91 92 
+ 2  1  2  1  1  3  1  1  1  1  1  1  1  3  2  1  1  1  1  1  2  2  1  2  1 
+
+Treatment: 
+ - Plate  1
+none 
+  96 
+ - Plate  2
+   A none 
+  94    2 
+ - Plate  3
+   B none 
+  94    2 
+ - Plate  4
+  AB none 
+  94    2 
+ - Plate  5
+   A none 
+  94    2 
+ - Plate  6
+   A    B none 
+  45   49    2 
+
+new transfer: 
+# A tibble: 1 x 4
+      n   run created             type    
+  <int> <int> <dttm>              <chr>   
+1     6     1 2022-02-01 19:18:14 transfer
+new plate file saved to:  experiments/20220127_output/platefiles/transfer_6.csv 
+2022-02-01 19:18:14 | new_transfer.R done ------------------------------------- 
+
+2022-02-01 19:19:09 | new_transfer.R ------------------------------------------ 
+Experiment: 
+# A tibble: 1 x 5
+     id created             output_directory exp_name n_plates
+  <int> <dttm>              <chr>            <chr>       <int>
+1    14 2022-01-27 13:02:19 20220127_output  output          6
+turnover:
+ A_r AB_r  B_r   bl   wt 
+   1    1    1    2   15 
+
+Infection: ( 32 )
+ 3  4  5  7  8 13 15 24 28 43 47 48 50 51 69 77 81 82 85 86 88 89 91 92 94 
+ 1  1  1  1  1  2  2  1  1  1  1  1  1  1  1  2  1  1  3  1  1  1  1  1  3 
+
+Treatment: 
+ - Plate  1
+none 
+  96 
+ - Plate  2
+   A none 
+  94    2 
+ - Plate  3
+   B none 
+  94    2 
+ - Plate  4
+  AB none 
+  94    2 
+ - Plate  5
+   A none 
+  94    2 
+ - Plate  6
+   A    B none 
+  53   41    2 
+
+new transfer: 
+# A tibble: 1 x 4
+      n   run created             type    
+  <int> <int> <dttm>              <chr>   
+1     5     1 2022-02-01 19:19:09 transfer
+new plate file saved to:  experiments/20220127_output/platefiles/transfer_5.csv 
+2022-02-01 19:19:09 | new_transfer.R done ------------------------------------- 
+
+2022-02-03 18:13:47 | new_transfer.R ------------------------------------------ 
+Experiment: 
+# A tibble: 1 x 5
+     id created             output_directory exp_name n_plates
+  <int> <dttm>              <chr>            <chr>       <int>
+1    14 2022-01-27 13:02:19 20220127_output  output          6
+turnover:
+ A_r AB_r  B_r   bl   UI   wt 
+   3    1    2    2    2   11 
+
+Infection: ( 27 )
+ 4  9 20 21 25 33 36 37 39 40 42 43 46 52 53 55 66 67 72 77 84 92 
+ 1  1  2  3  1  1  1  1  1  1  1  1  2  1  1  1  2  1  1  1  1  1 
+
+Treatment: 
+ - Plate  1
+none 
+  96 
+ - Plate  2
+   A none 
+  94    2 
+ - Plate  3
+   B none 
+  94    2 
+ - Plate  4
+  AB none 
+  94    2 
+ - Plate  5
+   A none 
+  94    2 
+ - Plate  6
+   A    B none 
+  46   48    2 
+
+new transfer: 
+# A tibble: 1 x 4
+      n   run created             type    
+  <int> <int> <dttm>              <chr>   
+1     6     1 2022-02-03 18:13:47 transfer
+new plate file saved to:  experiments/20220127_output/platefiles/transfer_6.csv 
+2022-02-03 18:13:47 | new_transfer.R done ------------------------------------- 
+
+2022-02-03 18:45:53 | new_transfer.R ------------------------------------------ 
+Experiment: 
+# A tibble: 1 x 5
+     id created             output_directory exp_name n_plates
+  <int> <dttm>              <chr>            <chr>       <int>
+1    14 2022-01-27 13:02:19 20220127_output  output          6
+turnover:
+ A_r AB_r  B_r   bl   UI   wt 
+   2    2    5    2    2   13 
+
+Infection: ( 36 )
+ 2  7 11 12 13 14 20 22 25 27 28 32 45 49 50 51 52 60 65 70 75 78 81 85 87 96 
+ 2  1  3  1  1  2  1  1  1  1  2  2  2  1  1  1  1  1  2  1  1  1  1  2  2  1 
+
+Treatment: 
+ - Plate  1
+none 
+  96 
+ - Plate  2
+   A none 
+  94    2 
+ - Plate  3
+   B none 
+  94    2 
+ - Plate  4
+  AB none 
+  94    2 
+ - Plate  5
+   A none 
+  94    2 
+ - Plate  6
+   A    B none 
+  50   44    2 
+
+new transfer: 
+# A tibble: 1 x 4
+      n   run created             type    
+  <int> <int> <dttm>              <chr>   
+1     6     1 2022-02-03 18:45:53 transfer
+new plate file saved to:  experiments/20220127_output/platefiles/transfer_6.csv 
+2022-02-03 18:45:53 | new_transfer.R done ------------------------------------- 
+
+2022-02-05 12:13:58 | new_transfer.R ------------------------------------------ 
+Experiment: 
+# A tibble: 1 x 5
+     id created             output_directory exp_name n_plates
+  <int> <dttm>              <chr>            <chr>       <int>
+1    14 2022-01-27 13:02:19 20220127_output  output          6
+turnover:
+ A_r AB_r  B_r   bl   UI   wt 
+   1    1    2    2    2   12 
+
+Infection: ( 38 )
+ 1  2  3 12 15 16 18 20 23 24 29 39 45 46 50 54 55 56 57 70 71 72 75 77 83 84 
+ 1  2  1  1  1  1  1  1  1  2  3  2  1  1  1  1  1  1  2  1  1  1  2  1  1  2 
+87 92 94 95 
+ 1  1  1  1 
+
+Treatment: 
+ - Plate  1
+none 
+  96 
+ - Plate  2
+   A none 
+  94    2 
+ - Plate  3
+   B none 
+  94    2 
+ - Plate  4
+  AB none 
+  94    2 
+ - Plate  5
+   B none 
+  94    2 
+ - Plate  6
+   A    B none 
+  49   45    2 
+
+new transfer: 
+# A tibble: 1 x 4
+      n   run created             type    
+  <int> <int> <dttm>              <chr>   
+1     7     1 2022-02-05 12:13:58 transfer
+new plate file saved to:  experiments/20220127_output/platefiles/transfer_7.csv 
+2022-02-05 12:13:58 | new_transfer.R done ------------------------------------- 
+
+2022-02-05 12:31:47 | new_transfer.R ------------------------------------------ 
+Experiment: 
+# A tibble: 1 x 5
+     id created             output_directory exp_name n_plates
+  <int> <dttm>              <chr>            <chr>       <int>
+1    14 2022-01-27 13:02:19 20220127_output  output          6
+turnover:
+ A_r AB_r  B_r   bl   UI   wt 
+   1    3    3    2    3    8 
+
+Infection: ( 24 )
+ 3 10 12 14 21 28 33 36 37 42 47 53 63 66 68 70 72 85 91 96 
+ 1  1  1  1  2  1  1  1  1  1  1  1  1  1  2  1  1  1  2  2 
+
+Treatment: 
+ - Plate  1
+none 
+  96 
+ - Plate  2
+   A none 
+  94    2 
+ - Plate  3
+   B none 
+  94    2 
+ - Plate  4
+  AB none 
+  94    2 
+ - Plate  5
+   B none 
+  94    2 
+ - Plate  6
+   A    B none 
+  51   43    2 
+
+new transfer: 
+# A tibble: 1 x 4
+      n   run created             type    
+  <int> <int> <dttm>              <chr>   
+1     7     1 2022-02-05 12:31:47 transfer
+new plate file saved to:  experiments/20220127_output/platefiles/transfer_7.csv 
+2022-02-05 12:31:47 | new_transfer.R done ------------------------------------- 
+
+2022-02-06 16:01:04 | new_transfer.R ------------------------------------------ 
+Experiment: 
+# A tibble: 1 x 5
+     id created             output_directory exp_name n_plates
+  <int> <dttm>              <chr>            <chr>       <int>
+1    14 2022-01-27 13:02:19 20220127_output  output          6
+turnover:
+ A_r AB_r  B_r   bl   UI   wt 
+   4    2    1    2    1   11 
+
+Infection: ( 28 )
+ 1  2 14 15 19 23 25 37 39 43 51 58 63 65 67 74 83 84 85 87 94 96 
+ 1  1  1  1  2  2  1  1  1  1  1  1  1  1  3  2  1  1  1  2  1  1 
+
+Treatment: 
+ - Plate  1
+none 
+  96 
+ - Plate  2
+   A none 
+  94    2 
+ - Plate  3
+   B none 
+  94    2 
+ - Plate  4
+  AB none 
+  94    2 
+ - Plate  5
+   B none 
+  94    2 
+ - Plate  6
+   A    B none 
+  57   37    2 
+
+new transfer: 
+# A tibble: 1 x 4
+      n   run created             type    
+  <int> <int> <dttm>              <chr>   
+1     8     1 2022-02-06 16:01:04 transfer
+new plate file saved to:  experiments/20220127_output/platefiles/transfer_8.csv 
+2022-02-06 16:01:04 | new_transfer.R done ------------------------------------- 
+
+2022-02-07 12:06:38 | new_transfer.R ------------------------------------------ 
+Experiment: 
+# A tibble: 1 x 5
+     id created             output_directory exp_name n_plates
+  <int> <dttm>              <chr>            <chr>       <int>
+1    14 2022-01-27 13:02:19 20220127_output  output          6
+turnover:
+A_r B_r  bl  UI  wt 
+  5   3   2   2  15 
+
+Infection: ( 28 )
+ 5  8 10 23 24 31 34 36 42 43 50 52 53 57 60 64 66 67 69 77 89 
+ 1  1  2  2  1  2  1  1  1  1  1  3  1  1  2  1  1  1  1  1  2 
+
+Treatment: 
+ - Plate  1
+none 
+  96 
+ - Plate  2
+   A none 
+  94    2 
+ - Plate  3
+   B none 
+  94    2 
+ - Plate  4
+  AB none 
+  94    2 
+ - Plate  5
+   A none 
+  94    2 
+ - Plate  6
+   A    B none 
+  48   46    2 
+
+new transfer: 
+# A tibble: 1 x 4
+      n   run created             type    
+  <int> <int> <dttm>              <chr>   
+1     9     1 2022-02-07 12:06:38 transfer
+new plate file saved to:  experiments/20220127_output/platefiles/transfer_9.csv 
+2022-02-07 12:06:38 | new_transfer.R done ------------------------------------- 
+
+2022-02-09 11:16:16 | new_transfer.R ------------------------------------------ 
+Experiment: 
+# A tibble: 1 x 5
+     id created             output_directory exp_name n_plates
+  <int> <dttm>              <chr>            <chr>       <int>
+1    14 2022-01-27 13:02:19 20220127_output  output          6
+turnover:
+ A_r AB_r  B_r   bl   UI   wt 
+   2    2    2    2    4    7 
+
+Infection: ( 30 )
+ 1  4  6  8 15 24 34 37 40 45 48 51 52 59 61 62 63 66 68 69 70 76 77 79 95 
+ 1  2  1  1  1  2  1  1  1  2  1  1  1  1  2  1  1  1  2  1  1  1  1  1  1 
+
+Treatment: 
+ - Plate  1
+none 
+  96 
+ - Plate  2
+   A none 
+  94    2 
+ - Plate  3
+   B none 
+  94    2 
+ - Plate  4
+  AB none 
+  94    2 
+ - Plate  5
+   A none 
+  94    2 
+ - Plate  6
+   A    B none 
+  52   42    2 
+
+new transfer: 
+# A tibble: 1 x 4
+      n   run created             type    
+  <int> <int> <dttm>              <chr>   
+1    10     1 2022-02-09 11:16:16 transfer
+new plate file saved to:  experiments/20220127_output/platefiles/transfer_10.csv 
+2022-02-09 11:16:16 | new_transfer.R done ------------------------------------- 
+
+2022-02-09 11:28:26 | new_transfer.R ------------------------------------------ 
+Experiment: 
+# A tibble: 1 x 5
+     id created             output_directory exp_name n_plates
+  <int> <dttm>              <chr>            <chr>       <int>
+1    14 2022-01-27 13:02:19 20220127_output  output          6
+turnover:
+ A_r AB_r  B_r   bl   UI   wt 
+   2    1    2    2    3   10 
+
+Infection: ( 39 )
+ 2  5  6  7 14 27 30 32 42 44 46 51 53 55 60 62 63 66 67 70 71 74 75 76 79 81 
+ 1  1  2  1  1  2  1  1  1  1  1  4  1  3  1  1  2  2  2  2  2  1  2  1  1  1 
+
+Treatment: 
+ - Plate  1
+none 
+  96 
+ - Plate  2
+   A none 
+  94    2 
+ - Plate  3
+   B none 
+  94    2 
+ - Plate  4
+  AB none 
+  94    2 
+ - Plate  5
+   A none 
+  94    2 
+ - Plate  6
+   A    B none 
+  49   45    2 
+
+new transfer: 
+# A tibble: 1 x 4
+      n   run created             type    
+  <int> <int> <dttm>              <chr>   
+1    10     1 2022-02-09 11:28:26 transfer
+new plate file saved to:  experiments/20220127_output/platefiles/transfer_10.csv 
+2022-02-09 11:28:26 | new_transfer.R done ------------------------------------- 
+
+2022-02-10 19:00:33 | new_transfer.R ------------------------------------------ 
+Experiment: 
+# A tibble: 1 x 5
+     id created             output_directory exp_name n_plates
+  <int> <dttm>              <chr>            <chr>       <int>
+1    14 2022-01-27 13:02:19 20220127_output  output          6
+turnover:
+A_r  bl  UI  wt 
+  3   2   3   7 
+
+Infection: ( 37 )
+ 6 17 18 21 26 31 36 37 43 45 50 53 56 58 61 70 73 80 81 85 88 92 93 
+ 2  1  1  1  2  1  2  1  2  1  1  1  2  1  4  2  3  1  1  1  2  2  2 
+
+Treatment: 
+ - Plate  1
+none 
+  96 
+ - Plate  2
+   A none 
+  94    2 
+ - Plate  3
+   B none 
+  94    2 
+ - Plate  4
+  AB none 
+  94    2 
+ - Plate  5
+   B none 
+  94    2 
+ - Plate  6
+   A    B none 
+  50   44    2 
+
+new transfer: 
+# A tibble: 1 x 4
+      n   run created             type    
+  <int> <int> <dttm>              <chr>   
+1    11     1 2022-02-10 19:00:33 transfer
+new plate file saved to:  experiments/20220127_output/platefiles/transfer_11.csv 
+2022-02-10 19:00:33 | new_transfer.R done ------------------------------------- 
+
+2022-02-11 14:10:23 | new_transfer.R ------------------------------------------ 
+Experiment: 
+# A tibble: 1 x 5
+     id created             output_directory exp_name n_plates
+  <int> <dttm>              <chr>            <chr>       <int>
+1    14 2022-01-27 13:02:19 20220127_output  output          6
+turnover:
+ A_r AB_r  B_r   bl   wt 
+   3    1    3    2   14 
+
+Infection: ( 44 )
+ 4 13 20 22 24 28 29 31 33 36 40 42 43 44 48 49 51 59 61 62 63 75 78 87 88 91 
+ 3  2  3  1  1  2  2  1  2  1  1  2  1  1  2  2  1  5  1  1  2  1  1  1  1  3 
+
+Treatment: 
+ - Plate  1
+none 
+  96 
+ - Plate  2
+   A none 
+  94    2 
+ - Plate  3
+   B none 
+  94    2 
+ - Plate  4
+  AB none 
+  94    2 
+ - Plate  5
+   B none 
+  94    2 
+ - Plate  6
+   A    B none 
+  52   42    2 
+
+new transfer: 
+# A tibble: 1 x 4
+      n   run created             type    
+  <int> <int> <dttm>              <chr>   
+1    12     1 2022-02-11 14:10:23 transfer
+new plate file saved to:  experiments/20220127_output/platefiles/transfer_12.csv 
+2022-02-11 14:10:24 | new_transfer.R done ------------------------------------- 
+
+2022-02-13 12:09:31 | new_transfer.R ------------------------------------------ 
+Experiment: 
+# A tibble: 1 x 5
+     id created             output_directory exp_name n_plates
+  <int> <dttm>              <chr>            <chr>       <int>
+1    14 2022-01-27 13:02:19 20220127_output  output          6
+turnover:
+A_r B_r  bl  UI  wt 
+  2   3   2   1  12 
+
+Infection: ( 32 )
+ 2  4  6 11 13 19 22 30 32 36 37 40 43 45 50 51 53 56 77 79 80 81 89 92 94 95 
+ 2  1  2  2  1  1  2  1  1  2  1  1  1  1  1  1  1  1  2  1  1  1  1  1  1  1 
+
+Treatment: 
+ - Plate  1
+none 
+  96 
+ - Plate  2
+   A none 
+  94    2 
+ - Plate  3
+   B none 
+  94    2 
+ - Plate  4
+  AB none 
+  94    2 
+ - Plate  5
+   A none 
+  94    2 
+ - Plate  6
+   A    B none 
+  36   58    2 
+
+new transfer: 
+# A tibble: 1 x 4
+      n   run created             type    
+  <int> <int> <dttm>              <chr>   
+1    13     1 2022-02-13 12:09:31 transfer
+new plate file saved to:  experiments/20220127_output/platefiles/transfer_13.csv 
+2022-02-13 12:09:31 | new_transfer.R done ------------------------------------- 
+
+2022-02-14 13:59:34 | new_transfer.R ------------------------------------------ 
+Experiment: 
+# A tibble: 1 x 5
+     id created             output_directory exp_name n_plates
+  <int> <dttm>              <chr>            <chr>       <int>
+1    14 2022-01-27 13:02:19 20220127_output  output          6
+turnover:
+ A_r AB_r  B_r   bl   UI   wt 
+   1    1    1    2    4    7 
+
+Infection: ( 39 )
+ 2  5  7  8 11 14 15 18 24 25 26 28 34 35 37 42 45 49 51 53 58 64 69 71 74 78 
+ 2  2  1  1  1  1  1  1  2  2  1  1  1  1  1  2  1  2  1  1  3  2  1  1  1  1 
+79 88 91 96 
+ 1  1  1  1 
+
+Treatment: 
+ - Plate  1
+none 
+  96 
+ - Plate  2
+   A none 
+  94    2 
+ - Plate  3
+   B none 
+  94    2 
+ - Plate  4
+  AB none 
+  94    2 
+ - Plate  5
+   A none 
+  94    2 
+ - Plate  6
+   A    B none 
+  42   52    2 
+
+new transfer: 
+# A tibble: 1 x 4
+      n   run created             type    
+  <int> <int> <dttm>              <chr>   
+1    14     1 2022-02-14 13:59:34 transfer
+new plate file saved to:  experiments/20220127_output/platefiles/transfer_14.csv 
+2022-02-14 13:59:34 | new_transfer.R done ------------------------------------- 
+
+2022-02-15 10:37:32 | new_transfer.R ------------------------------------------ 
+Experiment: 
+# A tibble: 1 x 5
+     id created             output_directory exp_name n_plates
+  <int> <dttm>              <chr>            <chr>       <int>
+1    14 2022-01-27 13:02:19 20220127_output  output          6
+turnover:
+A_r B_r  bl  UI  wt 
+  1   3   2   1  13 
+
+Infection: ( 39 )
+ 1  2  5  6 11 14 17 20 22 29 30 32 34 40 42 44 47 51 54 59 63 76 85 87 89 92 
+ 1  1  2  1  1  1  3  1  1  1  3  1  1  1  1  2  1  1  1  1  1  1  1  2  2  2 
+94 95 96 
+ 2  1  1 
+
+Treatment: 
+ - Plate  1
+none 
+  96 
+ - Plate  2
+   A none 
+  94    2 
+ - Plate  3
+   B none 
+  94    2 
+ - Plate  4
+  AB none 
+  94    2 
+ - Plate  5
+   B none 
+  94    2 
+ - Plate  6
+   A    B none 
+  43   51    2 
+
+new transfer: 
+# A tibble: 1 x 4
+      n   run created             type    
+  <int> <int> <dttm>              <chr>   
+1    15     1 2022-02-15 10:37:32 transfer
+new plate file saved to:  experiments/20220127_output/platefiles/transfer_15.csv 
+2022-02-15 10:37:32 | new_transfer.R done ------------------------------------- 
+
+2022-02-16 11:35:59 | new_transfer.R ------------------------------------------ 
+Experiment: 
+# A tibble: 1 x 5
+     id created             output_directory exp_name n_plates
+  <int> <dttm>              <chr>            <chr>       <int>
+1    14 2022-01-27 13:02:19 20220127_output  output          6
+turnover:
+ A_r AB_r  B_r   bl   UI   wt 
+   1    3    1    2    2    8 
+
+Infection: ( 28 )
+ 2  3  7  9 10 15 21 23 24 27 31 32 37 55 57 62 65 66 70 73 75 85 91 
+ 1  1  1  1  1  1  1  1  1  1  1  2  1  2  1  1  1  2  2  1  1  1  2 
+
+Treatment: 
+ - Plate  1
+none 
+  96 
+ - Plate  2
+   A none 
+  94    2 
+ - Plate  3
+   B none 
+  94    2 
+ - Plate  4
+  AB none 
+  94    2 
+ - Plate  5
+   B none 
+  94    2 
+ - Plate  6
+   A    B none 
+  51   43    2 
+
+new transfer: 
+# A tibble: 1 x 4
+      n   run created             type    
+  <int> <int> <dttm>              <chr>   
+1    16     1 2022-02-16 11:35:59 transfer
+new plate file saved to:  experiments/20220127_output/platefiles/transfer_16.csv 
+2022-02-16 11:35:59 | new_transfer.R done ------------------------------------- 
+
+2022-02-17 11:48:25 | new_transfer.R ------------------------------------------ 
+Experiment: 
+# A tibble: 1 x 5
+     id created             output_directory exp_name n_plates
+  <int> <dttm>              <chr>            <chr>       <int>
+1    14 2022-01-27 13:02:19 20220127_output  output          6
+turnover:
+B_r  bl  UI  wt 
+  2   2   5  16 
+
+Infection: ( 32 )
+ 4  5  7 17 18 22 25 27 30 39 42 48 49 52 63 66 68 69 71 77 79 83 88 91 92 94 
+ 1  1  1  1  1  1  1  2  1  1  2  1  1  1  1  1  1  1  1  2  1  1  1  2  2  1 
+95 
+ 1 
+
+Treatment: 
+ - Plate  1
+none 
+  96 
+ - Plate  2
+   A none 
+  94    2 
+ - Plate  3
+   B none 
+  94    2 
+ - Plate  4
+  AB none 
+  94    2 
+ - Plate  5
+   A none 
+  94    2 
+ - Plate  6
+   A    B none 
+  50   44    2 
+
+new transfer: 
+# A tibble: 1 x 4
+      n   run created             type    
+  <int> <int> <dttm>              <chr>   
+1    17     1 2022-02-17 11:48:25 transfer
+new plate file saved to:  experiments/20220127_output/platefiles/transfer_17.csv 
+2022-02-17 11:48:25 | new_transfer.R done ------------------------------------- 
+
+2022-02-18 11:10:55 | new_transfer.R ------------------------------------------ 
+Experiment: 
+# A tibble: 1 x 5
+     id created             output_directory exp_name n_plates
+  <int> <dttm>              <chr>            <chr>       <int>
+1    14 2022-01-27 13:02:19 20220127_output  output          6
+turnover:
+ A_r AB_r  B_r   bl   UI   wt 
+   5    3    5    2    3   11 
+
+Infection: ( 35 )
+ 2  4  7 11 12 17 18 21 26 29 31 35 40 55 57 59 71 72 73 74 79 83 87 91 92 94 
+ 1  2  1  2  2  1  1  3  1  1  1  1  1  1  1  1  1  1  1  2  1  2  1  2  2  1 
+
+Treatment: 
+ - Plate  1
+none 
+  96 
+ - Plate  2
+   A none 
+  94    2 
+ - Plate  3
+   B none 
+  94    2 
+ - Plate  4
+  AB none 
+  94    2 
+ - Plate  5
+   A none 
+  94    2 
+ - Plate  6
+   A    B none 
+  51   43    2 
+
+new transfer: 
+# A tibble: 1 x 4
+      n   run created             type    
+  <int> <int> <dttm>              <chr>   
+1    18     1 2022-02-18 11:10:55 transfer
+new plate file saved to:  experiments/20220127_output/platefiles/transfer_18.csv 
+2022-02-18 11:10:55 | new_transfer.R done ------------------------------------- 
+
+2022-02-20 12:37:52 | new_transfer.R ------------------------------------------ 
+Experiment: 
+# A tibble: 1 x 5
+     id created             output_directory exp_name n_plates
+  <int> <dttm>              <chr>            <chr>       <int>
+1    14 2022-01-27 13:02:19 20220127_output  output          6
+turnover:
+ A_r AB_r  B_r   bl   UI   wt 
+   3    1    1    2    2   11 
+
+Infection: ( 41 )
+ 7  8 13 16 18 19 25 26 27 28 29 31 32 33 36 38 46 52 56 59 63 64 68 73 77 84 
+ 2  1  1  2  2  1  2  1  2  1  2  1  2  1  1  2  1  2  3  2  2  1  1  2  1  1 
+92 
+ 1 
+
+Treatment: 
+ - Plate  1
+none 
+  96 
+ - Plate  2
+   A none 
+  94    2 
+ - Plate  3
+   B none 
+  94    2 
+ - Plate  4
+  AB none 
+  94    2 
+ - Plate  5
+   B none 
+  94    2 
+ - Plate  6
+   A    B none 
+  49   45    2 
+
+new transfer: 
+# A tibble: 1 x 4
+      n   run created             type    
+  <int> <int> <dttm>              <chr>   
+1    19     1 2022-02-20 12:37:52 transfer
+new plate file saved to:  experiments/20220127_output/platefiles/transfer_19.csv 
+2022-02-20 12:37:52 | new_transfer.R done ------------------------------------- 
+
+2022-02-21 12:25:58 | new_transfer.R ------------------------------------------ 
+Experiment: 
+# A tibble: 1 x 5
+     id created             output_directory exp_name n_plates
+  <int> <dttm>              <chr>            <chr>       <int>
+1    14 2022-01-27 13:02:19 20220127_output  output          6
+turnover:
+A_r B_r  bl  UI  wt 
+  2   3   2   4  14 
+
+Infection: ( 31 )
+ 1  7 18 19 22 27 28 29 30 32 35 37 43 53 57 58 65 66 70 73 75 76 78 81 84 86 
+ 3  1  1  1  1  2  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  2  1  1  1 
+94 
+ 1 
+
+Treatment: 
+ - Plate  1
+none 
+  96 
+ - Plate  2
+   A none 
+  94    2 
+ - Plate  3
+   B none 
+  94    2 
+ - Plate  4
+  AB none 
+  94    2 
+ - Plate  5
+   B none 
+  94    2 
+ - Plate  6
+   A    B none 
+  48   46    2 
+
+new transfer: 
+# A tibble: 1 x 4
+      n   run created             type    
+  <int> <int> <dttm>              <chr>   
+1    20     1 2022-02-21 12:25:59 transfer
+new plate file saved to:  experiments/20220127_output/platefiles/transfer_20.csv 
+2022-02-21 12:25:59 | new_transfer.R done ------------------------------------- 
+
+2022-02-22 11:51:13 | new_transfer.R ------------------------------------------ 
+Experiment: 
+# A tibble: 1 x 5
+     id created             output_directory exp_name n_plates
+  <int> <dttm>              <chr>            <chr>       <int>
+1    14 2022-01-27 13:02:19 20220127_output  output          6
+turnover:
+ A_r AB_r  B_r   bl   UI   wt 
+   1    1    5    2    4   11 
+
+Infection: ( 32 )
+ 8 11 12 13 17 27 32 35 36 38 46 49 50 62 63 69 72 81 82 84 86 92 93 
+ 3  2  1  1  1  2  1  1  1  3  1  1  2  2  1  1  2  1  1  1  1  1  1 
+
+Treatment: 
+ - Plate  1
+none 
+  96 
+ - Plate  2
+   A none 
+  94    2 
+ - Plate  3
+   B none 
+  94    2 
+ - Plate  4
+  AB none 
+  94    2 
+ - Plate  5
+   A none 
+  94    2 
+ - Plate  6
+   A    B none 
+  49   45    2 
+
+new transfer: 
+# A tibble: 1 x 4
+      n   run created             type    
+  <int> <int> <dttm>              <chr>   
+1    21     1 2022-02-22 11:51:13 transfer
+new plate file saved to:  experiments/20220127_output/platefiles/transfer_21.csv 
+2022-02-22 11:51:13 | new_transfer.R done ------------------------------------- 
+
+2022-02-23 09:58:32 | new_transfer.R ------------------------------------------ 
+Experiment: 
+# A tibble: 1 x 5
+     id created             output_directory exp_name n_plates
+  <int> <dttm>              <chr>            <chr>       <int>
+1    14 2022-01-27 13:02:19 20220127_output  output          6
+turnover:
+ A_r AB_r  B_r   bl   wt 
+   2    3    2    2   12 
+
+Infection: ( 40 )
+ 1  2  5  8 13 18 21 22 27 30 34 46 48 50 51 54 56 57 59 62 63 64 67 76 80 81 
+ 1  1  1  2  1  3  2  1  1  1  1  1  1  1  1  1  2  1  1  1  1  1  1  1  2  1 
+82 84 85 89 93 94 95 
+ 1  2  1  1  1  1  1 
+
+Treatment: 
+ - Plate  1
+none 
+  96 
+ - Plate  2
+   A none 
+  94    2 
+ - Plate  3
+   B none 
+  94    2 
+ - Plate  4
+  AB none 
+  94    2 
+ - Plate  5
+   A none 
+  94    2 
+ - Plate  6
+   A    B none 
+  50   44    2 
+
+new transfer: 
+# A tibble: 1 x 4
+      n   run created             type    
+  <int> <int> <dttm>              <chr>   
+1    22     1 2022-02-23 09:58:32 transfer
+new plate file saved to:  experiments/20220127_output/platefiles/transfer_22.csv 
+2022-02-23 09:58:32 | new_transfer.R done ------------------------------------- 
+
+2022-02-25 11:11:42 | new_transfer.R ------------------------------------------ 
+Experiment: 
+# A tibble: 1 x 5
+     id created             output_directory exp_name n_plates
+  <int> <dttm>              <chr>            <chr>       <int>
+1    14 2022-01-27 13:02:19 20220127_output  output          6
+turnover:
+ A_r AB_r  B_r   bl   UI   wt 
+   1    1    2    2    5   18 
+
+Infection: ( 40 )
+ 1  3  9 12 14 17 20 21 24 26 27 28 29 33 34 35 44 46 49 50 51 56 66 69 72 74 
+ 1  1  1  1  1  2  1  1  2  1  1  1  1  1  1  1  2  1  3  1  1  1  1  2  2  1 
+75 81 88 92 93 96 
+ 1  1  2  1  1  1 
+
+Treatment: 
+ - Plate  1
+none 
+  96 
+ - Plate  2
+   A none 
+  94    2 
+ - Plate  3
+   B none 
+  94    2 
+ - Plate  4
+  AB none 
+  94    2 
+ - Plate  5
+   B none 
+  94    2 
+ - Plate  6
+   A    B none 
+  45   49    2 
+
+new transfer: 
+# A tibble: 1 x 4
+      n   run created             type    
+  <int> <int> <dttm>              <chr>   
+1    23     1 2022-02-25 11:11:43 transfer
+new plate file saved to:  experiments/20220127_output/platefiles/transfer_23.csv 
+2022-02-25 11:11:43 | new_transfer.R done ------------------------------------- 
+
+2022-02-26 10:23:32 | new_transfer.R ------------------------------------------ 
+Experiment: 
+# A tibble: 1 x 5
+     id created             output_directory exp_name n_plates
+  <int> <dttm>              <chr>            <chr>       <int>
+1    14 2022-01-27 13:02:19 20220127_output  output          6
+turnover:
+ A_r AB_r   bl   UI   wt 
+   1    1    2    2   13 
+
+Infection: ( 39 )
+10 15 19 22 23 30 34 35 36 42 43 44 47 49 55 57 63 66 67 68 72 81 82 93 
+ 1  1  3  1  1  1  2  1  2  2  1  1  1  1  1  1  1  4  2  1  2  5  1  2 
+
+Treatment: 
+ - Plate  1
+none 
+  96 
+ - Plate  2
+   A none 
+  94    2 
+ - Plate  3
+   B none 
+  94    2 
+ - Plate  4
+  AB none 
+  94    2 
+ - Plate  5
+   B none 
+  94    2 
+ - Plate  6
+   A    B none 
+  49   45    2 
+
+new transfer: 
+# A tibble: 1 x 4
+      n   run created             type    
+  <int> <int> <dttm>              <chr>   
+1    24     1 2022-02-26 10:23:32 transfer
+new plate file saved to:  experiments/20220127_output/platefiles/transfer_24.csv 
+2022-02-26 10:23:32 | new_transfer.R done ------------------------------------- 
+
+2022-02-27 10:35:08 | new_transfer.R ------------------------------------------ 
+Experiment: 
+# A tibble: 1 x 5
+     id created             output_directory exp_name n_plates
+  <int> <dttm>              <chr>            <chr>       <int>
+1    14 2022-01-27 13:02:19 20220127_output  output          6
+turnover:
+AB_r  B_r   bl   wt 
+   1    1    2   13 
+
+Infection: ( 29 )
+ 6  7 11 14 17 20 21 27 30 42 43 49 50 56 63 68 69 75 77 81 86 89 91 
+ 2  1  1  1  1  1  1  1  1  2  1  1  2  1  1  2  1  1  1  2  2  1  1 
+
+Treatment: 
+ - Plate  1
+none 
+  96 
+ - Plate  2
+   A none 
+  94    2 
+ - Plate  3
+   B none 
+  94    2 
+ - Plate  4
+  AB none 
+  94    2 
+ - Plate  5
+   A none 
+  94    2 
+ - Plate  6
+   A    B none 
+  51   43    2 
+
+new transfer: 
+# A tibble: 1 x 4
+      n   run created             type    
+  <int> <int> <dttm>              <chr>   
+1    25     1 2022-02-27 10:35:08 transfer
+new plate file saved to:  experiments/20220127_output/platefiles/transfer_25.csv 
+2022-02-27 10:35:08 | new_transfer.R done ------------------------------------- 
+
+2022-03-01 09:17:07 | new_transfer.R ------------------------------------------ 
+Experiment: 
+# A tibble: 1 x 5
+     id created             output_directory exp_name n_plates
+  <int> <dttm>              <chr>            <chr>       <int>
+1    14 2022-01-27 13:02:19 20220127_output  output          6
+turnover:
+A_r B_r  bl  UI  wt 
+  3   4   2   2   6 
+
+Infection: ( 40 )
+ 2  4  5  6  7 11 12 16 21 29 31 32 36 38 43 50 52 53 55 57 60 63 65 72 75 83 
+ 2  1  2  1  1  4  1  1  1  1  1  2  1  1  1  1  1  1  1  1  3  1  1  1  1  2 
+84 87 89 91 93 
+ 1  1  1  1  1 
+
+Treatment: 
+ - Plate  1
+none 
+  96 
+ - Plate  2
+   A none 
+  94    2 
+ - Plate  3
+   B none 
+  94    2 
+ - Plate  4
+  AB none 
+  94    2 
+ - Plate  5
+   A none 
+  94    2 
+ - Plate  6
+   A    B none 
+  45   49    2 
+
+new transfer: 
+# A tibble: 1 x 4
+      n   run created             type    
+  <int> <int> <dttm>              <chr>   
+1    26     2 2022-03-01 09:17:07 transfer
+new plate file saved to:  experiments/20220127_output/platefiles/transfer_26.csv 
+2022-03-01 09:17:07 | new_transfer.R done ------------------------------------- 
+
+2022-03-02 10:00:59 | new_transfer.R ------------------------------------------ 
+Experiment: 
+# A tibble: 1 x 5
+     id created             output_directory exp_name n_plates
+  <int> <dttm>              <chr>            <chr>       <int>
+1    14 2022-01-27 13:02:19 20220127_output  output          6
+turnover:
+ A_r AB_r  B_r   bl   UI   wt 
+   3    1    2    2    3   12 
+
+Infection: ( 33 )
+ 7  9 10 11 12 25 28 30 39 45 47 49 50 54 55 67 70 73 74 77 80 82 84 87 92 95 
+ 1  1  1  1  1  3  1  1  1  1  1  1  2  1  2  1  1  3  1  1  1  2  1  1  1  1 
+
+Treatment: 
+ - Plate  1
+none 
+  96 
+ - Plate  2
+   A none 
+  94    2 
+ - Plate  3
+   B none 
+  94    2 
+ - Plate  4
+  AB none 
+  94    2 
+ - Plate  5
+   B none 
+  94    2 
+ - Plate  6
+   A    B none 
+  47   47    2 
+
+new transfer: 
+# A tibble: 1 x 4
+      n   run created             type    
+  <int> <int> <dttm>              <chr>   
+1    27     2 2022-03-02 10:00:59 transfer
+new plate file saved to:  experiments/20220127_output/platefiles/transfer_27.csv 
+2022-03-02 10:00:59 | new_transfer.R done ------------------------------------- 
+

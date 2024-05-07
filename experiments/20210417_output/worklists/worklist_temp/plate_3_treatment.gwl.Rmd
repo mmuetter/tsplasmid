@@ -1,0 +1,448 @@
+<style>
+          #TOC {
+            position: fixed;
+            left: 0;
+            top: 65px;
+            width: 300px;
+            height: 100%;
+            overflow:auto;
+            }
+          body {
+            max-width: 1000px;
+            margin: auto;
+            margin-left:300px;
+            line-height: 20px;
+          }
+          </style>
+#plate_3_treatment.gwl
+
+
+|line |type |command     |attributes                           |
+|:----|:----|:-----------|:------------------------------------|
+|1    |C    |gwl_comment |INIT - gwl created with rrobot v.1.2 |
+
+###2/217 | T1 | plate 3, Treatment: none
+|line |type |command     |attributes                                      |
+|:----|:----|:-----------|:-----------------------------------------------|
+|2    |B    |evo_comment |2/217 &#124; T1 &#124; plate 3, Treatment: none |
+
+|line |type |command  |tipMask  |LC         |volumes          |grid |site |wells |image                                                                                                                                                      |
+|:----|:----|:--------|:--------|:----------|:----------------|:----|:----|:-----|:----------------------------------------------------------------------------------------------------------------------------------------------------------|
+|3    |B    |Aspirate |00010000 |Minimal CD |0,0,0,0,45,0,0,0 |40   |0    |E1    |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot003.png" height="96px" width="144px" />|
+|4    |B    |Dispense |00010000 |Minimal CD |0,0,0,0,10,0,0,0 |40   |0    |E1    |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot004.png" height="96px" width="144px" />|
+|5    |B    |Dispense |00010000 |Minimal CD |0,0,0,0,5,0,0,0 |40   |1    |I5    |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot005.png" height="96px" width="144px" />|
+|6    |B    |Dispense |00010000 |Minimal CD |0,0,0,0,5,0,0,0 |40   |1    |J5    |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot006.png" height="96px" width="144px" />|
+|7    |B    |Dispense |00010000 |Minimal CD |0,0,0,0,5,0,0,0 |40   |1    |I6    |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot007.png" height="96px" width="144px" />|
+|8    |B    |Dispense |00010000 |Minimal CD |0,0,0,0,5,0,0,0 |40   |1    |J6    |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot008.png" height="96px" width="144px" />|
+|9    |B    |Dispense |00010000 |Minimal CD |0,0,0,0,5,0,0,0 |40   |1    |I11   |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot009.png" height="96px" width="144px" />|
+|10   |B    |Dispense |00010000 |Minimal CD |0,0,0,0,5,0,0,0 |40   |1    |J11   |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot010.png" height="96px" width="144px" />|
+
+###11/217 | sterile wash: NORMAL
+|line |type |command     |attributes                         |
+|:----|:----|:-----------|:----------------------------------|
+|11   |B    |evo_comment |11/217 &#124; sterile wash: NORMAL |
+|12   |C    |gwl_comment |START: sterile wash: NORMAL |
+|13   |B    |Wash    |255,32,1,32,0,"1",500,"0.1",0,10,70,30,1,0,0,0 |
+
+|line |type |command  |tipMask  |LC                 |volumes                         |grid |site |wells                   |image                                                                                                                                                      |
+|:----|:----|:--------|:--------|:------------------|:-------------------------------|:----|:----|:-----------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------|
+|14   |B    |Aspirate |11111111 |sterileWash_N_EtOH |300,300,300,300,300,300,300,300 |30   |2    |A1,B1,C1,D1,E1,F1,G1,H1 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot014.png" height="96px" width="144px" />|
+|15   |B    |Dispense |11111111 |sterileWash_N_EtOH |300,300,300,300,300,300,300,300 |30   |2    |A1,B1,C1,D1,E1,F1,G1,H1 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot015.png" height="96px" width="144px" />|
+
+|line |type |command |attributes                                     |
+|:----|:----|:-------|:----------------------------------------------|
+|16   |B    |Wash    |255,31,1,31,0,"1",500,"2",500,10,70,30,1,0,0,0 |
+
+|line |type |command  |tipMask  |LC                 |volumes                         |grid |site |wells                   |image                                                                                                                                                      |
+|:----|:----|:--------|:--------|:------------------|:-------------------------------|:----|:----|:-----------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------|
+|17   |B    |Aspirate |11111111 |sterileWash_N_EtOH |400,400,400,400,400,400,400,400 |30   |2    |A1,B1,C1,D1,E1,F1,G1,H1 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot017.png" height="96px" width="144px" />|
+|18   |B    |Dispense |11111111 |sterileWash_N_EtOH |400,400,400,400,400,400,400,400 |30   |2    |A1,B1,C1,D1,E1,F1,G1,H1 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot018.png" height="96px" width="144px" />|
+|19   |B    |Aspirate |11111111 |sterileWash_N_H2O |450,450,450,450,450,450,450,450 |30   |1    |A1,B1,C1,D1,E1,F1,G1,H1 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot019.png" height="96px" width="144px" />|
+|20   |B    |Dispense |11111111 |sterileWash_N_H2O |450,450,450,450,450,450,450,450 |30   |1    |A1,B1,C1,D1,E1,F1,G1,H1 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot020.png" height="96px" width="144px" />|
+
+|line |type |command  |tipMask  |grid |site |zMove |zTarget |offset |speed |wells                   |image                                                                                                                                                      |
+|:----|:----|:--------|:--------|:----|:----|:-----|:-------|:------|:-----|:-----------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------|
+|21   |B    |MoveLiha |11111111 |30   |1    |0     |4       |0      |10    |A1,B1,C1,D1,E1,F1,G1,H1 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot021.png" height="96px" width="144px" />|
+
+|line |type |command     |attributes                |
+|:----|:----|:-----------|:-------------------------|
+|22   |C    |gwl_comment |END: sterile wash: NORMAL |
+
+|line |type |command  |tipMask  |LC         |volumes          |grid |site |wells |image                                                                                                                                                      |
+|:----|:----|:--------|:--------|:----------|:----------------|:----|:----|:-----|:----------------------------------------------------------------------------------------------------------------------------------------------------------|
+|23   |B    |Aspirate |00010000 |Minimal CD |0,0,0,0,25,0,0,0 |40   |0    |E1    |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot023.png" height="96px" width="144px" />|
+|24   |B    |Dispense |00010000 |Minimal CD |0,0,0,0,10,0,0,0 |40   |0    |E1    |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot024.png" height="96px" width="144px" />|
+|25   |B    |Dispense |00010000 |Minimal CD |0,0,0,0,5,0,0,0 |40   |1    |I12   |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot025.png" height="96px" width="144px" />|
+|26   |B    |Dispense |00010000 |Minimal CD |0,0,0,0,5,0,0,0 |40   |1    |J12   |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot026.png" height="96px" width="144px" />|
+
+###27/217 | sterile wash: NORMAL
+|line |type |command     |attributes                         |
+|:----|:----|:-----------|:----------------------------------|
+|27   |B    |evo_comment |27/217 &#124; sterile wash: NORMAL |
+|28   |C    |gwl_comment |START: sterile wash: NORMAL |
+|29   |B    |Wash    |255,32,1,32,0,"1",500,"0.1",0,10,70,30,1,0,0,0 |
+
+|line |type |command  |tipMask  |LC                 |volumes                         |grid |site |wells                   |image                                                                                                                                                      |
+|:----|:----|:--------|:--------|:------------------|:-------------------------------|:----|:----|:-----------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------|
+|30   |B    |Aspirate |11111111 |sterileWash_N_EtOH |300,300,300,300,300,300,300,300 |30   |2    |A1,B1,C1,D1,E1,F1,G1,H1 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot030.png" height="96px" width="144px" />|
+|31   |B    |Dispense |11111111 |sterileWash_N_EtOH |300,300,300,300,300,300,300,300 |30   |2    |A1,B1,C1,D1,E1,F1,G1,H1 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot031.png" height="96px" width="144px" />|
+
+|line |type |command |attributes                                     |
+|:----|:----|:-------|:----------------------------------------------|
+|32   |B    |Wash    |255,31,1,31,0,"1",500,"2",500,10,70,30,1,0,0,0 |
+
+|line |type |command  |tipMask  |LC                 |volumes                         |grid |site |wells                   |image                                                                                                                                                      |
+|:----|:----|:--------|:--------|:------------------|:-------------------------------|:----|:----|:-----------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------|
+|33   |B    |Aspirate |11111111 |sterileWash_N_EtOH |400,400,400,400,400,400,400,400 |30   |2    |A1,B1,C1,D1,E1,F1,G1,H1 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot033.png" height="96px" width="144px" />|
+|34   |B    |Dispense |11111111 |sterileWash_N_EtOH |400,400,400,400,400,400,400,400 |30   |2    |A1,B1,C1,D1,E1,F1,G1,H1 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot034.png" height="96px" width="144px" />|
+|35   |B    |Aspirate |11111111 |sterileWash_N_H2O |450,450,450,450,450,450,450,450 |30   |1    |A1,B1,C1,D1,E1,F1,G1,H1 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot035.png" height="96px" width="144px" />|
+|36   |B    |Dispense |11111111 |sterileWash_N_H2O |450,450,450,450,450,450,450,450 |30   |1    |A1,B1,C1,D1,E1,F1,G1,H1 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot036.png" height="96px" width="144px" />|
+
+|line |type |command  |tipMask  |grid |site |zMove |zTarget |offset |speed |wells                   |image                                                                                                                                                      |
+|:----|:----|:--------|:--------|:----|:----|:-----|:-------|:------|:-----|:-----------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------|
+|37   |B    |MoveLiha |11111111 |30   |1    |0     |4       |0      |10    |A1,B1,C1,D1,E1,F1,G1,H1 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot037.png" height="96px" width="144px" />|
+
+|line |type |command     |attributes                |
+|:----|:----|:-----------|:-------------------------|
+|38   |C    |gwl_comment |END: sterile wash: NORMAL |
+
+###39/217 | T1 | plate 3, Treatment: B
+|line |type |command     |attributes                                    |
+|:----|:----|:-----------|:---------------------------------------------|
+|39   |B    |evo_comment |39/217 &#124; T1 &#124; plate 3, Treatment: B |
+
+|line |type |command  |tipMask  |LC         |volumes                 |grid |site |wells                   |image                                                                                                                                                      |
+|:----|:----|:--------|:--------|:----------|:-----------------------|:----|:----|:-----------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------|
+|40   |B    |Aspirate |11111111 |Minimal CD |45,45,45,45,45,45,45,45 |40   |0    |A7,B7,C7,D7,E7,F7,G7,H7 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot040.png" height="96px" width="144px" />|
+|41   |B    |Dispense |11111111 |Minimal CD |10,10,10,10,10,10,10,10 |40   |0    |A7,B7,C7,D7,E7,F7,G7,H7 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot041.png" height="96px" width="144px" />|
+|42   |B    |Dispense |11111111 |Minimal CD |5,5,5,5,5,5,5,5 |40   |1    |A1,C1,E1,G1,I1,K1,M1,O1 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot042.png" height="96px" width="144px" />|
+|43   |B    |Dispense |11111111 |Minimal CD |5,5,5,5,5,5,5,5 |40   |1    |B1,D1,F1,H1,J1,L1,N1,P1 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot043.png" height="96px" width="144px" />|
+|44   |B    |Dispense |11111111 |Minimal CD |5,5,5,5,5,5,5,5 |40   |1    |A2,C2,E2,G2,I2,K2,M2,O2 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot044.png" height="96px" width="144px" />|
+|45   |B    |Dispense |11111111 |Minimal CD |5,5,5,5,5,5,5,5 |40   |1    |B2,D2,F2,H2,J2,L2,N2,P2 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot045.png" height="96px" width="144px" />|
+|46   |B    |Dispense |11111111 |Minimal CD |5,5,5,5,5,5,5,5 |40   |1    |A3,C3,E3,G3,I3,K3,M3,O3 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot046.png" height="96px" width="144px" />|
+|47   |B    |Dispense |11111111 |Minimal CD |5,5,5,5,5,5,5,5 |40   |1    |B3,D3,F3,H3,J3,L3,N3,P3 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot047.png" height="96px" width="144px" />|
+
+###48/217 | sterile wash: NORMAL
+|line |type |command     |attributes                         |
+|:----|:----|:-----------|:----------------------------------|
+|48   |B    |evo_comment |48/217 &#124; sterile wash: NORMAL |
+|49   |C    |gwl_comment |START: sterile wash: NORMAL |
+|50   |B    |Wash    |255,32,1,32,0,"1",500,"0.1",0,10,70,30,1,0,0,0 |
+
+|line |type |command  |tipMask  |LC                 |volumes                         |grid |site |wells                   |image                                                                                                                                                      |
+|:----|:----|:--------|:--------|:------------------|:-------------------------------|:----|:----|:-----------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------|
+|51   |B    |Aspirate |11111111 |sterileWash_N_EtOH |300,300,300,300,300,300,300,300 |30   |2    |A1,B1,C1,D1,E1,F1,G1,H1 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot051.png" height="96px" width="144px" />|
+|52   |B    |Dispense |11111111 |sterileWash_N_EtOH |300,300,300,300,300,300,300,300 |30   |2    |A1,B1,C1,D1,E1,F1,G1,H1 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot052.png" height="96px" width="144px" />|
+
+|line |type |command |attributes                                     |
+|:----|:----|:-------|:----------------------------------------------|
+|53   |B    |Wash    |255,31,1,31,0,"1",500,"2",500,10,70,30,1,0,0,0 |
+
+|line |type |command  |tipMask  |LC                 |volumes                         |grid |site |wells                   |image                                                                                                                                                      |
+|:----|:----|:--------|:--------|:------------------|:-------------------------------|:----|:----|:-----------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------|
+|54   |B    |Aspirate |11111111 |sterileWash_N_EtOH |400,400,400,400,400,400,400,400 |30   |2    |A1,B1,C1,D1,E1,F1,G1,H1 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot054.png" height="96px" width="144px" />|
+|55   |B    |Dispense |11111111 |sterileWash_N_EtOH |400,400,400,400,400,400,400,400 |30   |2    |A1,B1,C1,D1,E1,F1,G1,H1 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot055.png" height="96px" width="144px" />|
+|56   |B    |Aspirate |11111111 |sterileWash_N_H2O |450,450,450,450,450,450,450,450 |30   |1    |A1,B1,C1,D1,E1,F1,G1,H1 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot056.png" height="96px" width="144px" />|
+|57   |B    |Dispense |11111111 |sterileWash_N_H2O |450,450,450,450,450,450,450,450 |30   |1    |A1,B1,C1,D1,E1,F1,G1,H1 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot057.png" height="96px" width="144px" />|
+
+|line |type |command  |tipMask  |grid |site |zMove |zTarget |offset |speed |wells                   |image                                                                                                                                                      |
+|:----|:----|:--------|:--------|:----|:----|:-----|:-------|:------|:-----|:-----------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------|
+|58   |B    |MoveLiha |11111111 |30   |1    |0     |4       |0      |10    |A1,B1,C1,D1,E1,F1,G1,H1 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot058.png" height="96px" width="144px" />|
+
+|line |type |command     |attributes                |
+|:----|:----|:-----------|:-------------------------|
+|59   |C    |gwl_comment |END: sterile wash: NORMAL |
+
+|line |type |command  |tipMask  |LC         |volumes                 |grid |site |wells                   |image                                                                                                                                                      |
+|:----|:----|:--------|:--------|:----------|:-----------------------|:----|:----|:-----------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------|
+|60   |B    |Aspirate |11111111 |Minimal CD |45,45,45,45,45,45,45,45 |40   |0    |A7,B7,C7,D7,E7,F7,G7,H7 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot060.png" height="96px" width="144px" />|
+|61   |B    |Dispense |11111111 |Minimal CD |10,10,10,10,10,10,10,10 |40   |0    |A7,B7,C7,D7,E7,F7,G7,H7 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot061.png" height="96px" width="144px" />|
+|62   |B    |Dispense |11111111 |Minimal CD |5,5,5,5,5,5,5,5 |40   |1    |A4,C4,E4,G4,I4,K4,M4,O4 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot062.png" height="96px" width="144px" />|
+|63   |B    |Dispense |11111111 |Minimal CD |5,5,5,5,5,5,5,5 |40   |1    |B4,D4,F4,H4,J4,L4,N4,P4 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot063.png" height="96px" width="144px" />|
+|64   |B    |Dispense |11101111 |Minimal CD |5,5,5,5,0,5,5,5 |40   |1    |A5,C5,E5,G5,K5,M5,O5 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot064.png" height="96px" width="144px" />|
+|65   |B    |Dispense |11101111 |Minimal CD |5,5,5,5,0,5,5,5 |40   |1    |B5,D5,F5,H5,L5,N5,P5 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot065.png" height="96px" width="144px" />|
+|66   |B    |Dispense |11101111 |Minimal CD |5,5,5,5,0,5,5,5 |40   |1    |A6,C6,E6,G6,K6,M6,O6 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot066.png" height="96px" width="144px" />|
+|67   |B    |Dispense |11101111 |Minimal CD |5,5,5,5,0,5,5,5 |40   |1    |B6,D6,F6,H6,L6,N6,P6 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot067.png" height="96px" width="144px" />|
+|68   |B    |Dispense |00010000 |Minimal CD |0,0,0,0,5,0,0,0 |40   |1    |I7    |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot068.png" height="96px" width="144px" />|
+|69   |B    |Dispense |00010000 |Minimal CD |0,0,0,0,5,0,0,0 |40   |1    |J7    |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot069.png" height="96px" width="144px" />|
+|70   |B    |Dispense |00010000 |Minimal CD |0,0,0,0,5,0,0,0 |40   |1    |I8    |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot070.png" height="96px" width="144px" />|
+|71   |B    |Dispense |00010000 |Minimal CD |0,0,0,0,5,0,0,0 |40   |1    |J8    |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot071.png" height="96px" width="144px" />|
+
+###72/217 | sterile wash: NORMAL
+|line |type |command     |attributes                         |
+|:----|:----|:-----------|:----------------------------------|
+|72   |B    |evo_comment |72/217 &#124; sterile wash: NORMAL |
+|73   |C    |gwl_comment |START: sterile wash: NORMAL |
+|74   |B    |Wash    |255,32,1,32,0,"1",500,"0.1",0,10,70,30,1,0,0,0 |
+
+|line |type |command  |tipMask  |LC                 |volumes                         |grid |site |wells                   |image                                                                                                                                                      |
+|:----|:----|:--------|:--------|:------------------|:-------------------------------|:----|:----|:-----------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------|
+|75   |B    |Aspirate |11111111 |sterileWash_N_EtOH |300,300,300,300,300,300,300,300 |30   |2    |A1,B1,C1,D1,E1,F1,G1,H1 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot075.png" height="96px" width="144px" />|
+|76   |B    |Dispense |11111111 |sterileWash_N_EtOH |300,300,300,300,300,300,300,300 |30   |2    |A1,B1,C1,D1,E1,F1,G1,H1 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot076.png" height="96px" width="144px" />|
+
+|line |type |command |attributes                                     |
+|:----|:----|:-------|:----------------------------------------------|
+|77   |B    |Wash    |255,31,1,31,0,"1",500,"2",500,10,70,30,1,0,0,0 |
+
+|line |type |command  |tipMask  |LC                 |volumes                         |grid |site |wells                   |image                                                                                                                                                      |
+|:----|:----|:--------|:--------|:------------------|:-------------------------------|:----|:----|:-----------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------|
+|78   |B    |Aspirate |11111111 |sterileWash_N_EtOH |400,400,400,400,400,400,400,400 |30   |2    |A1,B1,C1,D1,E1,F1,G1,H1 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot078.png" height="96px" width="144px" />|
+|79   |B    |Dispense |11111111 |sterileWash_N_EtOH |400,400,400,400,400,400,400,400 |30   |2    |A1,B1,C1,D1,E1,F1,G1,H1 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot079.png" height="96px" width="144px" />|
+|80   |B    |Aspirate |11111111 |sterileWash_N_H2O |450,450,450,450,450,450,450,450 |30   |1    |A1,B1,C1,D1,E1,F1,G1,H1 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot080.png" height="96px" width="144px" />|
+|81   |B    |Dispense |11111111 |sterileWash_N_H2O |450,450,450,450,450,450,450,450 |30   |1    |A1,B1,C1,D1,E1,F1,G1,H1 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot081.png" height="96px" width="144px" />|
+
+|line |type |command  |tipMask  |grid |site |zMove |zTarget |offset |speed |wells                   |image                                                                                                                                                      |
+|:----|:----|:--------|:--------|:----|:----|:-----|:-------|:------|:-----|:-----------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------|
+|82   |B    |MoveLiha |11111111 |30   |1    |0     |4       |0      |10    |A1,B1,C1,D1,E1,F1,G1,H1 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot082.png" height="96px" width="144px" />|
+
+|line |type |command     |attributes                |
+|:----|:----|:-----------|:-------------------------|
+|83   |C    |gwl_comment |END: sterile wash: NORMAL |
+
+|line |type |command  |tipMask  |LC         |volumes                 |grid |site |wells                   |image                                                                                                                                                      |
+|:----|:----|:--------|:--------|:----------|:-----------------------|:----|:----|:-----------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------|
+|84   |B    |Aspirate |11111111 |Minimal CD |45,45,45,45,45,45,45,45 |40   |0    |A7,B7,C7,D7,E7,F7,G7,H7 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot084.png" height="96px" width="144px" />|
+|85   |B    |Dispense |11111111 |Minimal CD |10,10,10,10,10,10,10,10 |40   |0    |A7,B7,C7,D7,E7,F7,G7,H7 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot085.png" height="96px" width="144px" />|
+|86   |B    |Dispense |11101111 |Minimal CD |5,5,5,5,0,5,5,5 |40   |1    |A7,C7,E7,G7,K7,M7,O7 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot086.png" height="96px" width="144px" />|
+|87   |B    |Dispense |11101111 |Minimal CD |5,5,5,5,0,5,5,5 |40   |1    |B7,D7,F7,H7,L7,N7,P7 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot087.png" height="96px" width="144px" />|
+|88   |B    |Dispense |11101111 |Minimal CD |5,5,5,5,0,5,5,5 |40   |1    |A8,C8,E8,G8,K8,M8,O8 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot088.png" height="96px" width="144px" />|
+|89   |B    |Dispense |11101111 |Minimal CD |5,5,5,5,0,5,5,5 |40   |1    |B8,D8,F8,H8,L8,N8,P8 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot089.png" height="96px" width="144px" />|
+|90   |B    |Dispense |11111111 |Minimal CD |5,5,5,5,5,5,5,5 |40   |1    |A9,C9,E9,G9,I9,K9,M9,O9 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot090.png" height="96px" width="144px" />|
+|91   |B    |Dispense |11111111 |Minimal CD |5,5,5,5,5,5,5,5 |40   |1    |B9,D9,F9,H9,J9,L9,N9,P9 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot091.png" height="96px" width="144px" />|
+|92   |B    |Dispense |00010000 |Minimal CD |0,0,0,0,5,0,0,0 |40   |1    |I10   |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot092.png" height="96px" width="144px" />|
+|93   |B    |Dispense |00010000 |Minimal CD |0,0,0,0,5,0,0,0 |40   |1    |J10   |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot093.png" height="96px" width="144px" />|
+|94   |B    |Dispense |00010000 |Minimal CD |0,0,0,0,5,0,0,0 |40   |1    |I13   |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot094.png" height="96px" width="144px" />|
+|95   |B    |Dispense |00010000 |Minimal CD |0,0,0,0,5,0,0,0 |40   |1    |J13   |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot095.png" height="96px" width="144px" />|
+
+###96/217 | sterile wash: NORMAL
+|line |type |command     |attributes                         |
+|:----|:----|:-----------|:----------------------------------|
+|96   |B    |evo_comment |96/217 &#124; sterile wash: NORMAL |
+|97   |C    |gwl_comment |START: sterile wash: NORMAL |
+|98   |B    |Wash    |255,32,1,32,0,"1",500,"0.1",0,10,70,30,1,0,0,0 |
+
+|line |type |command  |tipMask  |LC                 |volumes                         |grid |site |wells                   |image                                                                                                                                                      |
+|:----|:----|:--------|:--------|:------------------|:-------------------------------|:----|:----|:-----------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------|
+|99   |B    |Aspirate |11111111 |sterileWash_N_EtOH |300,300,300,300,300,300,300,300 |30   |2    |A1,B1,C1,D1,E1,F1,G1,H1 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot099.png" height="96px" width="144px" />|
+|100  |B    |Dispense |11111111 |sterileWash_N_EtOH |300,300,300,300,300,300,300,300 |30   |2    |A1,B1,C1,D1,E1,F1,G1,H1 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot100.png" height="96px" width="144px" />|
+
+|line |type |command |attributes                                     |
+|:----|:----|:-------|:----------------------------------------------|
+|101  |B    |Wash    |255,31,1,31,0,"1",500,"2",500,10,70,30,1,0,0,0 |
+
+|line |type |command  |tipMask  |LC                 |volumes                         |grid |site |wells                   |image                                                                                                                                                      |
+|:----|:----|:--------|:--------|:------------------|:-------------------------------|:----|:----|:-----------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------|
+|102  |B    |Aspirate |11111111 |sterileWash_N_EtOH |400,400,400,400,400,400,400,400 |30   |2    |A1,B1,C1,D1,E1,F1,G1,H1 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot102.png" height="96px" width="144px" />|
+|103  |B    |Dispense |11111111 |sterileWash_N_EtOH |400,400,400,400,400,400,400,400 |30   |2    |A1,B1,C1,D1,E1,F1,G1,H1 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot103.png" height="96px" width="144px" />|
+|104  |B    |Aspirate |11111111 |sterileWash_N_H2O |450,450,450,450,450,450,450,450 |30   |1    |A1,B1,C1,D1,E1,F1,G1,H1 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot104.png" height="96px" width="144px" />|
+|105  |B    |Dispense |11111111 |sterileWash_N_H2O |450,450,450,450,450,450,450,450 |30   |1    |A1,B1,C1,D1,E1,F1,G1,H1 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot105.png" height="96px" width="144px" />|
+
+|line |type |command  |tipMask  |grid |site |zMove |zTarget |offset |speed |wells                   |image                                                                                                                                                      |
+|:----|:----|:--------|:--------|:----|:----|:-----|:-------|:------|:-----|:-----------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------|
+|106  |B    |MoveLiha |11111111 |30   |1    |0     |4       |0      |10    |A1,B1,C1,D1,E1,F1,G1,H1 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot106.png" height="96px" width="144px" />|
+
+|line |type |command     |attributes                |
+|:----|:----|:-----------|:-------------------------|
+|107  |C    |gwl_comment |END: sterile wash: NORMAL |
+
+|line |type |command  |tipMask  |LC         |volumes                 |grid |site |wells                   |image                                                                                                                                                      |
+|:----|:----|:--------|:--------|:----------|:-----------------------|:----|:----|:-----------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------|
+|108  |B    |Aspirate |11111111 |Minimal CD |45,45,45,45,45,45,45,45 |40   |0    |A7,B7,C7,D7,E7,F7,G7,H7 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot108.png" height="96px" width="144px" />|
+|109  |B    |Dispense |11111111 |Minimal CD |10,10,10,10,10,10,10,10 |40   |0    |A7,B7,C7,D7,E7,F7,G7,H7 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot109.png" height="96px" width="144px" />|
+|110  |B    |Dispense |11101111 |Minimal CD |5,5,5,5,0,5,5,5 |40   |1    |A10,C10,E10,G10,K10,M10,O10 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot110.png" height="96px" width="144px" />|
+|111  |B    |Dispense |11101111 |Minimal CD |5,5,5,5,0,5,5,5 |40   |1    |B10,D10,F10,H10,L10,N10,P10 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot111.png" height="96px" width="144px" />|
+|112  |B    |Dispense |11101111 |Minimal CD |5,5,5,5,0,5,5,5 |40   |1    |A11,C11,E11,G11,K11,M11,O11 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot112.png" height="96px" width="144px" />|
+|113  |B    |Dispense |11101111 |Minimal CD |5,5,5,5,0,5,5,5 |40   |1    |B11,D11,F11,H11,L11,N11,P11 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot113.png" height="96px" width="144px" />|
+|114  |B    |Dispense |11101111 |Minimal CD |5,5,5,5,0,5,5,5 |40   |1    |A12,C12,E12,G12,K12,M12,O12 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot114.png" height="96px" width="144px" />|
+|115  |B    |Dispense |11101111 |Minimal CD |5,5,5,5,0,5,5,5 |40   |1    |B12,D12,F12,H12,L12,N12,P12 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot115.png" height="96px" width="144px" />|
+|116  |B    |Dispense |00010000 |Minimal CD |0,0,0,0,5,0,0,0 |40   |1    |I14   |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot116.png" height="96px" width="144px" />|
+|117  |B    |Dispense |00010000 |Minimal CD |0,0,0,0,5,0,0,0 |40   |1    |J14   |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot117.png" height="96px" width="144px" />|
+|118  |B    |Dispense |00010000 |Minimal CD |0,0,0,0,5,0,0,0 |40   |1    |I15   |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot118.png" height="96px" width="144px" />|
+|119  |B    |Dispense |00010000 |Minimal CD |0,0,0,0,5,0,0,0 |40   |1    |J15   |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot119.png" height="96px" width="144px" />|
+|120  |B    |Dispense |00010000 |Minimal CD |0,0,0,0,5,0,0,0 |40   |1    |I16   |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot120.png" height="96px" width="144px" />|
+|121  |B    |Dispense |00010000 |Minimal CD |0,0,0,0,5,0,0,0 |40   |1    |J16   |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot121.png" height="96px" width="144px" />|
+
+###122/217 | sterile wash: NORMAL
+|line |type |command     |attributes                          |
+|:----|:----|:-----------|:-----------------------------------|
+|122  |B    |evo_comment |122/217 &#124; sterile wash: NORMAL |
+|123  |C    |gwl_comment |START: sterile wash: NORMAL |
+|124  |B    |Wash    |255,32,1,32,0,"1",500,"0.1",0,10,70,30,1,0,0,0 |
+
+|line |type |command  |tipMask  |LC                 |volumes                         |grid |site |wells                   |image                                                                                                                                                      |
+|:----|:----|:--------|:--------|:------------------|:-------------------------------|:----|:----|:-----------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------|
+|125  |B    |Aspirate |11111111 |sterileWash_N_EtOH |300,300,300,300,300,300,300,300 |30   |2    |A1,B1,C1,D1,E1,F1,G1,H1 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot125.png" height="96px" width="144px" />|
+|126  |B    |Dispense |11111111 |sterileWash_N_EtOH |300,300,300,300,300,300,300,300 |30   |2    |A1,B1,C1,D1,E1,F1,G1,H1 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot126.png" height="96px" width="144px" />|
+
+|line |type |command |attributes                                     |
+|:----|:----|:-------|:----------------------------------------------|
+|127  |B    |Wash    |255,31,1,31,0,"1",500,"2",500,10,70,30,1,0,0,0 |
+
+|line |type |command  |tipMask  |LC                 |volumes                         |grid |site |wells                   |image                                                                                                                                                      |
+|:----|:----|:--------|:--------|:------------------|:-------------------------------|:----|:----|:-----------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------|
+|128  |B    |Aspirate |11111111 |sterileWash_N_EtOH |400,400,400,400,400,400,400,400 |30   |2    |A1,B1,C1,D1,E1,F1,G1,H1 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot128.png" height="96px" width="144px" />|
+|129  |B    |Dispense |11111111 |sterileWash_N_EtOH |400,400,400,400,400,400,400,400 |30   |2    |A1,B1,C1,D1,E1,F1,G1,H1 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot129.png" height="96px" width="144px" />|
+|130  |B    |Aspirate |11111111 |sterileWash_N_H2O |450,450,450,450,450,450,450,450 |30   |1    |A1,B1,C1,D1,E1,F1,G1,H1 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot130.png" height="96px" width="144px" />|
+|131  |B    |Dispense |11111111 |sterileWash_N_H2O |450,450,450,450,450,450,450,450 |30   |1    |A1,B1,C1,D1,E1,F1,G1,H1 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot131.png" height="96px" width="144px" />|
+
+|line |type |command  |tipMask  |grid |site |zMove |zTarget |offset |speed |wells                   |image                                                                                                                                                      |
+|:----|:----|:--------|:--------|:----|:----|:-----|:-------|:------|:-----|:-----------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------|
+|132  |B    |MoveLiha |11111111 |30   |1    |0     |4       |0      |10    |A1,B1,C1,D1,E1,F1,G1,H1 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot132.png" height="96px" width="144px" />|
+
+|line |type |command     |attributes                |
+|:----|:----|:-----------|:-------------------------|
+|133  |C    |gwl_comment |END: sterile wash: NORMAL |
+
+|line |type |command  |tipMask  |LC         |volumes                 |grid |site |wells                   |image                                                                                                                                                      |
+|:----|:----|:--------|:--------|:----------|:-----------------------|:----|:----|:-----------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------|
+|134  |B    |Aspirate |11111111 |Minimal CD |45,45,45,45,45,45,45,45 |40   |0    |A7,B7,C7,D7,E7,F7,G7,H7 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot134.png" height="96px" width="144px" />|
+|135  |B    |Dispense |11111111 |Minimal CD |10,10,10,10,10,10,10,10 |40   |0    |A7,B7,C7,D7,E7,F7,G7,H7 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot135.png" height="96px" width="144px" />|
+|136  |B    |Dispense |11101111 |Minimal CD |5,5,5,5,0,5,5,5 |40   |1    |A13,C13,E13,G13,K13,M13,O13 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot136.png" height="96px" width="144px" />|
+|137  |B    |Dispense |11101111 |Minimal CD |5,5,5,5,0,5,5,5 |40   |1    |B13,D13,F13,H13,L13,N13,P13 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot137.png" height="96px" width="144px" />|
+|138  |B    |Dispense |11101111 |Minimal CD |5,5,5,5,0,5,5,5 |40   |1    |A14,C14,E14,G14,K14,M14,O14 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot138.png" height="96px" width="144px" />|
+|139  |B    |Dispense |11101111 |Minimal CD |5,5,5,5,0,5,5,5 |40   |1    |B14,D14,F14,H14,L14,N14,P14 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot139.png" height="96px" width="144px" />|
+|140  |B    |Dispense |11101111 |Minimal CD |5,5,5,5,0,5,5,5 |40   |1    |A15,C15,E15,G15,K15,M15,O15 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot140.png" height="96px" width="144px" />|
+|141  |B    |Dispense |11101111 |Minimal CD |5,5,5,5,0,5,5,5 |40   |1    |B15,D15,F15,H15,L15,N15,P15 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot141.png" height="96px" width="144px" />|
+|142  |B    |Dispense |00010000 |Minimal CD |0,0,0,0,5,0,0,0 |40   |1    |I17   |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot142.png" height="96px" width="144px" />|
+|143  |B    |Dispense |00010000 |Minimal CD |0,0,0,0,5,0,0,0 |40   |1    |J17   |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot143.png" height="96px" width="144px" />|
+|144  |B    |Dispense |00010000 |Minimal CD |0,0,0,0,5,0,0,0 |40   |1    |I18   |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot144.png" height="96px" width="144px" />|
+|145  |B    |Dispense |00010000 |Minimal CD |0,0,0,0,5,0,0,0 |40   |1    |J18   |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot145.png" height="96px" width="144px" />|
+|146  |B    |Dispense |00010000 |Minimal CD |0,0,0,0,5,0,0,0 |40   |1    |I19   |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot146.png" height="96px" width="144px" />|
+|147  |B    |Dispense |00010000 |Minimal CD |0,0,0,0,5,0,0,0 |40   |1    |J19   |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot147.png" height="96px" width="144px" />|
+
+###148/217 | sterile wash: NORMAL
+|line |type |command     |attributes                          |
+|:----|:----|:-----------|:-----------------------------------|
+|148  |B    |evo_comment |148/217 &#124; sterile wash: NORMAL |
+|149  |C    |gwl_comment |START: sterile wash: NORMAL |
+|150  |B    |Wash    |255,32,1,32,0,"1",500,"0.1",0,10,70,30,1,0,0,0 |
+
+|line |type |command  |tipMask  |LC                 |volumes                         |grid |site |wells                   |image                                                                                                                                                      |
+|:----|:----|:--------|:--------|:------------------|:-------------------------------|:----|:----|:-----------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------|
+|151  |B    |Aspirate |11111111 |sterileWash_N_EtOH |300,300,300,300,300,300,300,300 |30   |2    |A1,B1,C1,D1,E1,F1,G1,H1 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot151.png" height="96px" width="144px" />|
+|152  |B    |Dispense |11111111 |sterileWash_N_EtOH |300,300,300,300,300,300,300,300 |30   |2    |A1,B1,C1,D1,E1,F1,G1,H1 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot152.png" height="96px" width="144px" />|
+
+|line |type |command |attributes                                     |
+|:----|:----|:-------|:----------------------------------------------|
+|153  |B    |Wash    |255,31,1,31,0,"1",500,"2",500,10,70,30,1,0,0,0 |
+
+|line |type |command  |tipMask  |LC                 |volumes                         |grid |site |wells                   |image                                                                                                                                                      |
+|:----|:----|:--------|:--------|:------------------|:-------------------------------|:----|:----|:-----------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------|
+|154  |B    |Aspirate |11111111 |sterileWash_N_EtOH |400,400,400,400,400,400,400,400 |30   |2    |A1,B1,C1,D1,E1,F1,G1,H1 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot154.png" height="96px" width="144px" />|
+|155  |B    |Dispense |11111111 |sterileWash_N_EtOH |400,400,400,400,400,400,400,400 |30   |2    |A1,B1,C1,D1,E1,F1,G1,H1 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot155.png" height="96px" width="144px" />|
+|156  |B    |Aspirate |11111111 |sterileWash_N_H2O |450,450,450,450,450,450,450,450 |30   |1    |A1,B1,C1,D1,E1,F1,G1,H1 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot156.png" height="96px" width="144px" />|
+|157  |B    |Dispense |11111111 |sterileWash_N_H2O |450,450,450,450,450,450,450,450 |30   |1    |A1,B1,C1,D1,E1,F1,G1,H1 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot157.png" height="96px" width="144px" />|
+
+|line |type |command  |tipMask  |grid |site |zMove |zTarget |offset |speed |wells                   |image                                                                                                                                                      |
+|:----|:----|:--------|:--------|:----|:----|:-----|:-------|:------|:-----|:-----------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------|
+|158  |B    |MoveLiha |11111111 |30   |1    |0     |4       |0      |10    |A1,B1,C1,D1,E1,F1,G1,H1 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot158.png" height="96px" width="144px" />|
+
+|line |type |command     |attributes                |
+|:----|:----|:-----------|:-------------------------|
+|159  |C    |gwl_comment |END: sterile wash: NORMAL |
+
+|line |type |command  |tipMask  |LC         |volumes                 |grid |site |wells                   |image                                                                                                                                                      |
+|:----|:----|:--------|:--------|:----------|:-----------------------|:----|:----|:-----------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------|
+|160  |B    |Aspirate |11111111 |Minimal CD |45,45,45,45,45,45,45,45 |40   |0    |A7,B7,C7,D7,E7,F7,G7,H7 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot160.png" height="96px" width="144px" />|
+|161  |B    |Dispense |11111111 |Minimal CD |10,10,10,10,10,10,10,10 |40   |0    |A7,B7,C7,D7,E7,F7,G7,H7 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot161.png" height="96px" width="144px" />|
+|162  |B    |Dispense |11101111 |Minimal CD |5,5,5,5,0,5,5,5 |40   |1    |A16,C16,E16,G16,K16,M16,O16 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot162.png" height="96px" width="144px" />|
+|163  |B    |Dispense |11101111 |Minimal CD |5,5,5,5,0,5,5,5 |40   |1    |B16,D16,F16,H16,L16,N16,P16 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot163.png" height="96px" width="144px" />|
+|164  |B    |Dispense |11101111 |Minimal CD |5,5,5,5,0,5,5,5 |40   |1    |A17,C17,E17,G17,K17,M17,O17 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot164.png" height="96px" width="144px" />|
+|165  |B    |Dispense |11101111 |Minimal CD |5,5,5,5,0,5,5,5 |40   |1    |B17,D17,F17,H17,L17,N17,P17 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot165.png" height="96px" width="144px" />|
+|166  |B    |Dispense |11101111 |Minimal CD |5,5,5,5,0,5,5,5 |40   |1    |A18,C18,E18,G18,K18,M18,O18 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot166.png" height="96px" width="144px" />|
+|167  |B    |Dispense |11101111 |Minimal CD |5,5,5,5,0,5,5,5 |40   |1    |B18,D18,F18,H18,L18,N18,P18 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot167.png" height="96px" width="144px" />|
+|168  |B    |Dispense |00010000 |Minimal CD |0,0,0,0,5,0,0,0 |40   |1    |I20   |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot168.png" height="96px" width="144px" />|
+|169  |B    |Dispense |00010000 |Minimal CD |0,0,0,0,5,0,0,0 |40   |1    |J20   |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot169.png" height="96px" width="144px" />|
+|170  |B    |Dispense |00010000 |Minimal CD |0,0,0,0,5,0,0,0 |40   |1    |I21   |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot170.png" height="96px" width="144px" />|
+|171  |B    |Dispense |00010000 |Minimal CD |0,0,0,0,5,0,0,0 |40   |1    |J21   |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot171.png" height="96px" width="144px" />|
+|172  |B    |Dispense |00010000 |Minimal CD |0,0,0,0,5,0,0,0 |40   |1    |I22   |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot172.png" height="96px" width="144px" />|
+|173  |B    |Dispense |00010000 |Minimal CD |0,0,0,0,5,0,0,0 |40   |1    |J22   |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot173.png" height="96px" width="144px" />|
+
+###174/217 | sterile wash: NORMAL
+|line |type |command     |attributes                          |
+|:----|:----|:-----------|:-----------------------------------|
+|174  |B    |evo_comment |174/217 &#124; sterile wash: NORMAL |
+|175  |C    |gwl_comment |START: sterile wash: NORMAL |
+|176  |B    |Wash    |255,32,1,32,0,"1",500,"0.1",0,10,70,30,1,0,0,0 |
+
+|line |type |command  |tipMask  |LC                 |volumes                         |grid |site |wells                   |image                                                                                                                                                      |
+|:----|:----|:--------|:--------|:------------------|:-------------------------------|:----|:----|:-----------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------|
+|177  |B    |Aspirate |11111111 |sterileWash_N_EtOH |300,300,300,300,300,300,300,300 |30   |2    |A1,B1,C1,D1,E1,F1,G1,H1 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot177.png" height="96px" width="144px" />|
+|178  |B    |Dispense |11111111 |sterileWash_N_EtOH |300,300,300,300,300,300,300,300 |30   |2    |A1,B1,C1,D1,E1,F1,G1,H1 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot178.png" height="96px" width="144px" />|
+
+|line |type |command |attributes                                     |
+|:----|:----|:-------|:----------------------------------------------|
+|179  |B    |Wash    |255,31,1,31,0,"1",500,"2",500,10,70,30,1,0,0,0 |
+
+|line |type |command  |tipMask  |LC                 |volumes                         |grid |site |wells                   |image                                                                                                                                                      |
+|:----|:----|:--------|:--------|:------------------|:-------------------------------|:----|:----|:-----------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------|
+|180  |B    |Aspirate |11111111 |sterileWash_N_EtOH |400,400,400,400,400,400,400,400 |30   |2    |A1,B1,C1,D1,E1,F1,G1,H1 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot180.png" height="96px" width="144px" />|
+|181  |B    |Dispense |11111111 |sterileWash_N_EtOH |400,400,400,400,400,400,400,400 |30   |2    |A1,B1,C1,D1,E1,F1,G1,H1 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot181.png" height="96px" width="144px" />|
+|182  |B    |Aspirate |11111111 |sterileWash_N_H2O |450,450,450,450,450,450,450,450 |30   |1    |A1,B1,C1,D1,E1,F1,G1,H1 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot182.png" height="96px" width="144px" />|
+|183  |B    |Dispense |11111111 |sterileWash_N_H2O |450,450,450,450,450,450,450,450 |30   |1    |A1,B1,C1,D1,E1,F1,G1,H1 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot183.png" height="96px" width="144px" />|
+
+|line |type |command  |tipMask  |grid |site |zMove |zTarget |offset |speed |wells                   |image                                                                                                                                                      |
+|:----|:----|:--------|:--------|:----|:----|:-----|:-------|:------|:-----|:-----------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------|
+|184  |B    |MoveLiha |11111111 |30   |1    |0     |4       |0      |10    |A1,B1,C1,D1,E1,F1,G1,H1 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot184.png" height="96px" width="144px" />|
+
+|line |type |command     |attributes                |
+|:----|:----|:-----------|:-------------------------|
+|185  |C    |gwl_comment |END: sterile wash: NORMAL |
+
+|line |type |command  |tipMask  |LC         |volumes                 |grid |site |wells                   |image                                                                                                                                                      |
+|:----|:----|:--------|:--------|:----------|:-----------------------|:----|:----|:-----------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------|
+|186  |B    |Aspirate |11111111 |Minimal CD |45,45,45,45,35,45,45,45 |40   |0    |A7,B7,C7,D7,E7,F7,G7,H7 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot186.png" height="96px" width="144px" />|
+|187  |B    |Dispense |11111111 |Minimal CD |10,10,10,10,10,10,10,10 |40   |0    |A7,B7,C7,D7,E7,F7,G7,H7 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot187.png" height="96px" width="144px" />|
+|188  |B    |Dispense |11101111 |Minimal CD |5,5,5,5,0,5,5,5 |40   |1    |A19,C19,E19,G19,K19,M19,O19 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot188.png" height="96px" width="144px" />|
+|189  |B    |Dispense |11101111 |Minimal CD |5,5,5,5,0,5,5,5 |40   |1    |B19,D19,F19,H19,L19,N19,P19 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot189.png" height="96px" width="144px" />|
+|190  |B    |Dispense |11101111 |Minimal CD |5,5,5,5,0,5,5,5 |40   |1    |A20,C20,E20,G20,K20,M20,O20 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot190.png" height="96px" width="144px" />|
+|191  |B    |Dispense |11101111 |Minimal CD |5,5,5,5,0,5,5,5 |40   |1    |B20,D20,F20,H20,L20,N20,P20 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot191.png" height="96px" width="144px" />|
+|192  |B    |Dispense |11101111 |Minimal CD |5,5,5,5,0,5,5,5 |40   |1    |A21,C21,E21,G21,K21,M21,O21 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot192.png" height="96px" width="144px" />|
+|193  |B    |Dispense |11101111 |Minimal CD |5,5,5,5,0,5,5,5 |40   |1    |B21,D21,F21,H21,L21,N21,P21 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot193.png" height="96px" width="144px" />|
+|194  |B    |Dispense |00010000 |Minimal CD |0,0,0,0,5,0,0,0 |40   |1    |I23   |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot194.png" height="96px" width="144px" />|
+|195  |B    |Dispense |00010000 |Minimal CD |0,0,0,0,5,0,0,0 |40   |1    |J23   |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot195.png" height="96px" width="144px" />|
+|196  |B    |Dispense |00010000 |Minimal CD |0,0,0,0,5,0,0,0 |40   |1    |I24   |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot196.png" height="96px" width="144px" />|
+|197  |B    |Dispense |00010000 |Minimal CD |0,0,0,0,5,0,0,0 |40   |1    |J24   |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot197.png" height="96px" width="144px" />|
+
+###198/217 | sterile wash: NORMAL
+|line |type |command     |attributes                          |
+|:----|:----|:-----------|:-----------------------------------|
+|198  |B    |evo_comment |198/217 &#124; sterile wash: NORMAL |
+|199  |C    |gwl_comment |START: sterile wash: NORMAL |
+|200  |B    |Wash    |255,32,1,32,0,"1",500,"0.1",0,10,70,30,1,0,0,0 |
+
+|line |type |command  |tipMask  |LC                 |volumes                         |grid |site |wells                   |image                                                                                                                                                      |
+|:----|:----|:--------|:--------|:------------------|:-------------------------------|:----|:----|:-----------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------|
+|201  |B    |Aspirate |11111111 |sterileWash_N_EtOH |300,300,300,300,300,300,300,300 |30   |2    |A1,B1,C1,D1,E1,F1,G1,H1 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot201.png" height="96px" width="144px" />|
+|202  |B    |Dispense |11111111 |sterileWash_N_EtOH |300,300,300,300,300,300,300,300 |30   |2    |A1,B1,C1,D1,E1,F1,G1,H1 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot202.png" height="96px" width="144px" />|
+
+|line |type |command |attributes                                     |
+|:----|:----|:-------|:----------------------------------------------|
+|203  |B    |Wash    |255,31,1,31,0,"1",500,"2",500,10,70,30,1,0,0,0 |
+
+|line |type |command  |tipMask  |LC                 |volumes                         |grid |site |wells                   |image                                                                                                                                                      |
+|:----|:----|:--------|:--------|:------------------|:-------------------------------|:----|:----|:-----------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------|
+|204  |B    |Aspirate |11111111 |sterileWash_N_EtOH |400,400,400,400,400,400,400,400 |30   |2    |A1,B1,C1,D1,E1,F1,G1,H1 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot204.png" height="96px" width="144px" />|
+|205  |B    |Dispense |11111111 |sterileWash_N_EtOH |400,400,400,400,400,400,400,400 |30   |2    |A1,B1,C1,D1,E1,F1,G1,H1 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot205.png" height="96px" width="144px" />|
+|206  |B    |Aspirate |11111111 |sterileWash_N_H2O |450,450,450,450,450,450,450,450 |30   |1    |A1,B1,C1,D1,E1,F1,G1,H1 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot206.png" height="96px" width="144px" />|
+|207  |B    |Dispense |11111111 |sterileWash_N_H2O |450,450,450,450,450,450,450,450 |30   |1    |A1,B1,C1,D1,E1,F1,G1,H1 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot207.png" height="96px" width="144px" />|
+
+|line |type |command  |tipMask  |grid |site |zMove |zTarget |offset |speed |wells                   |image                                                                                                                                                      |
+|:----|:----|:--------|:--------|:----|:----|:-----|:-------|:------|:-----|:-----------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------|
+|208  |B    |MoveLiha |11111111 |30   |1    |0     |4       |0      |10    |A1,B1,C1,D1,E1,F1,G1,H1 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot208.png" height="96px" width="144px" />|
+
+|line |type |command     |attributes                |
+|:----|:----|:-----------|:-------------------------|
+|209  |C    |gwl_comment |END: sterile wash: NORMAL |
+
+|line |type |command  |tipMask  |LC         |volumes                |grid |site |wells                |image                                                                                                                                                      |
+|:----|:----|:--------|:--------|:----------|:----------------------|:----|:----|:--------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------|
+|210  |B    |Aspirate |11101111 |Minimal CD |45,45,45,45,0,45,45,45 |40   |0    |A7,B7,C7,D7,F7,G7,H7 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot210.png" height="96px" width="144px" />|
+|211  |B    |Dispense |11101111 |Minimal CD |10,10,10,10,0,10,10,10 |40   |0    |A7,B7,C7,D7,F7,G7,H7 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot211.png" height="96px" width="144px" />|
+|212  |B    |Dispense |11101111 |Minimal CD |5,5,5,5,0,5,5,5 |40   |1    |A22,C22,E22,G22,K22,M22,O22 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot212.png" height="96px" width="144px" />|
+|213  |B    |Dispense |11101111 |Minimal CD |5,5,5,5,0,5,5,5 |40   |1    |B22,D22,F22,H22,L22,N22,P22 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot213.png" height="96px" width="144px" />|
+|214  |B    |Dispense |11101111 |Minimal CD |5,5,5,5,0,5,5,5 |40   |1    |A23,C23,E23,G23,K23,M23,O23 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot214.png" height="96px" width="144px" />|
+|215  |B    |Dispense |11101111 |Minimal CD |5,5,5,5,0,5,5,5 |40   |1    |B23,D23,F23,H23,L23,N23,P23 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot215.png" height="96px" width="144px" />|
+|216  |B    |Dispense |11101111 |Minimal CD |5,5,5,5,0,5,5,5 |40   |1    |A24,C24,E24,G24,K24,M24,O24 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot216.png" height="96px" width="144px" />|
+|217  |B    |Dispense |11101111 |Minimal CD |5,5,5,5,0,5,5,5 |40   |1    |B24,D24,F24,H24,L24,N24,P24 |<img src="C:/Users/COMPUTER/polybox/Robot-Shared/TSPlasmids/experiments/20210417_output/worklists/worklist_temp/plot217.png" height="96px" width="144px" />|
+

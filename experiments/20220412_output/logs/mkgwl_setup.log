@@ -1,0 +1,9 @@
+2022-04-12 11:34:37 | mkgwl_setup.R ------------------------------------------- 
+Experiment: 
+# A tibble: 1 x 5
+     id created             output_directory exp_name n_plates
+  <int> <dttm>              <chr>            <chr>       <dbl>
+1    15 2022-04-12 09:10:57 20220412_output  output          6
+creating plate_setup worklists: done.
+2022-04-12 11:34:46 | mkgwl_setup.R done -------------------------------------- 
+

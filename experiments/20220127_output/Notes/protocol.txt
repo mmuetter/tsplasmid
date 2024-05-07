@@ -1,0 +1,93 @@
+29.01 Crashed after plate treatment. 
+	- Appearently the roma didn't move the ABx plate. 
+	- This led to a crash with the agarplate that should have been moved to this falsely not empty position.
+30.1 plate 5 crash before spotts (still transfer 2). 
+	- (Exclude T1 P5)
+31.1. T3 P1 bei infection leicht schräg aufgesetzt. 
+	- Entsprechend wieder gerade gerückt
+1.2. Agar AB T3 P3 von MCA Pintool aufgespiesst und zerstört. 
+	- Assayplate mit Handpintool auf AB T3 P3 gespottet. ca. 8 Stunden Stillstand dann Fortsetzung des Transfers.
+1.2 Assayplate T3 P6 fell down before spotting. 
+	- Probably many unintended infections. 
+	- It might be a good Idea to exclude those plates from the evaluation
+02.02 Agarplate not properly closed. 
+	- This lead to an error caused by the storeX at the very beginning of the transferscript. 
+	- Easy to fix but 10 hours unintended pause.
+02.02 Found that robot dropped Assayplate old T4 P1. 
+	- I don't know if it was dropped before or after Turnover, spotting ETC. 
+	- The error was found while the robot tried to take the LID from the shelf after the spotting. 
+	- My suspicion is that the plate was dropped during the spotting phase. This would mean that we can't use the Data from this time-point but we can continue to use P1 T5
+03.02 The same thing happened for T4 P4. 
+	- There seems to be a systematic fragility
+03.02 The same thing happened for T4 P5
+03.02 Observation: 
+	- Hickup at spotting routine. 
+	- Lid Transfer to shelfpos 32 buggy. Apparently no plate was spottet. 
+	- Hopefully all of them where correctly infected, turneover and transferred.
+03.02 The Agarplate with missing Colonies will be excluded from the evaluation. 
+	- The oldplates are contaminated and the agar plates are not spottet.
+03.02 The make strainplate script caused some trouble:
+	- Sometimes the agarplates where not properly closed, which caused an error in the incubator
+   	- Temporary deactivation of make strainplate. Use dummyplates to avoid check barcode errors.
+04.02 "MCA cannot move aside because out of x range error" while spotting plate T5 P2. 
+	- This plate was open for 8 hours... Interestingly no bug during P1.... 
+    	- With the adapted script no dropping of old plate anymore yet...
+    	- Found bug in spotting script. 
+        - Probably yesterday during: fixing... 
+        - This error leads to not spotting of N Plate. -> Spot Agarplate T5 N P1 by Handpintool
+        - Bug was fixed     
+    - Run through without further troubles...
+06.02. No troubles yesterday    
+    - Today weird new Roma crash during pickolo photo phase of T5 P6 AB Agar plate  (see phote take at 12:47)
+    - The plate is damaged but still can be used to take photos and evaluate
+    - T5 Assayplates + glucose as freezer plates in J floor
+07.02 T8 ran through without any troubles.
+08.02 Agarplate N at T8 P2 was not properly closed after spotting. This led to an error inside the incubator. The Agarplates A, B, AB were open for the whole night, therefore there might be increased contamination
+    - 10:25 The experiment was successfully recovered
+09.02 While returning last Agarplates (P6_i) same error occured. The plates where put back by hand. This shouldn't be a problem
+    - Serial spotting for strainplate repaired and included again
+    - Serial spotting for Old assayplates included to avoid storeX error
+10.02
+    - yesterday evening Assayplate old (plate 2) caused an error after the spotting routine. 
+		It is assumed that the plate was dropped before the spotting routine and therefore these plates are excluded from the evaluation
+    - Today I figured out that some of the new plane straiplates (those to be infected by the freezer plate) were shifted by one column. 
+        - This leads to the situation that O/N T10 was only half infected. Instead of beeing infected wells from columns: 6, 10, 14, 18 were uninfected. 
+        - This information has to be included in the evaluation and simulation
+        - After checking I figured out that T9 seemed to be alright. 
+11.02
+    - Everything ran through without any problem
+    - Changed 2c_transfer script to avoid drop of old plate problem
+        - shelfpos old partly replaced by putting lid to 33_1
+12.02
+    - Drop of old plate one 
+        - hopefully after spotting
+        - exclude T11_P1
+        - hopefully the yesterday change didn't intruduce a systematic error
+13.02 
+    - Ran through without further erros. 
+        - Hence no systematic error
+14.02
+    - Classical drop of old plate error for old plate T12 P5/P6 after transfer
+18.02 
+    - Since change all old_shelf_pos to 33_1 no error occured.
+19.02 
+    - Strange "error" No 1: 
+        - Script stopped after reading OD of P2 old plate
+        - Plate is not damaged but a lot of the Liquid vaporized...
+    - Restart of robot and recovery of script. 
+    - Strange error No 2: 
+        - The Pinool is properly aligned to get the strains from the old plate but was severly missaligned for the new assay plate
+        - Repeated restart and reinitialization of the robot could not solve the problem.
+        - Therefore Assay plate new position was reteached. 
+            - Serveral severe Carrier alignment errors
+            - Probably some unintended infections on P2 new plate during Reteaching
+20.02 
+    - Strainplate T19 well G9 was uninfected
+    - Strainplate T20 well G18 was uninfected
+24.02
+    - Script stopped without any obvious reason during reading old plates T20_P3_AB
+    - recovered
+
+28.02
+    - Daniel messed up. Put labels on wrong plates.... T24 P1 Agar N on Overnight plate and T25 P1 ON on Agar plate
+    - redo transfer 25 

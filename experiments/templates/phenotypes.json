@@ -1,0 +1,2035 @@
+{
+  "strains": [
+    {
+      "strain": "A_r",
+      "phenotype": 3,
+      "phenotype32": 19,
+      "phenotype256": 51,
+      "color": "#ebe507"
+    },
+    {
+      "strain": "B_r",
+      "phenotype": 5,
+      "phenotype32": 21,
+      "phenotype256": 85,
+      "color": "#ffa10a"
+    },
+    {
+      "strain": "AB_r",
+      "phenotype": 15,
+      "phenotype32": 31,
+      "phenotype256": 255,
+      "color": "#acdf0c"
+    },
+    {
+      "strain": "wt",
+      "phenotype": 1,
+      "phenotype32": 17,
+      "phenotype256": 17,
+      "color": "#0cb7eb"
+    },
+    {
+      "strain": "UI",
+      "phenotype": 0,
+      "phenotype32": 0,
+      "phenotype256": 0,
+      "color": "gray"
+    },
+    {
+      "strain": "bl",
+      "phenotype": 0,
+      "phenotype32": 0,
+      "phenotype256": 0,
+      "color": "gray"
+    }
+  ],
+  "phenotypes": [
+    {
+      "int": 0,
+      "let": "E",
+      "valid": true,
+      "color": "gray"
+    },
+    {
+      "int": 1,
+      "let": "W",
+      "valid": true,
+      "color": "#0cb7eb"
+    },
+    {
+      "int": 2,
+      "let": "F",
+      "valid": false,
+      "color": "#e53b6a"
+    },
+    {
+      "int": 3,
+      "let": "A",
+      "valid": true,
+      "color": "#ebe507"
+    },
+    {
+      "int": 4,
+      "let": "F",
+      "valid": false,
+      "color": "#e53b6a"
+    },
+    {
+      "int": 5,
+      "let": "B",
+      "valid": true,
+      "color": "#ffa10a"
+    },
+    {
+      "int": 6,
+      "let": "F",
+      "valid": false,
+      "color": "#e53b6a"
+    },
+    {
+      "int": 7,
+      "let": "A/B",
+      "valid": true,
+      "color": "#662f89"
+    },
+    {
+      "int": 8,
+      "let": "F",
+      "valid": false,
+      "color": "#e53b6a"
+    },
+    {
+      "int": 9,
+      "let": "F",
+      "valid": false,
+      "color": "#e53b6a"
+    },
+    {
+      "int": 10,
+      "let": "F",
+      "valid": false,
+      "color": "#e53b6a"
+    },
+    {
+      "int": 11,
+      "let": "F",
+      "valid": false,
+      "color": "#e53b6a"
+    },
+    {
+      "int": 12,
+      "let": "F",
+      "valid": false,
+      "color": "#e53b6a"
+    },
+    {
+      "int": 13,
+      "let": "F",
+      "valid": false,
+      "color": "#e53b6a"
+    },
+    {
+      "int": 14,
+      "let": "F",
+      "valid": false,
+      "color": "#e53b6a"
+    },
+    {
+      "int": 15,
+      "let": "AB",
+      "valid": true,
+      "color": "#acdf0c"
+    }
+  ],
+  "ext_phenotypes": [
+    {
+      "int": 0,
+      "let": "E",
+      "let2": "E",
+      "let3": "E",
+      "valid": true,
+      "color": "gray",
+      "color2": "#cccccc",
+      "color3": "#cccccc"
+    },
+    {
+      "int": 1,
+      "let": "F_od-",
+      "let2": "W-",
+      "let3": "W",
+      "valid": true,
+      "color": "#b06d80",
+      "color2": "#6cbfd8",
+      "color3": "#0cb7eb"
+    },
+    {
+      "int": 2,
+      "let": "F",
+      "let2": "F",
+      "let3": "F",
+      "valid": false,
+      "color": "#e53b6a",
+      "color2": "#e53b6a",
+      "color3": "#e53b6a"
+    },
+    {
+      "int": 3,
+      "let": "F_od-",
+      "let2": "A-",
+      "let3": "A",
+      "valid": true,
+      "color": "#b06d80",
+      "color2": "#fdf751",
+      "color3": "#e5dd03"
+    },
+    {
+      "int": 4,
+      "let": "F",
+      "let2": "F",
+      "let3": "F",
+      "valid": false,
+      "color": "#e53b6a",
+      "color2": "#e53b6a",
+      "color3": "#e53b6a"
+    },
+    {
+      "int": 5,
+      "let": "F_od-",
+      "let2": "B-",
+      "let3": "B",
+      "valid": true,
+      "color": "#b06d80",
+      "color2": "#ffbe57",
+      "color3": "#bd7400"
+    },
+    {
+      "int": 6,
+      "let": "F",
+      "let2": "F",
+      "let3": "F",
+      "valid": false,
+      "color": "#e53b6a",
+      "color2": "#e53b6a",
+      "color3": "#e53b6a"
+    },
+    {
+      "int": 7,
+      "let": "F_od-",
+      "let2": "A/B-",
+      "let3": "A/B",
+      "valid": true,
+      "color": "#b06d80",
+      "color2": "#796089",
+      "color3": "#662f89"
+    },
+    {
+      "int": 8,
+      "let": "F",
+      "let2": "F",
+      "let3": "F",
+      "valid": false,
+      "color": "#e53b6a",
+      "color2": "#e53b6a",
+      "color3": "#e53b6a"
+    },
+    {
+      "int": 9,
+      "let": "F",
+      "let2": "F",
+      "let3": "F",
+      "valid": false,
+      "color": "#e53b6a",
+      "color2": "#e53b6a",
+      "color3": "#e53b6a"
+    },
+    {
+      "int": 10,
+      "let": "F",
+      "let2": "F",
+      "let3": "F",
+      "valid": false,
+      "color": "#e53b6a",
+      "color2": "#e53b6a",
+      "color3": "#e53b6a"
+    },
+    {
+      "int": 11,
+      "let": "F",
+      "let2": "F",
+      "let3": "F",
+      "valid": false,
+      "color": "#e53b6a",
+      "color2": "#e53b6a",
+      "color3": "#e53b6a"
+    },
+    {
+      "int": 12,
+      "let": "F",
+      "let2": "F",
+      "let3": "F",
+      "valid": false,
+      "color": "#e53b6a",
+      "color2": "#e53b6a",
+      "color3": "#e53b6a"
+    },
+    {
+      "int": 13,
+      "let": "F",
+      "let2": "F",
+      "let3": "F",
+      "valid": false,
+      "color": "#e53b6a",
+      "color2": "#e53b6a",
+      "color3": "#e53b6a"
+    },
+    {
+      "int": 14,
+      "let": "F",
+      "let2": "F",
+      "let3": "F",
+      "valid": false,
+      "color": "#e53b6a",
+      "color2": "#e53b6a",
+      "color3": "#e53b6a"
+    },
+    {
+      "int": 15,
+      "let": "F_od-",
+      "let2": "AB-",
+      "let3": "AB",
+      "valid": true,
+      "color": "#b06d80",
+      "color2": "#dcecac",
+      "color3": "#a8ce30"
+    },
+    {
+      "int": 16,
+      "let": "F_od+",
+      "let2": "F_od+",
+      "let3": "F_od+",
+      "valid": true,
+      "color": "#f6bbcc",
+      "color2": "#f6bbcc",
+      "color3": "#f6bbcc"
+    },
+    {
+      "int": 17,
+      "let": "W",
+      "let2": "W",
+      "let3": "W",
+      "valid": true,
+      "color": "#0cb7eb",
+      "color2": "#0cb7eb",
+      "color3": "#0cb7eb"
+    },
+    {
+      "int": 18,
+      "let": "F",
+      "let2": "F",
+      "let3": "F",
+      "valid": false,
+      "color": "#e53b6a",
+      "color2": "#e53b6a",
+      "color3": "#e53b6a"
+    },
+    {
+      "int": 19,
+      "let": "A",
+      "let2": "A",
+      "let3": "A",
+      "valid": true,
+      "color": "#ebe507",
+      "color2": "#e5dd03",
+      "color3": "#e5dd03"
+    },
+    {
+      "int": 20,
+      "let": "F",
+      "let2": "F",
+      "let3": "F",
+      "valid": false,
+      "color": "#e53b6a",
+      "color2": "#e53b6a",
+      "color3": "#e53b6a"
+    },
+    {
+      "int": 21,
+      "let": "B",
+      "let2": "B",
+      "let3": "B",
+      "valid": true,
+      "color": "#ffa10a",
+      "color2": "#bd7400",
+      "color3": "#bd7400"
+    },
+    {
+      "int": 22,
+      "let": "F",
+      "let2": "F",
+      "let3": "F",
+      "valid": false,
+      "color": "#e53b6a",
+      "color2": "#e53b6a",
+      "color3": "#e53b6a"
+    },
+    {
+      "int": 23,
+      "let": "A/B",
+      "let2": "A/B",
+      "let3": "A/B",
+      "valid": true,
+      "color": "#662f89",
+      "color2": "#662f89",
+      "color3": "#662f89"
+    },
+    {
+      "int": 24,
+      "let": "F",
+      "let2": "F",
+      "let3": "F",
+      "valid": false,
+      "color": "#e53b6a",
+      "color2": "#e53b6a",
+      "color3": "#e53b6a"
+    },
+    {
+      "int": 25,
+      "let": "F",
+      "let2": "F",
+      "let3": "F",
+      "valid": false,
+      "color": "#e53b6a",
+      "color2": "#e53b6a",
+      "color3": "#e53b6a"
+    },
+    {
+      "int": 26,
+      "let": "F",
+      "let2": "F",
+      "let3": "F",
+      "valid": false,
+      "color": "#e53b6a",
+      "color2": "#e53b6a",
+      "color3": "#e53b6a"
+    },
+    {
+      "int": 27,
+      "let": "F",
+      "let2": "F",
+      "let3": "F",
+      "valid": false,
+      "color": "#e53b6a",
+      "color2": "#e53b6a",
+      "color3": "#e53b6a"
+    },
+    {
+      "int": 28,
+      "let": "F",
+      "let2": "F",
+      "let3": "F",
+      "valid": false,
+      "color": "#e53b6a",
+      "color2": "#e53b6a",
+      "color3": "#e53b6a"
+    },
+    {
+      "int": 29,
+      "let": "F",
+      "let2": "F",
+      "let3": "F",
+      "valid": false,
+      "color": "#e53b6a",
+      "color2": "#e53b6a",
+      "color3": "#e53b6a"
+    },
+    {
+      "int": 30,
+      "let": "F",
+      "let2": "F",
+      "let3": "F",
+      "valid": false,
+      "color": "#e53b6a",
+      "color2": "#e53b6a",
+      "color3": "#e53b6a"
+    },
+    {
+      "int": 31,
+      "let": "AB",
+      "let2": "AB",
+      "let3": "AB",
+      "valid": true,
+      "color": "#acdf0c",
+      "color2": "#a8ce30",
+      "color3": "#a8ce30"
+    },
+    {
+      "int": 32,
+      "let": "At",
+      "let2": "At",
+      "let3": "At",
+      "valid": true,
+      "color": "#e5ee03",
+      "color2": "#e5ee03",
+      "color3": "#e5ee03"
+    },
+    {
+      "int": 33,
+      "let": "Bt",
+      "let2": "Bt",
+      "let3": "Bt",
+      "valid": true,
+      "color": "#ffa10a",
+      "color2": "#ffa10a",
+      "color3": "#ffa10a"
+    },
+    {
+      "int": 34,
+      "let": "ABt",
+      "let2": "ABt",
+      "let3": "ABt",
+      "valid": true,
+      "color": "#c2dd6e",
+      "color2": "#c2dd6e",
+      "color3": "#c2dd6e"
+    }
+  ],
+  "changes_agar": [
+    {
+      "pre": "E",
+      "post": "E",
+      "treatment": "none",
+      "class_short": "X",
+      "pre_int": 0,
+      "post_int": 0
+    },
+    {
+      "pre": "E",
+      "post": "W",
+      "treatment": "none",
+      "class_short": "C",
+      "pre_int": 0,
+      "post_int": 1
+    },
+    {
+      "pre": "E",
+      "post": "A",
+      "treatment": "none",
+      "class_short": "C",
+      "pre_int": 0,
+      "post_int": 3
+    },
+    {
+      "pre": "E",
+      "post": "B",
+      "treatment": "none",
+      "class_short": "C",
+      "pre_int": 0,
+      "post_int": 5
+    },
+    {
+      "pre": "E",
+      "post": "A/B",
+      "treatment": "none",
+      "class_short": "C",
+      "pre_int": 0,
+      "post_int": 7
+    },
+    {
+      "pre": "E",
+      "post": "AB",
+      "treatment": "none",
+      "class_short": "C",
+      "pre_int": 0,
+      "post_int": 15
+    },
+    {
+      "pre": "W",
+      "post": "E",
+      "treatment": "none",
+      "class_short": "F",
+      "pre_int": 1,
+      "post_int": 0
+    },
+    {
+      "pre": "W",
+      "post": "W",
+      "treatment": "none",
+      "class_short": "X",
+      "pre_int": 1,
+      "post_int": 1
+    },
+    {
+      "pre": "W",
+      "post": "A",
+      "treatment": "none",
+      "class_short": "F",
+      "pre_int": 1,
+      "post_int": 3
+    },
+    {
+      "pre": "W",
+      "post": "B",
+      "treatment": "none",
+      "class_short": "F",
+      "pre_int": 1,
+      "post_int": 5
+    },
+    {
+      "pre": "W",
+      "post": "A/B",
+      "treatment": "none",
+      "class_short": "F",
+      "pre_int": 1,
+      "post_int": 7
+    },
+    {
+      "pre": "W",
+      "post": "AB",
+      "treatment": "none",
+      "class_short": "F",
+      "pre_int": 1,
+      "post_int": 15
+    },
+    {
+      "pre": "A",
+      "post": "E",
+      "treatment": "none",
+      "class_short": "F",
+      "pre_int": 3,
+      "post_int": 0
+    },
+    {
+      "pre": "A",
+      "post": "W",
+      "treatment": "none",
+      "class_short": "v",
+      "pre_int": 3,
+      "post_int": 1
+    },
+    {
+      "pre": "A",
+      "post": "A",
+      "treatment": "none",
+      "class_short": "X",
+      "pre_int": 3,
+      "post_int": 3
+    },
+    {
+      "pre": "A",
+      "post": "B",
+      "treatment": "none",
+      "class_short": "F",
+      "pre_int": 3,
+      "post_int": 5
+    },
+    {
+      "pre": "A",
+      "post": "A/B",
+      "treatment": "none",
+      "class_short": "F",
+      "pre_int": 3,
+      "post_int": 7
+    },
+    {
+      "pre": "A",
+      "post": "AB",
+      "treatment": "none",
+      "class_short": "F",
+      "pre_int": 3,
+      "post_int": 15
+    },
+    {
+      "pre": "B",
+      "post": "E",
+      "treatment": "none",
+      "class_short": "F",
+      "pre_int": 5,
+      "post_int": 0
+    },
+    {
+      "pre": "B",
+      "post": "W",
+      "treatment": "none",
+      "class_short": "v",
+      "pre_int": 5,
+      "post_int": 1
+    },
+    {
+      "pre": "B",
+      "post": "A",
+      "treatment": "none",
+      "class_short": "F",
+      "pre_int": 5,
+      "post_int": 3
+    },
+    {
+      "pre": "B",
+      "post": "B",
+      "treatment": "none",
+      "class_short": "X",
+      "pre_int": 5,
+      "post_int": 5
+    },
+    {
+      "pre": "B",
+      "post": "A/B",
+      "treatment": "none",
+      "class_short": "F",
+      "pre_int": 5,
+      "post_int": 7
+    },
+    {
+      "pre": "B",
+      "post": "AB",
+      "treatment": "none",
+      "class_short": "F",
+      "pre_int": 5,
+      "post_int": 15
+    },
+    {
+      "pre": "A/B",
+      "post": "E",
+      "treatment": "none",
+      "class_short": "F",
+      "pre_int": 7,
+      "post_int": 0
+    },
+    {
+      "pre": "A/B",
+      "post": "W",
+      "treatment": "none",
+      "class_short": "F",
+      "pre_int": 7,
+      "post_int": 1
+    },
+    {
+      "pre": "A/B",
+      "post": "A",
+      "treatment": "none",
+      "class_short": "P",
+      "pre_int": 7,
+      "post_int": 3
+    },
+    {
+      "pre": "A/B",
+      "post": "B",
+      "treatment": "none",
+      "class_short": "P",
+      "pre_int": 7,
+      "post_int": 5
+    },
+    {
+      "pre": "A/B",
+      "post": "A/B",
+      "treatment": "none",
+      "class_short": "X",
+      "pre_int": 7,
+      "post_int": 7
+    },
+    {
+      "pre": "A/B",
+      "post": "AB",
+      "treatment": "none",
+      "class_short": "F",
+      "pre_int": 7,
+      "post_int": 15
+    },
+    {
+      "pre": "AB",
+      "post": "E",
+      "treatment": "none",
+      "class_short": "F",
+      "pre_int": 15,
+      "post_int": 0
+    },
+    {
+      "pre": "AB",
+      "post": "W",
+      "treatment": "none",
+      "class_short": "V",
+      "pre_int": 15,
+      "post_int": 1
+    },
+    {
+      "pre": "AB",
+      "post": "A",
+      "treatment": "none",
+      "class_short": "v",
+      "pre_int": 15,
+      "post_int": 3
+    },
+    {
+      "pre": "AB",
+      "post": "B",
+      "treatment": "none",
+      "class_short": "v",
+      "pre_int": 15,
+      "post_int": 5
+    },
+    {
+      "pre": "AB",
+      "post": "A/B",
+      "treatment": "none",
+      "class_short": "F",
+      "pre_int": 15,
+      "post_int": 7
+    },
+    {
+      "pre": "AB",
+      "post": "AB",
+      "treatment": "none",
+      "class_short": "X",
+      "pre_int": 15,
+      "post_int": 15
+    },
+    {
+      "pre": "E",
+      "post": "E",
+      "treatment": "A",
+      "class_short": "X",
+      "pre_int": 0,
+      "post_int": 0
+    },
+    {
+      "pre": "E",
+      "post": "W",
+      "treatment": "A",
+      "class_short": "C",
+      "pre_int": 0,
+      "post_int": 1
+    },
+    {
+      "pre": "E",
+      "post": "A",
+      "treatment": "A",
+      "class_short": "C",
+      "pre_int": 0,
+      "post_int": 3
+    },
+    {
+      "pre": "E",
+      "post": "B",
+      "treatment": "A",
+      "class_short": "C",
+      "pre_int": 0,
+      "post_int": 5
+    },
+    {
+      "pre": "E",
+      "post": "A/B",
+      "treatment": "A",
+      "class_short": "C",
+      "pre_int": 0,
+      "post_int": 7
+    },
+    {
+      "pre": "E",
+      "post": "AB",
+      "treatment": "A",
+      "class_short": "C",
+      "pre_int": 0,
+      "post_int": 15
+    },
+    {
+      "pre": "W",
+      "post": "E",
+      "treatment": "A",
+      "class_short": "S",
+      "pre_int": 1,
+      "post_int": 0
+    },
+    {
+      "pre": "W",
+      "post": "W",
+      "treatment": "A",
+      "class_short": "U",
+      "pre_int": 1,
+      "post_int": 1
+    },
+    {
+      "pre": "W",
+      "post": "A",
+      "treatment": "A",
+      "class_short": "R",
+      "pre_int": 1,
+      "post_int": 3
+    },
+    {
+      "pre": "W",
+      "post": "B",
+      "treatment": "A",
+      "class_short": "F",
+      "pre_int": 1,
+      "post_int": 5
+    },
+    {
+      "pre": "W",
+      "post": "A/B",
+      "treatment": "A",
+      "class_short": "F",
+      "pre_int": 1,
+      "post_int": 7
+    },
+    {
+      "pre": "W",
+      "post": "AB",
+      "treatment": "A",
+      "class_short": "F",
+      "pre_int": 1,
+      "post_int": 15
+    },
+    {
+      "pre": "A",
+      "post": "E",
+      "treatment": "A",
+      "class_short": "F",
+      "pre_int": 3,
+      "post_int": 0
+    },
+    {
+      "pre": "A",
+      "post": "W",
+      "treatment": "A",
+      "class_short": "F",
+      "pre_int": 3,
+      "post_int": 1
+    },
+    {
+      "pre": "A",
+      "post": "A",
+      "treatment": "A",
+      "class_short": "X",
+      "pre_int": 3,
+      "post_int": 3
+    },
+    {
+      "pre": "A",
+      "post": "B",
+      "treatment": "A",
+      "class_short": "F",
+      "pre_int": 3,
+      "post_int": 5
+    },
+    {
+      "pre": "A",
+      "post": "A/B",
+      "treatment": "A",
+      "class_short": "F",
+      "pre_int": 3,
+      "post_int": 7
+    },
+    {
+      "pre": "A",
+      "post": "AB",
+      "treatment": "A",
+      "class_short": "F",
+      "pre_int": 3,
+      "post_int": 15
+    },
+    {
+      "pre": "B",
+      "post": "E",
+      "treatment": "A",
+      "class_short": "S",
+      "pre_int": 5,
+      "post_int": 0
+    },
+    {
+      "pre": "B",
+      "post": "W",
+      "treatment": "A",
+      "class_short": "F",
+      "pre_int": 5,
+      "post_int": 1
+    },
+    {
+      "pre": "B",
+      "post": "A",
+      "treatment": "A",
+      "class_short": "F",
+      "pre_int": 5,
+      "post_int": 3
+    },
+    {
+      "pre": "B",
+      "post": "B",
+      "treatment": "A",
+      "class_short": "U",
+      "pre_int": 5,
+      "post_int": 5
+    },
+    {
+      "pre": "B",
+      "post": "A/B",
+      "treatment": "A",
+      "class_short": "F",
+      "pre_int": 5,
+      "post_int": 7
+    },
+    {
+      "pre": "B",
+      "post": "AB",
+      "treatment": "A",
+      "class_short": "R",
+      "pre_int": 5,
+      "post_int": 15
+    },
+    {
+      "pre": "A/B",
+      "post": "E",
+      "treatment": "A",
+      "class_short": "F",
+      "pre_int": 7,
+      "post_int": 0
+    },
+    {
+      "pre": "A/B",
+      "post": "W",
+      "treatment": "A",
+      "class_short": "F",
+      "pre_int": 7,
+      "post_int": 1
+    },
+    {
+      "pre": "A/B",
+      "post": "A",
+      "treatment": "A",
+      "class_short": "X",
+      "pre_int": 7,
+      "post_int": 3
+    },
+    {
+      "pre": "A/B",
+      "post": "B",
+      "treatment": "A",
+      "class_short": "F",
+      "pre_int": 7,
+      "post_int": 5
+    },
+    {
+      "pre": "A/B",
+      "post": "A/B",
+      "treatment": "A",
+      "class_short": "U",
+      "pre_int": 7,
+      "post_int": 7
+    },
+    {
+      "pre": "A/B",
+      "post": "AB",
+      "treatment": "A",
+      "class_short": "F",
+      "pre_int": 7,
+      "post_int": 15
+    },
+    {
+      "pre": "AB",
+      "post": "E",
+      "treatment": "A",
+      "class_short": "F",
+      "pre_int": 15,
+      "post_int": 0
+    },
+    {
+      "pre": "AB",
+      "post": "W",
+      "treatment": "A",
+      "class_short": "F",
+      "pre_int": 15,
+      "post_int": 1
+    },
+    {
+      "pre": "AB",
+      "post": "A",
+      "treatment": "A",
+      "class_short": "v",
+      "pre_int": 15,
+      "post_int": 3
+    },
+    {
+      "pre": "AB",
+      "post": "B",
+      "treatment": "A",
+      "class_short": "F",
+      "pre_int": 15,
+      "post_int": 5
+    },
+    {
+      "pre": "AB",
+      "post": "A/B",
+      "treatment": "A",
+      "class_short": "F",
+      "pre_int": 15,
+      "post_int": 7
+    },
+    {
+      "pre": "AB",
+      "post": "AB",
+      "treatment": "A",
+      "class_short": "X",
+      "pre_int": 15,
+      "post_int": 15
+    },
+    {
+      "pre": "E",
+      "post": "E",
+      "treatment": "B",
+      "class_short": "X",
+      "pre_int": 0,
+      "post_int": 0
+    },
+    {
+      "pre": "E",
+      "post": "W",
+      "treatment": "B",
+      "class_short": "C",
+      "pre_int": 0,
+      "post_int": 1
+    },
+    {
+      "pre": "E",
+      "post": "A",
+      "treatment": "B",
+      "class_short": "C",
+      "pre_int": 0,
+      "post_int": 3
+    },
+    {
+      "pre": "E",
+      "post": "B",
+      "treatment": "B",
+      "class_short": "C",
+      "pre_int": 0,
+      "post_int": 5
+    },
+    {
+      "pre": "E",
+      "post": "A/B",
+      "treatment": "B",
+      "class_short": "C",
+      "pre_int": 0,
+      "post_int": 7
+    },
+    {
+      "pre": "E",
+      "post": "AB",
+      "treatment": "B",
+      "class_short": "C",
+      "pre_int": 0,
+      "post_int": 15
+    },
+    {
+      "pre": "W",
+      "post": "E",
+      "treatment": "B",
+      "class_short": "S",
+      "pre_int": 1,
+      "post_int": 0
+    },
+    {
+      "pre": "W",
+      "post": "W",
+      "treatment": "B",
+      "class_short": "U",
+      "pre_int": 1,
+      "post_int": 1
+    },
+    {
+      "pre": "W",
+      "post": "A",
+      "treatment": "B",
+      "class_short": "F",
+      "pre_int": 1,
+      "post_int": 3
+    },
+    {
+      "pre": "W",
+      "post": "B",
+      "treatment": "B",
+      "class_short": "R",
+      "pre_int": 1,
+      "post_int": 5
+    },
+    {
+      "pre": "W",
+      "post": "A/B",
+      "treatment": "B",
+      "class_short": "F",
+      "pre_int": 1,
+      "post_int": 7
+    },
+    {
+      "pre": "W",
+      "post": "AB",
+      "treatment": "B",
+      "class_short": "F",
+      "pre_int": 1,
+      "post_int": 15
+    },
+    {
+      "pre": "A",
+      "post": "E",
+      "treatment": "B",
+      "class_short": "S",
+      "pre_int": 3,
+      "post_int": 0
+    },
+    {
+      "pre": "A",
+      "post": "W",
+      "treatment": "B",
+      "class_short": "F",
+      "pre_int": 3,
+      "post_int": 1
+    },
+    {
+      "pre": "A",
+      "post": "A",
+      "treatment": "B",
+      "class_short": "U",
+      "pre_int": 3,
+      "post_int": 3
+    },
+    {
+      "pre": "A",
+      "post": "B",
+      "treatment": "B",
+      "class_short": "F",
+      "pre_int": 3,
+      "post_int": 5
+    },
+    {
+      "pre": "A",
+      "post": "A/B",
+      "treatment": "B",
+      "class_short": "F",
+      "pre_int": 3,
+      "post_int": 7
+    },
+    {
+      "pre": "A",
+      "post": "AB",
+      "treatment": "B",
+      "class_short": "R",
+      "pre_int": 3,
+      "post_int": 15
+    },
+    {
+      "pre": "B",
+      "post": "E",
+      "treatment": "B",
+      "class_short": "F",
+      "pre_int": 5,
+      "post_int": 0
+    },
+    {
+      "pre": "B",
+      "post": "W",
+      "treatment": "B",
+      "class_short": "F",
+      "pre_int": 5,
+      "post_int": 1
+    },
+    {
+      "pre": "B",
+      "post": "A",
+      "treatment": "B",
+      "class_short": "F",
+      "pre_int": 5,
+      "post_int": 3
+    },
+    {
+      "pre": "B",
+      "post": "B",
+      "treatment": "B",
+      "class_short": "X",
+      "pre_int": 5,
+      "post_int": 5
+    },
+    {
+      "pre": "B",
+      "post": "A/B",
+      "treatment": "B",
+      "class_short": "F",
+      "pre_int": 5,
+      "post_int": 7
+    },
+    {
+      "pre": "B",
+      "post": "AB",
+      "treatment": "B",
+      "class_short": "F",
+      "pre_int": 5,
+      "post_int": 15
+    },
+    {
+      "pre": "A/B",
+      "post": "E",
+      "treatment": "B",
+      "class_short": "F",
+      "pre_int": 7,
+      "post_int": 0
+    },
+    {
+      "pre": "A/B",
+      "post": "W",
+      "treatment": "B",
+      "class_short": "F",
+      "pre_int": 7,
+      "post_int": 1
+    },
+    {
+      "pre": "A/B",
+      "post": "A",
+      "treatment": "B",
+      "class_short": "F",
+      "pre_int": 7,
+      "post_int": 3
+    },
+    {
+      "pre": "A/B",
+      "post": "B",
+      "treatment": "B",
+      "class_short": "X",
+      "pre_int": 7,
+      "post_int": 5
+    },
+    {
+      "pre": "A/B",
+      "post": "A/B",
+      "treatment": "B",
+      "class_short": "U",
+      "pre_int": 7,
+      "post_int": 7
+    },
+    {
+      "pre": "A/B",
+      "post": "AB",
+      "treatment": "B",
+      "class_short": "F",
+      "pre_int": 7,
+      "post_int": 15
+    },
+    {
+      "pre": "AB",
+      "post": "E",
+      "treatment": "B",
+      "class_short": "F",
+      "pre_int": 15,
+      "post_int": 0
+    },
+    {
+      "pre": "AB",
+      "post": "W",
+      "treatment": "B",
+      "class_short": "F",
+      "pre_int": 15,
+      "post_int": 1
+    },
+    {
+      "pre": "AB",
+      "post": "A",
+      "treatment": "B",
+      "class_short": "F",
+      "pre_int": 15,
+      "post_int": 3
+    },
+    {
+      "pre": "AB",
+      "post": "B",
+      "treatment": "B",
+      "class_short": "v",
+      "pre_int": 15,
+      "post_int": 5
+    },
+    {
+      "pre": "AB",
+      "post": "A/B",
+      "treatment": "B",
+      "class_short": "F",
+      "pre_int": 15,
+      "post_int": 7
+    },
+    {
+      "pre": "AB",
+      "post": "AB",
+      "treatment": "B",
+      "class_short": "X",
+      "pre_int": 15,
+      "post_int": 15
+    },
+    {
+      "pre": "E",
+      "post": "E",
+      "treatment": "AB",
+      "class_short": "X",
+      "pre_int": 0,
+      "post_int": 0
+    },
+    {
+      "pre": "E",
+      "post": "W",
+      "treatment": "AB",
+      "class_short": "C",
+      "pre_int": 0,
+      "post_int": 1
+    },
+    {
+      "pre": "E",
+      "post": "A",
+      "treatment": "AB",
+      "class_short": "C",
+      "pre_int": 0,
+      "post_int": 3
+    },
+    {
+      "pre": "E",
+      "post": "B",
+      "treatment": "AB",
+      "class_short": "C",
+      "pre_int": 0,
+      "post_int": 5
+    },
+    {
+      "pre": "E",
+      "post": "A/B",
+      "treatment": "AB",
+      "class_short": "C",
+      "pre_int": 0,
+      "post_int": 7
+    },
+    {
+      "pre": "E",
+      "post": "AB",
+      "treatment": "AB",
+      "class_short": "C",
+      "pre_int": 0,
+      "post_int": 15
+    },
+    {
+      "pre": "W",
+      "post": "E",
+      "treatment": "AB",
+      "class_short": "S",
+      "pre_int": 1,
+      "post_int": 0
+    },
+    {
+      "pre": "W",
+      "post": "W",
+      "treatment": "AB",
+      "class_short": "U",
+      "pre_int": 1,
+      "post_int": 1
+    },
+    {
+      "pre": "W",
+      "post": "A",
+      "treatment": "AB",
+      "class_short": "F",
+      "pre_int": 1,
+      "post_int": 3
+    },
+    {
+      "pre": "W",
+      "post": "B",
+      "treatment": "AB",
+      "class_short": "F",
+      "pre_int": 1,
+      "post_int": 5
+    },
+    {
+      "pre": "W",
+      "post": "A/B",
+      "treatment": "AB",
+      "class_short": "F",
+      "pre_int": 1,
+      "post_int": 7
+    },
+    {
+      "pre": "W",
+      "post": "AB",
+      "treatment": "AB",
+      "class_short": "R",
+      "pre_int": 1,
+      "post_int": 15
+    },
+    {
+      "pre": "A",
+      "post": "E",
+      "treatment": "AB",
+      "class_short": "S",
+      "pre_int": 3,
+      "post_int": 0
+    },
+    {
+      "pre": "A",
+      "post": "W",
+      "treatment": "AB",
+      "class_short": "F",
+      "pre_int": 3,
+      "post_int": 1
+    },
+    {
+      "pre": "A",
+      "post": "A",
+      "treatment": "AB",
+      "class_short": "U",
+      "pre_int": 3,
+      "post_int": 3
+    },
+    {
+      "pre": "A",
+      "post": "B",
+      "treatment": "AB",
+      "class_short": "F",
+      "pre_int": 3,
+      "post_int": 5
+    },
+    {
+      "pre": "A",
+      "post": "A/B",
+      "treatment": "AB",
+      "class_short": "F",
+      "pre_int": 3,
+      "post_int": 7
+    },
+    {
+      "pre": "A",
+      "post": "AB",
+      "treatment": "AB",
+      "class_short": "R",
+      "pre_int": 3,
+      "post_int": 15
+    },
+    {
+      "pre": "B",
+      "post": "E",
+      "treatment": "AB",
+      "class_short": "S",
+      "pre_int": 5,
+      "post_int": 0
+    },
+    {
+      "pre": "B",
+      "post": "W",
+      "treatment": "AB",
+      "class_short": "F",
+      "pre_int": 5,
+      "post_int": 1
+    },
+    {
+      "pre": "B",
+      "post": "A",
+      "treatment": "AB",
+      "class_short": "F",
+      "pre_int": 5,
+      "post_int": 3
+    },
+    {
+      "pre": "B",
+      "post": "B",
+      "treatment": "AB",
+      "class_short": "U",
+      "pre_int": 5,
+      "post_int": 5
+    },
+    {
+      "pre": "B",
+      "post": "A/B",
+      "treatment": "AB",
+      "class_short": "F",
+      "pre_int": 5,
+      "post_int": 7
+    },
+    {
+      "pre": "B",
+      "post": "AB",
+      "treatment": "AB",
+      "class_short": "R",
+      "pre_int": 5,
+      "post_int": 15
+    },
+    {
+      "pre": "A/B",
+      "post": "E",
+      "treatment": "AB",
+      "class_short": "S",
+      "pre_int": 7,
+      "post_int": 0
+    },
+    {
+      "pre": "A/B",
+      "post": "W",
+      "treatment": "AB",
+      "class_short": "F",
+      "pre_int": 7,
+      "post_int": 1
+    },
+    {
+      "pre": "A/B",
+      "post": "A",
+      "treatment": "AB",
+      "class_short": "F",
+      "pre_int": 7,
+      "post_int": 3
+    },
+    {
+      "pre": "A/B",
+      "post": "B",
+      "treatment": "AB",
+      "class_short": "F",
+      "pre_int": 7,
+      "post_int": 5
+    },
+    {
+      "pre": "A/B",
+      "post": "A/B",
+      "treatment": "AB",
+      "class_short": "U",
+      "pre_int": 7,
+      "post_int": 7
+    },
+    {
+      "pre": "A/B",
+      "post": "AB",
+      "treatment": "AB",
+      "class_short": "R",
+      "pre_int": 7,
+      "post_int": 15
+    },
+    {
+      "pre": "AB",
+      "post": "E",
+      "treatment": "AB",
+      "class_short": "F",
+      "pre_int": 15,
+      "post_int": 0
+    },
+    {
+      "pre": "AB",
+      "post": "W",
+      "treatment": "AB",
+      "class_short": "F",
+      "pre_int": 15,
+      "post_int": 1
+    },
+    {
+      "pre": "AB",
+      "post": "A",
+      "treatment": "AB",
+      "class_short": "F",
+      "pre_int": 15,
+      "post_int": 3
+    },
+    {
+      "pre": "AB",
+      "post": "B",
+      "treatment": "AB",
+      "class_short": "F",
+      "pre_int": 15,
+      "post_int": 5
+    },
+    {
+      "pre": "AB",
+      "post": "A/B",
+      "treatment": "AB",
+      "class_short": "F",
+      "pre_int": 15,
+      "post_int": 7
+    },
+    {
+      "pre": "AB",
+      "post": "AB",
+      "treatment": "AB",
+      "class_short": "X",
+      "pre_int": 15,
+      "post_int": 15
+    }
+  ],
+  "changes_od": [
+    {
+      "last_phenotype": "E",
+      "od": "G",
+      "treatment": "none",
+      "class_short": "C",
+      "last_phenotype_int": 0
+    },
+    {
+      "last_phenotype": "E",
+      "od": "N",
+      "treatment": "none",
+      "class_short": "X",
+      "last_phenotype_int": 0
+    },
+    {
+      "last_phenotype": "W",
+      "od": "G",
+      "treatment": "none",
+      "class_short": "X",
+      "last_phenotype_int": 1
+    },
+    {
+      "last_phenotype": "W",
+      "od": "N",
+      "treatment": "none",
+      "class_short": "F",
+      "last_phenotype_int": 1
+    },
+    {
+      "last_phenotype": "A",
+      "od": "G",
+      "treatment": "none",
+      "class_short": "X",
+      "last_phenotype_int": 3
+    },
+    {
+      "last_phenotype": "A",
+      "od": "N",
+      "treatment": "none",
+      "class_short": "F",
+      "last_phenotype_int": 3
+    },
+    {
+      "last_phenotype": "B",
+      "od": "G",
+      "treatment": "none",
+      "class_short": "X",
+      "last_phenotype_int": 5
+    },
+    {
+      "last_phenotype": "B",
+      "od": "N",
+      "treatment": "none",
+      "class_short": "F",
+      "last_phenotype_int": 5
+    },
+    {
+      "last_phenotype": "A/B",
+      "od": "G",
+      "treatment": "none",
+      "class_short": "X",
+      "last_phenotype_int": 7
+    },
+    {
+      "last_phenotype": "A/B",
+      "od": "N",
+      "treatment": "none",
+      "class_short": "F",
+      "last_phenotype_int": 7
+    },
+    {
+      "last_phenotype": "AB",
+      "od": "G",
+      "treatment": "none",
+      "class_short": "X",
+      "last_phenotype_int": 15
+    },
+    {
+      "last_phenotype": "AB",
+      "od": "N",
+      "treatment": "none",
+      "class_short": "F",
+      "last_phenotype_int": 15
+    },
+    {
+      "last_phenotype": "E",
+      "od": "G",
+      "treatment": "A",
+      "class_short": "C",
+      "last_phenotype_int": 0
+    },
+    {
+      "last_phenotype": "E",
+      "od": "N",
+      "treatment": "A",
+      "class_short": "X",
+      "last_phenotype_int": 0
+    },
+    {
+      "last_phenotype": "W",
+      "od": "G",
+      "treatment": "A",
+      "class_short": "U",
+      "last_phenotype_int": 1
+    },
+    {
+      "last_phenotype": "W",
+      "od": "N",
+      "treatment": "A",
+      "class_short": "S",
+      "last_phenotype_int": 1
+    },
+    {
+      "last_phenotype": "A",
+      "od": "G",
+      "treatment": "A",
+      "class_short": "X",
+      "last_phenotype_int": 3
+    },
+    {
+      "last_phenotype": "A",
+      "od": "N",
+      "treatment": "A",
+      "class_short": "F",
+      "last_phenotype_int": 3
+    },
+    {
+      "last_phenotype": "B",
+      "od": "G",
+      "treatment": "A",
+      "class_short": "U",
+      "last_phenotype_int": 5
+    },
+    {
+      "last_phenotype": "B",
+      "od": "N",
+      "treatment": "A",
+      "class_short": "S",
+      "last_phenotype_int": 5
+    },
+    {
+      "last_phenotype": "A/B",
+      "od": "G",
+      "treatment": "A",
+      "class_short": "X",
+      "last_phenotype_int": 7
+    },
+    {
+      "last_phenotype": "A/B",
+      "od": "N",
+      "treatment": "A",
+      "class_short": "F",
+      "last_phenotype_int": 7
+    },
+    {
+      "last_phenotype": "AB",
+      "od": "G",
+      "treatment": "A",
+      "class_short": "X",
+      "last_phenotype_int": 15
+    },
+    {
+      "last_phenotype": "AB",
+      "od": "N",
+      "treatment": "A",
+      "class_short": "F",
+      "last_phenotype_int": 15
+    },
+    {
+      "last_phenotype": "E",
+      "od": "G",
+      "treatment": "B",
+      "class_short": "C",
+      "last_phenotype_int": 0
+    },
+    {
+      "last_phenotype": "E",
+      "od": "N",
+      "treatment": "B",
+      "class_short": "X",
+      "last_phenotype_int": 0
+    },
+    {
+      "last_phenotype": "W",
+      "od": "G",
+      "treatment": "B",
+      "class_short": "U",
+      "last_phenotype_int": 1
+    },
+    {
+      "last_phenotype": "W",
+      "od": "N",
+      "treatment": "B",
+      "class_short": "S",
+      "last_phenotype_int": 1
+    },
+    {
+      "last_phenotype": "A",
+      "od": "G",
+      "treatment": "B",
+      "class_short": "U",
+      "last_phenotype_int": 3
+    },
+    {
+      "last_phenotype": "A",
+      "od": "N",
+      "treatment": "B",
+      "class_short": "S",
+      "last_phenotype_int": 3
+    },
+    {
+      "last_phenotype": "B",
+      "od": "G",
+      "treatment": "B",
+      "class_short": "X",
+      "last_phenotype_int": 5
+    },
+    {
+      "last_phenotype": "B",
+      "od": "N",
+      "treatment": "B",
+      "class_short": "F",
+      "last_phenotype_int": 5
+    },
+    {
+      "last_phenotype": "A/B",
+      "od": "G",
+      "treatment": "B",
+      "class_short": "X",
+      "last_phenotype_int": 7
+    },
+    {
+      "last_phenotype": "A/B",
+      "od": "N",
+      "treatment": "B",
+      "class_short": "F",
+      "last_phenotype_int": 7
+    },
+    {
+      "last_phenotype": "AB",
+      "od": "G",
+      "treatment": "B",
+      "class_short": "X",
+      "last_phenotype_int": 15
+    },
+    {
+      "last_phenotype": "AB",
+      "od": "N",
+      "treatment": "B",
+      "class_short": "F",
+      "last_phenotype_int": 15
+    },
+    {
+      "last_phenotype": "E",
+      "od": "G",
+      "treatment": "AB",
+      "class_short": "C",
+      "last_phenotype_int": 0
+    },
+    {
+      "last_phenotype": "E",
+      "od": "N",
+      "treatment": "AB",
+      "class_short": "X",
+      "last_phenotype_int": 0
+    },
+    {
+      "last_phenotype": "W",
+      "od": "G",
+      "treatment": "AB",
+      "class_short": "U",
+      "last_phenotype_int": 1
+    },
+    {
+      "last_phenotype": "W",
+      "od": "N",
+      "treatment": "AB",
+      "class_short": "S",
+      "last_phenotype_int": 1
+    },
+    {
+      "last_phenotype": "A",
+      "od": "G",
+      "treatment": "AB",
+      "class_short": "U",
+      "last_phenotype_int": 3
+    },
+    {
+      "last_phenotype": "A",
+      "od": "N",
+      "treatment": "AB",
+      "class_short": "S",
+      "last_phenotype_int": 3
+    },
+    {
+      "last_phenotype": "B",
+      "od": "G",
+      "treatment": "AB",
+      "class_short": "U",
+      "last_phenotype_int": 5
+    },
+    {
+      "last_phenotype": "B",
+      "od": "N",
+      "treatment": "AB",
+      "class_short": "S",
+      "last_phenotype_int": 5
+    },
+    {
+      "last_phenotype": "A/B",
+      "od": "G",
+      "treatment": "AB",
+      "class_short": "U",
+      "last_phenotype_int": 7
+    },
+    {
+      "last_phenotype": "A/B",
+      "od": "N",
+      "treatment": "AB",
+      "class_short": "S",
+      "last_phenotype_int": 7
+    },
+    {
+      "last_phenotype": "AB",
+      "od": "G",
+      "treatment": "AB",
+      "class_short": "X",
+      "last_phenotype_int": 15
+    },
+    {
+      "last_phenotype": "AB",
+      "od": "N",
+      "treatment": "AB",
+      "class_short": "F",
+      "last_phenotype_int": 15
+    }
+  ],
+  "changes_legend": [
+    {
+      "class_short": "X",
+      "class_long": "expected",
+      "color": "green3"
+    },
+    {
+      "class_short": "C",
+      "class_long": "contamination",
+      "color": "red"
+    },
+    {
+      "class_short": "F",
+      "class_long": "Error?",
+      "color": "red3"
+    },
+    {
+      "class_short": "S",
+      "class_long": "Treatment successful",
+      "color": "green1"
+    },
+    {
+      "class_short": "U",
+      "class_long": "Tx unsucessfull",
+      "color": "green2"
+    },
+    {
+      "class_short": "R",
+      "class_long": "denovo resistance",
+      "color": "orange"
+    },
+    {
+      "class_short": "P",
+      "class_long": "replacement",
+      "color": "orange1"
+    },
+    {
+      "class_short": "v",
+      "class_long": "single reversion",
+      "color": "orange2"
+    },
+    {
+      "class_short": "V",
+      "class_long": "double reversion",
+      "color": "orange3"
+    }
+  ]
+}

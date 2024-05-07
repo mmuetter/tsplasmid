@@ -1,0 +1,8 @@
+Transfer, Row, Col, Strain, Contaminated
+10,A,5,A&B,True
+10,A,3,AB,True
+11,A,5,AB,True
+11,A,6,AB,True
+11,A,3,AB,True
+18,B,4,UI,False
+18,B,5,UI,False
